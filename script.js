@@ -7,16 +7,6 @@ let score = 0;
 let questions = [];
 let userAnswers = [];
 
-let flashcardData = [];
-let currentFlashcard = 0;
-let isFlipped = false;
-
-let matchCards = [];
-let selectedCards = [];
-let matchedPairs = 0;
-let matchScore = 0;
-let matchAttempts = [];
-
 async function loadData() {
     try {
         const [vocabResponse, synonymResponse] = await Promise.all([
@@ -163,20 +153,15 @@ function loadSynonymTable() {
     });
 }
 
-
 function resetTestInterface() {
     const testInterface = document.getElementById('test-interface');
     const quizContent = document.getElementById('quiz-content');
     const results = document.getElementById('results');
-    const flashcardInterface = document.getElementById('flashcard-interface');
-    const matchInterface = document.getElementById('match-interface');
     const testOptions = document.querySelector('.test-options');
 
     if (testInterface) testInterface.classList.add('hidden');
     if (quizContent) quizContent.classList.add('hidden');
     if (results) results.classList.add('hidden');
-    if (flashcardInterface) flashcardInterface.classList.add('hidden');
-    if (matchInterface) matchInterface.classList.add('hidden');
     if (testOptions) testOptions.style.display = 'grid';
 
     currentTestMode = null;
@@ -184,15 +169,6 @@ function resetTestInterface() {
     score = 0;
     questions = [];
     userAnswers = [];
-
-    flashcardData = [];
-    currentFlashcard = 0;
-    isFlipped = false;
-    matchCards = [];
-    selectedCards = [];
-    matchedPairs = 0;
-    matchScore = 0;
-    matchAttempts = [];
 }
 
 function startTestMode(mode) {
