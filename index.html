@@ -19,7 +19,7 @@
 <body>
     <header class="header">
         <div class="logo">
-            < Jump-Sup >
+            < Jump-Sup>
         </div>
         <nav class="nav">
             <a href="#" onclick="showSection('home')" class="nav-link active">Home</a>
@@ -126,38 +126,22 @@
                 </button>
 
                 <button class="test-btn" onclick="startTestMode('synonym')">
-                    <div class="test-icon">🔎</div>
+                    <div class="test-icon">🔍</div>
                     <h3>Synonym Test</h3>
                     <p>หาคำที่มีความหมายคล้ายกัน</p>
                 </button>
-            </div>
 
-            <div id="test-interface" class="test-interface hidden">
-                <div class="test-header">
-                    <div class="test-settings">
-                        <label>จำนวนข้อ: </label>
-                        <select id="question-count">
-                            <option value="5">5 ข้อ</option>
-                            <option value="10" selected>10 ข้อ</option>
-                            <option value="15">15 ข้อ</option>
-                            <option value="20">20 ข้อ</option>
-                        </select>
-                        <span>หรือ</span>
-                        <input type="number" id="custom-count" min="1" max="100" placeholder="กรอกเอง">
-                        <button class="start-btn" onclick="startQuiz()">เริ่มทดสอบ</button>
-                        <button class="back-btn" onclick="backToTestSelection()">กลับ</button>
-                    </div>
-                </div>
+                <button class="test-btn" onclick="startTestMode('flashcard')">
+                    <div class="test-icon">📚</div>
+                    <h3>Flashcard</h3>
+                    <p>การ์ดสำหรับทวนคำศัพท์</p>
+                </button>
 
-                <div id="quiz-content" class="quiz-content hidden">
-                    <div class="progress" id="progress"></div>
-                    <div class="question-container">
-                        <div class="question" id="question"></div>
-                        <div class="options" id="options"></div>
-                    </div>
-                </div>
-
-                <div id="results" class="results hidden"></div>
+                <button class="test-btn" onclick="startTestMode('match-card')">
+                    <div class="test-icon">🎯</div>
+                    <h3>Match Card</h3>
+                    <p>จับคู่คำศัพท์อังกฤษ-ไทย</p>
+                </button>
             </div>
         </section>
 
