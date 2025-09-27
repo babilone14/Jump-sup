@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jump Sup</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("RG91KsCtPIzCSQAcI");
+        })();
+    </script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            < Jump-Sup >
+        </div>
+        <nav class="nav">
+            <a href="#" onclick="showSection('home')" class="nav-link active">Home</a>
+            <a href="#" onclick="showSection('vocabulary')" class="nav-link">Vocabulary</a>
+            <a href="#" onclick="showSection('synonym')" class="nav-link">Synonym</a>
+            <a href="#" onclick="showSection('test')" class="nav-link">Test</a>
+            <a href="#" onclick="showSection('creator')" class="nav-link">Developer</a>
+            <a href="#" onclick="showFeedbackModal()" class="nav-link">Feedback</a>
+        </nav>
+
+        <div class="theme-toggle" onclick="toggleTheme()">
+            <div class="theme-toggle-icon">
+                <span class="sun-icon">☀️</span>
+                <span class="moon-icon">🌙</span>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main-content">
+        <section id="home" class="section active">
+            <div class="hero">
+                <h1 class="hero-title">Jump Sup</h1>
+                <h2 class="hero-subtitle">แพลตฟอร์มเรียนรู้คำศัพท์ภาษาอังกฤษเพื่อการพัฒนาอย่างก้าวกระโดด !!</h2>
+            </div>
+
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>
+                        < Vocabulary>
+                    </h3>
+                    <p>คลังคำศัพท์มากกว่า 300 คำ เพื่อเรียนรู้และนำไปใช้</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔗</div>
+                    <h3>
+                        < Synonym>
+                    </h3>
+                    <p>คลังคำศัพท์ที่มีความหมายคล้ายกัน เพื่อขยายความรู้ด้านภาษา</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>
+                        < Test>
+                    </h3>
+                    <p>แบบทดสอบวัดความรู้ 3 รูปแบบ Thai-to-English, English-to-Thai และ Synonym</p>
+                </div>
+            </div>
+
+            <div class="target-audience">
+                <h2>
+                    < แพลตฟอร์มนี้ เหมาะสำหรับใคร ?>
+                </h2>
+                <ul>
+                    <li>นักเรียน นักศึกษา ผู้ที่สนใจพัฒนาคลังคำศัพท์ภาษาอังกฤษเบื้องต้น</li>
+                    <li>ผู้ที่เตรียมสอบ TGAT1 หรือสอบวัดระดับภาษาอังกฤษอื่น ๆ</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="vocabulary" class="section">
+            <h1>
+                < Vocabulary Table>
+            </h1>
+        </section>
+
+        <section id="synonym" class="section">
+            <h1>
+                < Synonym Table>
+            </h1>
+            <div class="table-container">
+                <table id="synonym-table-content">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Word</th>
+                            <th>Synonyms</th>
+                        </tr>
+                    </thead>
+                    <tbody id="synonym-tbody">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="test" class="section">
+            <h1>
+                < เลือกประเภททดสอบ>
+            </h1>
+            <div class="test-options">
+                <button class="test-btn" onclick="startTestMode('thai-to-eng')">
+                    <div class="test-icon">🇹🇭 ➡️ 🇺🇸</div>
+                    <h3>Thai to English</h3>
+                    <p>แปลจากภาษาไทยเป็นภาษาอังกฤษ</p>
+                </button>
+
+                <button class="test-btn" onclick="startTestMode('eng-to-thai')">
+                    <div class="test-icon">🇺🇸 ➡️ 🇹🇭</div>
+                    <h3>English to Thai</h3>
+                    <p>แปลจากภาษาอังกฤษเป็นภาษาไทย</p>
+                </button>
+
+                <button class="test-btn" onclick="startTestMode('synonym')">
+                    <div class="test-icon">🔎</div>
+                    <h3>Synonym Test</h3>
+                    <p>หาคำที่มีความหมายคล้ายกัน</p>
+                </button>
+            </div>
+
+            <div id="test-interface" class="test-interface hidden">
+                <div class="test-header">
+                    <div class="test-settings">
+                        <label>จำนวนข้อ: </label>
+                        <select id="question-count">
+                            <option value="5">5 ข้อ</option>
+                            <option value="10" selected>10 ข้อ</option>
+                            <option value="15">15 ข้อ</option>
+                            <option value="20">20 ข้อ</option>
+                        </select>
+                        <span>หรือ</span>
+                        <input type="number" id="custom-count" min="1" max="100" placeholder="กรอกเอง">
+                        <button class="start-btn" onclick="startQuiz()">เริ่มทดสอบ</button>
+                        <button class="back-btn" onclick="backToTestSelection()">กลับ</button>
+                    </div>
+                </div>
+
+                <div id="quiz-content" class="quiz-content hidden">
+                    <div class="progress" id="progress"></div>
+                    <div class="question-container">
+                        <div class="question" id="question"></div>
+                        <div class="options" id="options"></div>
+                    </div>
+                </div>
+
+                <div id="results" class="results hidden"></div>
+            </div>
+        </section>
+
+        <section id="creator" class="section">
+            <div class="creator-profile">
+                <div class="profile-image">
+                    <img src="/images/i1.jpg" alt="ผู้สร้าง" id="creator-image">
+                </div>
+                <div class="profile-info">
+                    <h1>ผู้สร้าง Jump Sup คนเก่ง</h1>
+                    <h2>นายภพพิสิษฐ์ ธรรมธร</h2>
+                    <h5>
+                        < Phoppisit Thammathorn>
+                    </h5>
+
+                    <div class="bio">
+                        <p></p>
+                    </div>
+
+                    <div class="skills">
+                        <h3>ทักษะ</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">Web Development</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                            <span class="skill-tag">Microsoft Excel</span>
+                        </div>
+                    </div>
+
+                    <div class="contact">
+                        <h3>ติดต่อ</h3>
+                        <p>Email : phoppisit14052551@gmail.com</p>
+                        <p>Tel : 0973268531</p>
+                    </div>
+                    <br>
+                    <p>*** หากเว็บไซต์นี้มีข้อผิดพลาดประการใด ขออภัยไว้ ณ ที่แห่งนี้ด้วย ***</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="feedback-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeFeedbackModal()">&times;</span>
+            <h2>แจ้งปัญหา</h2>
+            <div class="feedback-form">
+                <p>พบปัญหาในการใช้งาน? แจ้งเราได้ที่นี่</p>
+                <textarea id="feedback-text" placeholder="กรุณาอธิบายปัญหาที่พบ..." rows="4"></textarea>
+                <div class="feedback-buttons">
+                    <button class="submit-btn" onclick="submitFeedback()">ส่งข้อความ</button>
+                    <button class="cancel-btn" onclick="closeFeedbackModal()">ยกเลิก</button>
+                </div>
+                <div id="feedback-status"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

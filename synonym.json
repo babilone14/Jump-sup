@@ -1,0 +1,734 @@
+[
+  {
+    "word": "important",
+    "synonyms": [
+      "essential",
+      "necessary",
+      "significant",
+      "vital",
+      "crucial",
+      "key",
+      "critical",
+      "imperative",
+      "indispensable"
+    ],
+    "thai": "สำคัญ"
+  },
+  {
+    "word": "abundant",
+    "synonyms": [
+      "plentiful",
+      "ample",
+      "bountiful",
+      "prolific",
+      "copious",
+      "overflowing",
+      "substantial",
+      "inexhaustible"
+    ],
+    "thai": "มากมาย, อุดมสมบูรณ์"
+  },
+  {
+    "word": "famous",
+    "synonyms": [
+      "well-known",
+      "renowned",
+      "celebrated",
+      "notable",
+      "eminent",
+      "acclaimed",
+      "prestigious",
+      "distinguished"
+    ],
+    "thai": "มีชื่อเสียง"
+  },
+  {
+    "word": "rich",
+    "synonyms": [
+      "wealthy",
+      "affluent",
+      "prosperous",
+      "well-off",
+      "opulent",
+      "loaded"
+    ],
+    "thai": "รวย"
+  },
+  {
+    "word": "beautiful",
+    "synonyms": [
+      "pretty",
+      "lovely",
+      "stunning",
+      "exquisite",
+      "graceful",
+      "gorgeous",
+      "attractive",
+      "glamorous"
+    ],
+    "thai": "สวย"
+  },
+  {
+    "word": "outstanding",
+    "synonyms": [
+      "excellent",
+      "remarkable",
+      "prominent",
+      "exceptional",
+      "notable",
+      "distinguished"
+    ],
+    "thai": "โดดเด่น, ยอดเยี่ยม"
+  },
+  {
+    "word": "clear",
+    "synonyms": [
+      "obvious",
+      "plain",
+      "evident",
+      "apparent",
+      "explicit",
+      "manifest",
+      "unambiguous"
+    ],
+    "thai": "ชัดเจน"
+  },
+  {
+    "word": "clever",
+    "synonyms": [
+      "smart",
+      "intelligent",
+      "brilliant",
+      "bright",
+      "quick-witted",
+      "astute",
+      "ingenious",
+      "shrewd"
+    ],
+    "thai": "ฉลาด"
+  },
+  {
+    "word": "happy",
+    "synonyms": [
+      "glad",
+      "cheerful",
+      "joyful",
+      "delighted",
+      "content",
+      "elated",
+      "ecstatic",
+      "thrilled",
+      "overjoyed",
+      "exhilarated"
+    ],
+    "thai": "มีความสุข"
+  },
+  {
+    "word": "good",
+    "synonyms": [
+      "great",
+      "excellent",
+      "wonderful",
+      "amazing",
+      "superb",
+      "outstanding",
+      "exceptional"
+    ],
+    "thai": "ดี"
+  },
+  {
+    "word": "expensive",
+    "synonyms": [
+      "costly",
+      "pricey",
+      "overpriced",
+      "exorbitant",
+      "lavish",
+      "luxurious",
+      "valuable",
+      "high-end",
+      "steep"
+    ],
+    "thai": "แพง"
+  },
+  {
+    "word": "cheap",
+    "synonyms": [
+      "inexpensive",
+      "affordable",
+      "economical",
+      "budget",
+      "low-cost",
+      "reasonable"
+    ],
+    "thai": "ถูก"
+  },
+  {
+    "word": "severe",
+    "synonyms": [
+      "serious",
+      "intense",
+      "extreme",
+      "drastic",
+      "acute",
+      "harsh",
+      "relentless",
+      "violent"
+    ],
+    "thai": "รุนแรง"
+  },
+  {
+    "word": "slight",
+    "synonyms": [
+      "light",
+      "gentle",
+      "delicate",
+      "subtle",
+      "minor",
+      "feeble",
+      "mild"
+    ],
+    "thai": "เล็กน้อย"
+  },
+  {
+    "word": "kind",
+    "synonyms": [
+      "nice",
+      "gentle",
+      "caring",
+      "generous",
+      "compassionate",
+      "benevolent"
+    ],
+    "thai": "ใจดี"
+  },
+  {
+    "word": "pleasant",
+    "synonyms": [
+      "agreeable",
+      "enjoyable",
+      "delightful",
+      "pleasing",
+      "satisfying"
+    ],
+    "thai": "น่ารื่นรมย์"
+  },
+  {
+    "word": "various",
+    "synonyms": [
+      "diverse",
+      "different",
+      "assorted",
+      "eclectic",
+      "miscellaneous"
+    ],
+    "thai": "หลากหลาย"
+  },
+  {
+    "word": "big",
+    "synonyms": [
+      "large",
+      "huge",
+      "enormous",
+      "massive",
+      "gigantic",
+      "immense",
+      "colossal",
+      "tremendous"
+    ],
+    "thai": "ใหญ่"
+  },
+  {
+    "word": "small",
+    "synonyms": [
+      "little",
+      "tiny",
+      "miniature",
+      "minute",
+      "compact",
+      "petite",
+      "minuscule",
+      "diminutive"
+    ],
+    "thai": "เล็ก"
+  },
+  {
+    "word": "wide",
+    "synonyms": [
+      "broad",
+      "spacious",
+      "expansive",
+      "extensive"
+    ],
+    "thai": "กว้าง"
+  },
+  {
+    "word": "narrow",
+    "synonyms": [
+      "tight",
+      "confined",
+      "cramped",
+      "limited"
+    ],
+    "thai": "แคบ"
+  },
+  {
+    "word": "cold",
+    "synonyms": [
+      "chilly",
+      "icy",
+      "freezing",
+      "frosty",
+      "frigid",
+      "glacial"
+    ],
+    "thai": "หนาว"
+  },
+  {
+    "word": "urgent",
+    "synonyms": [
+      "pressing",
+      "immediate",
+      "critical",
+      "time-sensitive"
+    ],
+    "thai": "เร่งด่วน"
+  },
+  {
+    "word": "fast",
+    "synonyms": [
+      "quick",
+      "rapid",
+      "speedy",
+      "swift",
+      "prompt"
+    ],
+    "thai": "เร็ว"
+  },
+  {
+    "word": "slow",
+    "synonyms": [
+      "sluggish",
+      "gradual",
+      "delayed",
+      "lethargic"
+    ],
+    "thai": "ช้า"
+  },
+  {
+    "word": "clean",
+    "synonyms": [
+      "tidy",
+      "neat",
+      "spotless",
+      "immaculate",
+      "hygienic"
+    ],
+    "thai": "สะอาด"
+  },
+  {
+    "word": "dirty",
+    "synonyms": [
+      "messy",
+      "untidy",
+      "filthy",
+      "muddy",
+      "grimy",
+      "squalid"
+    ],
+    "thai": "สกปรก"
+  },
+  {
+    "word": "fragile",
+    "synonyms": [
+      "delicate",
+      "brittle",
+      "frail",
+      "vulnerable",
+      "breakable"
+    ],
+    "thai": "เปราะบาง"
+  },
+  {
+    "word": "stupid",
+    "synonyms": [
+      "silly",
+      "foolish",
+      "dumb",
+      "ridiculous",
+      "absurd",
+      "irrational"
+    ],
+    "thai": "โง่"
+  },
+  {
+    "word": "lazy",
+    "synonyms": [
+      "idle",
+      "inactive",
+      "sluggish",
+      "indolent",
+      "unmotivated"
+    ],
+    "thai": "ขี้เกียจ"
+  },
+  {
+    "word": "poor",
+    "synonyms": [
+      "needy",
+      "impoverished",
+      "destitute",
+      "underprivileged",
+      "penniless"
+    ],
+    "thai": "จน"
+  },
+  {
+    "word": "sad",
+    "synonyms": [
+      "unhappy",
+      "upset",
+      "depressed",
+      "sorrowful",
+      "downcast",
+      "heartbroken",
+      "melancholy"
+    ],
+    "thai": "เศร้า"
+  },
+  {
+    "word": "dark",
+    "synonyms": [
+      "dim",
+      "gloomy",
+      "shadowy",
+      "obscure",
+      "murky"
+    ],
+    "thai": "มืด"
+  },
+  {
+    "word": "hot",
+    "synonyms": [
+      "warm",
+      "boiling",
+      "scorching",
+      "sweltering",
+      "blazing"
+    ],
+    "thai": "ร้อน"
+  },
+  {
+    "word": "increase",
+    "synonyms": [
+      "grow",
+      "rise",
+      "escalate",
+      "surge",
+      "soar",
+      "climb",
+      "expand"
+    ],
+    "thai": "เพิ่มขึ้น"
+  },
+  {
+    "word": "decrease",
+    "synonyms": [
+      "fall",
+      "drop",
+      "reduce",
+      "decline",
+      "diminish",
+      "plummet",
+      "dwindle"
+    ],
+    "thai": "ลดลง"
+  },
+  {
+    "word": "win",
+    "synonyms": [
+      "succeed",
+      "triumph",
+      "prevail",
+      "achieve",
+      "accomplish",
+      "attain"
+    ],
+    "thai": "ชนะ"
+  },
+  {
+    "word": "fail",
+    "synonyms": [
+      "lose",
+      "collapse",
+      "fall short",
+      "be defeated",
+      "break down",
+      "falter"
+    ],
+    "thai": "ล้มเหลว"
+  },
+  {
+    "word": "eat",
+    "synonyms": [
+      "consume",
+      "devour",
+      "gobble",
+      "ingest"
+    ],
+    "thai": "กิน"
+  },
+  {
+    "word": "want",
+    "synonyms": [
+      "desire",
+      "wish",
+      "crave",
+      "yearn for",
+      "long for"
+    ],
+    "thai": "ต้องการ"
+  },
+  {
+    "word": "remember",
+    "synonyms": [
+      "recall",
+      "recollect",
+      "retain",
+      "keep in mind"
+    ],
+    "thai": "จำ"
+  },
+  {
+    "word": "buy",
+    "synonyms": [
+      "purchase",
+      "acquire",
+      "obtain",
+      "procure"
+    ],
+    "thai": "ซื้อ"
+  },
+  {
+    "word": "stop",
+    "synonyms": [
+      "quit",
+      "cease",
+      "terminate",
+      "pause",
+      "halt",
+      "discontinue"
+    ],
+    "thai": "หยุด"
+  },
+  {
+    "word": "start",
+    "synonyms": [
+      "begin",
+      "commence",
+      "initiate",
+      "launch"
+    ],
+    "thai": "เริ่มต้น"
+  },
+  {
+    "word": "allow",
+    "synonyms": [
+      "let",
+      "permit",
+      "authorize",
+      "grant",
+      "consent"
+    ],
+    "thai": "อนุญาต"
+  },
+  {
+    "word": "proceed",
+    "synonyms": [
+      "continue",
+      "carry on",
+      "advance",
+      "progress"
+    ],
+    "thai": "ดำเนินการต่อ"
+  },
+  {
+    "word": "highlight",
+    "synonyms": [
+      "stress",
+      "emphasize",
+      "underline",
+      "underscore"
+    ],
+    "thai": "เน้นย้ำ"
+  },
+  {
+    "word": "get",
+    "synonyms": [
+      "receive",
+      "obtain",
+      "acquire",
+      "gain"
+    ],
+    "thai": "ได้"
+  },
+  {
+    "word": "predict",
+    "synonyms": [
+      "forecast",
+      "anticipate",
+      "foresee",
+      "project"
+    ],
+    "thai": "ทำนาย"
+  },
+  {
+    "word": "sustainability",
+    "synonyms": [
+      "balance",
+      "resilience",
+      "long-term viability",
+      "endurance"
+    ],
+    "thai": "ความยั่งยืน"
+  },
+  {
+    "word": "ability",
+    "synonyms": [
+      "skill",
+      "talent",
+      "capacity",
+      "competence",
+      "proficiency",
+      "aptitude"
+    ],
+    "thai": "ความสามารถ"
+  },
+  {
+    "word": "job",
+    "synonyms": [
+      "work",
+      "career",
+      "occupation",
+      "profession",
+      "vocation",
+      "employment"
+    ],
+    "thai": "งาน"
+  },
+  {
+    "word": "perfection",
+    "synonyms": [
+      "flawlessness",
+      "excellence",
+      "completeness",
+      "wholeness"
+    ],
+    "thai": "ความสมบูรณ์แบบ"
+  },
+  {
+    "word": "problem",
+    "synonyms": [
+      "issue",
+      "matter",
+      "concern",
+      "complication",
+      "dilemma"
+    ],
+    "thai": "ปัญหา"
+  },
+  {
+    "word": "result",
+    "synonyms": [
+      "outcome",
+      "consequence",
+      "effect",
+      "aftermath",
+      "impact"
+    ],
+    "thai": "ผลลัพธ์"
+  },
+  {
+    "word": "opportunity",
+    "synonyms": [
+      "chance",
+      "opening",
+      "possibility",
+      "prospect"
+    ],
+    "thai": "โอกาส"
+  },
+  {
+    "word": "importance",
+    "synonyms": [
+      "significance",
+      "relevance",
+      "value",
+      "necessity"
+    ],
+    "thai": "ความสำคัญ"
+  },
+  {
+    "word": "power",
+    "synonyms": [
+      "control",
+      "authority",
+      "influence",
+      "dominance",
+      "supremacy"
+    ],
+    "thai": "พลัง, อำนาจ"
+  },
+  {
+    "word": "variety",
+    "synonyms": [
+      "diversity",
+      "range",
+      "assortment",
+      "heterogeneity"
+    ],
+    "thai": "ความหลากหลาย"
+  },
+  {
+    "word": "progress",
+    "synonyms": [
+      "development",
+      "improvement",
+      "advancement",
+      "growth",
+      "evolution"
+    ],
+    "thai": "ความก้าวหน้า"
+  },
+  {
+    "word": "standard",
+    "synonyms": [
+      "criteria",
+      "benchmark",
+      "norm",
+      "requirement"
+    ],
+    "thai": "มาตรฐาน"
+  },
+  {
+    "word": "difficulty",
+    "synonyms": [
+      "obstacle",
+      "barrier",
+      "hurdle",
+      "hindrance",
+      "setback"
+    ],
+    "thai": "ความยากลำบาก"
+  },
+  {
+    "word": "law",
+    "synonyms": [
+      "rule",
+      "regulation",
+      "legislation",
+      "statute"
+    ],
+    "thai": "กฎหมาย"
+  }
+]
