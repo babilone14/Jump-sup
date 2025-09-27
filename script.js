@@ -481,18 +481,18 @@ function submitFeedback() {
         to_email: 'phoppisit14052551@gmail.com',
         title: 'Feedback จาก Jump Sup Website'
     })
-    .then(function(response) {
-        console.log('SUCCESS!', response.status, response.text);
-        status.innerHTML = '<p style="color: #56ab2f;">✅ ส่งข้อความเรียบร้อยแล้ว ขอบคุณสำหรับข้อเสนอแนะ</p>';
-        
-        setTimeout(() => {
-            closeFeedbackModal();
-        }, 2000);
-    })
-    .catch(function(error) {
-        console.error('FAILED...', error);
-        status.innerHTML = '<p style="color: #ff4b2b;">❌ เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง</p>';
-    });
+        .then(function (response) {
+            console.log('SUCCESS!', response.status, response.text);
+            status.innerHTML = '<p style="color: #56ab2f;">✅ ส่งข้อความเรียบร้อยแล้ว ขอบคุณสำหรับข้อเสนอแนะ</p>';
+
+            setTimeout(() => {
+                closeFeedbackModal();
+            }, 2000);
+        })
+        .catch(function (error) {
+            console.error('FAILED...', error);
+            status.innerHTML = '<p style="color: #ff4b2b;">❌ เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง</p>';
+        });
 }
 
 document.addEventListener('DOMContentLoaded', async function () {
@@ -534,4 +534,476 @@ function loadSavedTheme() {
     if (savedTheme === 'dark') {
         document.body.classList.add('dark-theme');
     }
+}
+
+// Additional variables for new features
+let currentFlashcardIndex = 0;
+let flashcardData = [];
+let isFlipped = false;
+
+// Match card variables
+let matchCards = [];
+let selectedCards = [];
+let matchedPairs = 0;
+let matchScore = 0;
+let matchTimer = 0;
+let matchInterval = null;
+
+// Update the resetTestInterface function to include new variables
+function resetTestInterface() {
+    const testInterface = document.getElementById('test-interface');
+    const quizContent = document.getElementById('quiz-content');
+    const flashcardContent = document.getElementById('flashcard-content');
+    const matchContent = document.getElementById('match-content');
+    const results = document.getElementById('results');
+    const testOptions = document.querySelector('.test-options');
+
+    if (testInterface) testInterface.classList.add('hidden');
+    if (quizContent) quizContent.classList.add('hidden');
+    if (flashcardContent) flashcardContent.classList.add('hidden');
+    if (matchContent) matchContent.classList.add('hidden');
+    if (results) results.classList.add('hidden');
+    if (testOptions) testOptions.style.display = 'grid';
+
+    currentTestMode = null;
+    currentQuestion = 0;
+    score = 0;
+    questions = [];
+    userAnswers = [];
+
+    // Reset flashcard variables
+    currentFlashcardIndex = 0;
+    flashcardData = [];
+    isFlipped = false;
+
+    // Reset match game variables
+    matchCards = [];
+    selectedCards = [];
+    matchedPairs = 0;
+    matchScore = 0;
+    matchTimer = 0;
+    if (matchInterval) {
+        clearInterval(matchInterval);
+        matchInterval = null;
+    }
+}
+
+// Update the startTestMode function
+function startTestMode(mode) {
+    if (!checkDataLoaded()) return;
+
+    currentTestMode = mode;
+    const testInterface = document.getElementById('test-interface');
+    const testOptions = document.querySelector('.test-options');
+
+    if (testInterface) testInterface.classList.remove('hidden');
+    if (testOptions) testOptions.style.display = 'none';
+
+    // For flashcard and match-card modes, start immediately
+    if (mode === 'flashcard') {
+        startFlashcards();
+    } else if (mode === 'match-card') {
+        startMatchGame();
+    }
+}
+
+// Update the startQuiz function
+function startQuiz() {
+    if (currentTestMode === 'flashcard') {
+        startFlashcards();
+        return;
+    } else if (currentTestMode === 'match-card') {
+        startMatchGame();
+        return;
+    }
+
+    // Original quiz code continues here...
+    const questionCountSelect = document.getElementById('question-count');
+    const customCountInput = document.getElementById('custom-count');
+
+    let questionCount;
+
+    if (customCountInput && customCountInput.value && parseInt(customCountInput.value) > 0) {
+        questionCount = parseInt(customCountInput.value);
+        customCountInput.value = '';
+    } else if (questionCountSelect) {
+        questionCount = parseInt(questionCountSelect.value);
+    } else {
+        questionCount = 10;
+    }
+
+    const maxQuestions = currentTestMode === 'synonym' ? synonyms.length : vocabulary.length;
+    questionCount = Math.min(questionCount, maxQuestions);
+
+    generateQuestions(questionCount);
+
+    const quizContent = document.getElementById('quiz-content');
+    if (quizContent) {
+        quizContent.classList.remove('hidden');
+        showCurrentQuestion();
+    }
+}
+
+// Flashcard Functions
+function startFlashcards() {
+    const questionCountSelect = document.getElementById('question-count');
+    const customCountInput = document.getElementById('custom-count');
+
+    let cardCount;
+
+    if (customCountInput && customCountInput.value && parseInt(customCountInput.value) > 0) {
+        cardCount = parseInt(customCountInput.value);
+        customCountInput.value = '';
+    } else if (questionCountSelect) {
+        cardCount = parseInt(questionCountSelect.value);
+    } else {
+        cardCount = 10;
+    }
+
+    cardCount = Math.min(cardCount, vocabulary.length);
+
+    // Shuffle and select vocabulary
+    const shuffled = [...vocabulary].sort(() => Math.random() - 0.5);
+    flashcardData = shuffled.slice(0, cardCount);
+
+    currentFlashcardIndex = 0;
+    isFlipped = false;
+
+    // Show flashcard content
+    const flashcardContent = document.getElementById('flashcard-content');
+    if (flashcardContent) {
+        flashcardContent.classList.remove('hidden');
+        showFlashcard();
+    }
+}
+
+function showFlashcard() {
+    if (flashcardData.length === 0) return;
+
+    const currentCard = flashcardData[currentFlashcardIndex];
+    const flashcardEnglish = document.getElementById('flashcard-english');
+    const flashcardThai = document.getElementById('flashcard-thai');
+    const cardCounter = document.getElementById('card-counter');
+    const flashcard = document.getElementById('flashcard');
+
+    if (flashcardEnglish) flashcardEnglish.textContent = currentCard.eng;
+    if (flashcardThai) flashcardThai.textContent = currentCard.thai;
+    if (cardCounter) cardCounter.textContent = `${currentFlashcardIndex + 1} / ${flashcardData.length}`;
+
+    // Reset card to front
+    if (flashcard) {
+        flashcard.classList.remove('flipped');
+        isFlipped = false;
+    }
+
+    // Update navigation buttons
+    updateFlashcardNavigation();
+}
+
+function flipCard() {
+    const flashcard = document.getElementById('flashcard');
+    if (flashcard) {
+        flashcard.classList.toggle('flipped');
+        isFlipped = !isFlipped;
+    }
+}
+
+function nextCard() {
+    if (currentFlashcardIndex < flashcardData.length - 1) {
+        currentFlashcardIndex++;
+        showFlashcard();
+    }
+}
+
+function prevCard() {
+    if (currentFlashcardIndex > 0) {
+        currentFlashcardIndex--;
+        showFlashcard();
+    }
+}
+
+function updateFlashcardNavigation() {
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+
+    if (prevBtn) {
+        prevBtn.disabled = currentFlashcardIndex === 0;
+    }
+
+    if (nextBtn) {
+        nextBtn.disabled = currentFlashcardIndex === flashcardData.length - 1;
+    }
+}
+
+function shuffleFlashcards() {
+    flashcardData = [...flashcardData].sort(() => Math.random() - 0.5);
+    currentFlashcardIndex = 0;
+    showFlashcard();
+}
+
+// Match Card Functions
+function startMatchGame() {
+    const questionCountSelect = document.getElementById('question-count');
+    const customCountInput = document.getElementById('custom-count');
+
+    let pairCount;
+
+    if (customCountInput && customCountInput.value && parseInt(customCountInput.value) > 0) {
+        pairCount = parseInt(customCountInput.value);
+        customCountInput.value = '';
+    } else if (questionCountSelect) {
+        pairCount = parseInt(questionCountSelect.value);
+    } else {
+        pairCount = 6;
+    }
+
+    pairCount = Math.min(pairCount, vocabulary.length);
+
+    // Initialize game
+    setupMatchGame(pairCount);
+
+    // Show match content
+    const matchContent = document.getElementById('match-content');
+    if (matchContent) {
+        matchContent.classList.remove('hidden');
+    }
+}
+
+function setupMatchGame(pairCount) {
+    // Reset variables
+    selectedCards = [];
+    matchedPairs = 0;
+    matchScore = 0;
+    matchTimer = 0;
+
+    // Select random vocabulary pairs
+    const shuffled = [...vocabulary].sort(() => Math.random() - 0.5);
+    const selectedVocab = shuffled.slice(0, pairCount);
+
+    // Create cards array (English and Thai)
+    matchCards = [];
+    selectedVocab.forEach((item, index) => {
+        matchCards.push({
+            id: index * 2,
+            text: item.eng,
+            type: 'english',
+            pairId: index,
+            matched: false
+        });
+        matchCards.push({
+            id: index * 2 + 1,
+            text: item.thai,
+            type: 'thai',
+            pairId: index,
+            matched: false
+        });
+    });
+
+    // Shuffle cards
+    matchCards = matchCards.sort(() => Math.random() - 0.5);
+
+    // Update UI
+    updateMatchScore();
+    updateTotalPairs(pairCount);
+    createMatchCardsGrid();
+
+    // Start timer
+    startMatchTimer();
+}
+
+function createMatchCardsGrid() {
+    const grid = document.getElementById('match-cards-grid');
+    if (!grid) return;
+
+    grid.innerHTML = '';
+
+    matchCards.forEach(card => {
+        const cardElement = document.createElement('div');
+        cardElement.className = 'match-card';
+        cardElement.textContent = card.text;
+        cardElement.dataset.cardId = card.id;
+        cardElement.onclick = () => selectMatchCard(card.id);
+        grid.appendChild(cardElement);
+    });
+}
+
+function selectMatchCard(cardId) {
+    const card = matchCards.find(c => c.id === cardId);
+    const cardElement = document.querySelector(`[data-card-id="${cardId}"]`);
+
+    if (!card || !cardElement || card.matched) return;
+
+    // If card is already selected, deselect it
+    if (selectedCards.includes(cardId)) {
+        selectedCards = selectedCards.filter(id => id !== cardId);
+        cardElement.classList.remove('selected');
+        return;
+    }
+
+    // If two cards are already selected, do nothing
+    if (selectedCards.length >= 2) return;
+
+    // Select the card
+    selectedCards.push(cardId);
+    cardElement.classList.add('selected');
+
+    // If two cards are selected, check for match
+    if (selectedCards.length === 2) {
+        setTimeout(() => checkMatch(), 500);
+    }
+}
+
+function checkMatch() {
+    const card1 = matchCards.find(c => c.id === selectedCards[0]);
+    const card2 = matchCards.find(c => c.id === selectedCards[1]);
+
+    const card1Element = document.querySelector(`[data-card-id="${selectedCards[0]}"]`);
+    const card2Element = document.querySelector(`[data-card-id="${selectedCards[1]}"]`);
+
+    if (card1.pairId === card2.pairId) {
+        // Match found
+        card1.matched = true;
+        card2.matched = true;
+        matchedPairs++;
+        matchScore += 10;
+
+        card1Element.classList.remove('selected');
+        card2Element.classList.remove('selected');
+        card1Element.classList.add('matched');
+        card2Element.classList.add('matched');
+
+        // Check if game is complete
+        if (matchedPairs === matchCards.length / 2) {
+            setTimeout(() => showMatchResults(), 1000);
+        }
+    } else {
+        // No match
+        card1Element.classList.remove('selected');
+        card2Element.classList.remove('selected');
+        card1Element.classList.add('wrong');
+        card2Element.classList.add('wrong');
+
+        // Remove wrong class after animation
+        setTimeout(() => {
+            card1Element.classList.remove('wrong');
+            card2Element.classList.remove('wrong');
+        }, 500);
+
+        matchScore = Math.max(0, matchScore - 2);
+    }
+
+    selectedCards = [];
+    updateMatchScore();
+    updateMatchedPairs();
+}
+
+function updateMatchScore() {
+    const scoreElement = document.getElementById('match-score');
+    if (scoreElement) {
+        scoreElement.textContent = matchScore;
+    }
+}
+
+function updateMatchedPairs() {
+    const pairsElement = document.getElementById('matched-pairs');
+    if (pairsElement) {
+        pairsElement.textContent = matchedPairs;
+    }
+}
+
+function updateTotalPairs(total) {
+    const totalElement = document.getElementById('total-pairs');
+    if (totalElement) {
+        totalElement.textContent = total;
+    }
+}
+
+function startMatchTimer() {
+    if (matchInterval) clearInterval(matchInterval);
+
+    matchInterval = setInterval(() => {
+        matchTimer++;
+        const minutes = Math.floor(matchTimer / 60);
+        const seconds = matchTimer % 60;
+        const timerElement = document.getElementById('timer');
+        if (timerElement) {
+            timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+    }, 1000);
+}
+
+function showMatchResults() {
+    if (matchInterval) {
+        clearInterval(matchInterval);
+        matchInterval = null;
+    }
+
+    const results = document.getElementById('results');
+    const matchContent = document.getElementById('match-content');
+
+    if (matchContent) matchContent.classList.add('hidden');
+    if (results) {
+        results.classList.remove('hidden');
+
+        const minutes = Math.floor(matchTimer / 60);
+        const seconds = matchTimer % 60;
+        const timeString = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+        let resultsHTML = `
+            <div class="score-container">
+                <div class="score">🎯 คะแนนรวม: ${matchScore} คะแนน</div>
+                <div class="score" style="color: #56ab2f;">✅ จับคู่ได้: ${matchedPairs} คู่</div>
+                <div class="score" style="color: #667eea;">⏱️ เวลาที่ใช้: ${timeString}</div>
+            </div>
+        `;
+
+        resultsHTML += '<h3>สรุปผลการจับคู่:</h3>';
+        resultsHTML += '<div class="result-details">';
+
+        const uniquePairs = {};
+        matchCards.forEach(card => {
+            if (!uniquePairs[card.pairId]) {
+                const pairCards = matchCards.filter(c => c.pairId === card.pairId);
+                const engCard = pairCards.find(c => c.type === 'english');
+                const thaiCard = pairCards.find(c => c.type === 'thai');
+
+                uniquePairs[card.pairId] = {
+                    english: engCard.text,
+                    thai: thaiCard.text,
+                    matched: card.matched
+                };
+            }
+        });
+
+        Object.values(uniquePairs).forEach((pair, index) => {
+            const status = pair.matched ? '✅' : '❌';
+            const statusColor = pair.matched ? '#56ab2f' : '#ff4b2b';
+            resultsHTML += `
+                <div class="result-item" style="border-left-color: ${statusColor};">
+                    <strong>คู่ที่ ${index + 1}:</strong> ${pair.english} ↔ ${pair.thai} ${status}
+                </div>
+            `;
+        });
+
+        resultsHTML += '</div>';
+
+        resultsHTML += `
+            <button class="retry-btn" onclick="restartMatchGame()">เริ่มใหม่</button>
+            <button class="retry-btn" onclick="backToTestSelection()" style="margin-left: 10px;">กลับหน้าหลัก</button>
+        `;
+
+        results.innerHTML = resultsHTML;
+    }
+}
+
+function restartMatchGame() {
+    const results = document.getElementById('results');
+    const matchContent = document.getElementById('match-content');
+
+    if (results) results.classList.add('hidden');
+    if (matchContent) matchContent.classList.remove('hidden');
+
+    // Restart with same number of pairs
+    const currentPairCount = matchCards.length / 2;
+    setupMatchGame(currentPairCount);
 }

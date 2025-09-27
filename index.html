@@ -19,7 +19,7 @@
 <body>
     <header class="header">
         <div class="logo">
-            < Jump-Sup >
+            < Jump-Sup>
         </div>
         <nav class="nav">
             <a href="#" onclick="showSection('home')" class="nav-link active">Home</a>
@@ -68,7 +68,7 @@
                     <h3>
                         < Test>
                     </h3>
-                    <p>แบบทดสอบวัดความรู้ 3 รูปแบบ Thai-to-English, English-to-Thai และ Synonym</p>
+                    <p>แบบทดสอบวัดความรู้หลากหลายรูปแบบ</p>
                 </div>
             </div>
 
@@ -130,6 +130,18 @@
                     <h3>Synonym Test</h3>
                     <p>หาคำที่มีความหมายคล้ายกัน</p>
                 </button>
+
+                <button class="test-btn" onclick="startTestMode('flashcard')">
+                    <div class="test-icon">📚</div>
+                    <h3>Flashcard</h3>
+                    <p>การ์ดสำหรับทวนคำศัพท์</p>
+                </button>
+
+                <button class="test-btn" onclick="startTestMode('match-card')">
+                    <div class="test-icon">🎯</div>
+                    <h3>Match Card</h3>
+                    <p>จับคู่คำศัพท์อังกฤษ-ไทย</p>
+                </button>
             </div>
 
             <div id="test-interface" class="test-interface hidden">
@@ -158,6 +170,51 @@
                 </div>
 
                 <div id="results" class="results hidden"></div>
+
+                <div id="flashcard-content" class="flashcard-content hidden">
+                    <div class="flashcard-nav">
+                        <button class="nav-btn" id="prev-btn" onclick="prevCard()">⬅️ ก่อนหน้า</button>
+                        <div class="card-counter" id="card-counter">1 / 10</div>
+                        <button class="nav-btn" id="next-btn" onclick="nextCard()">ถัดไป ➡️</button>
+                    </div>
+
+                    <div class="flashcard-container">
+                        <div class="flashcard" id="flashcard" onclick="flipCard()">
+                            <div class="flashcard-inner">
+                                <div class="flashcard-front">
+                                    <div id="flashcard-english">Click to flip</div>
+                                </div>
+                                <div class="flashcard-back">
+                                    <div id="flashcard-thai">คลิกเพื่อพลิก</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flashcard-controls">
+                        <button class="retry-btn" onclick="shuffleFlashcards()">สุ่มใหม่</button>
+                        <button class="retry-btn" onclick="backToTestSelection()"
+                            style="margin-left: 10px;">กลับหน้าหลัก</button>
+                    </div>
+                </div>
+
+                <div id="match-content" class="match-game-container hidden">
+                    <div class="match-score">
+                        คะแนน: <span id="match-score">0</span> |
+                        คู่ที่จับได้: <span id="matched-pairs">0</span> / <span id="total-pairs">0</span>
+                    </div>
+                    <div class="match-timer">
+                        เวลา: <span id="timer">00:00</span>
+                    </div>
+                    <div class="match-cards-grid" id="match-cards-grid">
+                        <!-- Match cards will be generated here -->
+                    </div>
+                    <div class="flashcard-controls" style="margin-top: 2rem;">
+                        <button class="retry-btn" onclick="restartMatchGame()">เริ่มใหม่</button>
+                        <button class="retry-btn" onclick="backToTestSelection()"
+                            style="margin-left: 10px;">กลับหน้าหลัก</button>
+                    </div>
+                </div>
             </div>
         </section>
 
