@@ -1,780 +1,1694 @@
 [
-  { "eng": "abandon", "thai": "ละทิ้ง ปล่อย เลิกคิด"
-  },
-  { "eng": "abbreviate", "thai": "ย่อ เขียนให้สั้นลง"
-  },
-  { "eng": "abduct", "thai": "ลักพาตัว"
-  },
-  { "eng": "ability", "thai": "ความสามารถ"
-  },
-  { "eng": "abolish", "thai": "ยกเลิก ล้มล้าง"
-  },
-  { "eng": "abortion", "thai": "การทำแท้ง"
-  },
-  { "eng": "absolutely", "thai": "อย่างเด็ดขาด แน่นอน"
-  },
-  { "eng": "abundant", "thai": "มากมาย อุดมสมบูรณ์"
-  },
-  { "eng": "abuse", "thai": "ใช้ในทางที่ผิด ทำร้าย"
-  },
-  { "eng": "accelerate", "thai": "เร่งความเร็ว"
-  },
-  { "eng": "accessible", "thai": "สามารถเข้าได้ง่าย"
-  },
-  { "eng": "accessory", "thai": "อุปกรณ์เสริม"
-  },
-  { "eng": "accidentally", "thai": "โดยบังเอิญ"
-  },
-  { "eng": "accommodation", "thai": "ที่พักอาศัย"
-  },
-  { "eng": "accompany", "thai": "ไปเป็นเพื่อน"
-  },
-  { "eng": "accomplice", "thai": "ผู้สมรู้ร่วมคิด"
-  },
-  { "eng": "accomplish", "thai": "ทำสำเร็จ"
-  },
-  { "eng": "accumulate", "thai": "สะสม เพิ่มพูน"
-  },
-  { "eng": "accurate", "thai": "ถูกต้อง แม่นยำ"
-  },
-  { "eng": "accuse", "thai": "กล่าวหา ใส่ความ"
-  },
-  { "eng": "acquaintance", "thai": "คนรู้จัก ความรู้"
-  },
-  { "eng": "acquire", "thai": "ได้รับมา ได้เรียนรู้"
-  },
-  { "eng": "activate", "thai": "กระตุ้น ทำให้เกิดขึ้น"
-  },
-  { "eng": "adapt", "thai": "ปรับตัว ปรับให้เหมาะ"
-  },
-  { "eng": "addicted", "thai": "ติดสิ่งเสพติด ติดนิสัย"
-  },
-  { "eng": "additional", "thai": "ที่เพิ่มเติมเข้ามา"
-  },
-  { "eng": "adequate", "thai": "เพียงพอ"
-  },
-  { "eng": "administration", "thai": "การจัดการ การบริหาร"
-  },
-  { "eng": "adopt", "thai": "รับมาใช้ รับบุญธรรม"
-  },
-  { "eng": "advantage", "thai": "ผลประโยชน์ ข้อดี"
-  },
-  { "eng": "advocate", "thai": "สนับสนุน ทนาย"
-  },
-  { "eng": "affordable", "thai": "สามารถซื้อมาได้"
-  },
-  { "eng": "aggravate", "thai": "ทำให้แย่ลง ทำให้โกรธ"
-  },
-  { "eng": "aggressive", "thai": "ก้าวร้าว"
-  },
-  { "eng": "ailment", "thai": "ความเจ็บป่วย โรคภัย"
-  },
-  { "eng": "allergic", "thai": "มีอาการแพ้"
-  },
-  { "eng": "alleviate", "thai": "บรรเทา ทำให้น้อยลง"
-  },
-  { "eng": "alternative", "thai": "ทางเลือก สิ่งเลือกได้"
-  },
-  { "eng": "ambiguous", "thai": "กำกวม คลุมเครือ"
-  },
-  { "eng": "ambition", "thai": "ความทะเยอทะยาน"
-  },
-  { "eng": "ameliorate", "thai": "ทำให้ดีขึ้น ปรับปรุง"
-  },
-  { "eng": "analysis", "thai": "การวิเคราะห์"
-  },
-  { "eng": "annual", "thai": "รายปี"
-  },
-  { "eng": "anticipate", "thai": "คาดการณ์ คาดหวัง"
-  },
-  { "eng": "antique", "thai": "โบราณวัตถุ เก่าแก่"
-  },
-  { "eng": "anxiety", "thai": "ความวิตกกังวล"
-  },
-  { "eng": "apology", "thai": "คำขอโทษ"
-  },
-  { "eng": "apparent", "thai": "เห็นได้ชัด"
-  },
-  { "eng": "apply", "thai": "สมัคร ประยุกต์"
-  },
-  { "eng": "appreciate", "thai": "ซาบซึ้ง เห็นคุณค่า"
-  },
-  { "eng": "appropriate", "thai": "เหมาะสม"
-  },
-  { "eng": "approve", "thai": "เห็นชอบ ยอมรับ"
-  },
-  { "eng": "aptitude", "thai": "ความถนัด"
-  },
-  { "eng": "arouse", "thai": "กระตุ้น ก่อให้เกิด"
-  },
-  { "eng": "artificial", "thai": "ปลอม เทียม ทำขึ้นเอง"
-  },
-  { "eng": "aspiration", "thai": "ความปรารถนา"
-  },
-  { "eng": "assist", "thai": "ช่วยเหลือ"
-  },
-  { "eng": "associate", "thai": "คบค้าสมาคม เชื่อมโยง"
-  },
-  { "eng": "assume", "thai": "สมมติฐาน ทึกทัก"
-  },
-  { "eng": "assure", "thai": "รับรอง ทำให้มั่นใจ"
-  },
-  { "eng": "astonish", "thai": "ทำให้ประหลาดใจ"
-  },
-  { "eng": "attain", "thai": "บรรลุ ทำสำเร็จ"
-  },
-  { "eng": "attend", "thai": "เข้าร่วม ดูแล เอาใจใส่"
-  },
-  { "eng": "attract", "thai": "ดึงดูดใจ"
-  },
-  { "eng": "authority", "thai": "อำนาจ มีอิทธิพล"
-  },
-  { "eng": "aware", "thai": "ตระหนัก รับรู้ รู้ตัว"
-  },
-  { "eng": "awkward", "thai": "งุ่มง่าม เงอะงะ"
-  },
-  { "eng": "banish", "thai": "เนรเทศ ขจัดออกไป"
-  },
-  { "eng": "behavior", "thai": "ความประพฤติ"
-  },
-  { "eng": "beneficial", "thai": "เป็นประโยชน์"
-  },
-  { "eng": "betray", "thai": "ทรยศ หักหลัง"
-  },
-  { "eng": "bewilder", "thai": "ทำให้สับสน งุนงง"
-  },
-  { "eng": "biography", "thai": "ชีวประวัติ"
-  },
-  { "eng": "bizarre", "thai": "แปลกประหลาด"
-  },
-  { "eng": "boastful", "thai": "ชอบคุยโม้ โอ้อวด"
-  },
-  { "eng": "bribe", "thai": "สินบน ติดสินบน"
-  },
-  { "eng": "broadcast", "thai": "โฆษณา ประกาศ แพร่ข่าว"
-  },
-  { "eng": "brutal", "thai": "ทารุณโหดร้าย"
-  },
-  { "eng": "burglar", "thai": "นักย่องเบา นักเจาะบ้าน"
-  },
-  { "eng": "candidate", "thai": "ผู้สมัคร ผู้เข้าสอบ"
-  },
-  { "eng": "carnivore", "thai": "สัตว์ ประเภท กินเนื้อ"
-  },
-  { "eng": "category", "thai": "หมวดหมู่ ประเภท"
-  },
-  { "eng": "certain", "thai": "แน่นอน บางสิ่ง"
-  },
-  { "eng": "chronic", "thai": "เรื้อรัง"
-  },
-  { "eng": "circulate", "thai": "หมุนเวียน ส่งต่อกันไป"
-  },
-  { "eng": "circumspect", "thai": "รอบคอบ ระมัดระวัง"
-  },
-  { "eng": "circumstance", "thai": "เหตุการณ์ สถานการณ์"
-  },
-  { "eng": "clarify", "thai": "ทำให้กระจ่าง"
-  },
-  { "eng": "collaborate", "thai": "ทำงานร่วมกัน"
-  },
-  { "eng": "commit", "thai": "กระทำผิด ผูกมัด"
-  },
-  { "eng": "compensation", "thai": "การชดเชย เงินทดแทน"
-  },
-  { "eng": "complicated", "thai": "เข้าใจยาก ซับซ้อน"
-  },
-  { "eng": "compliment", "thai": "คำชม ชมเชย"
-  },
-  { "eng": "comprehend", "thai": "เข้าใจ ครอบคลุม"
-  },
-  { "eng": "compulsory", "thai": "เป็นการบังคับ"
-  },
-  { "eng": "concentrate", "thai": "ตั้งใจ ทำให้เข้มข้น"
-  },
-  { "eng": "concise", "thai": "กระชับ รัดกุม"
-  },
-  { "eng": "condition", "thai": "สภาพ เงื่อนไข"
-  },
-  { "eng": "confess", "thai": "สารภาพ"
-  },
-  { "eng": "confidential", "thai": "เป็นความลับ"
-  },
-  { "eng": "conscious", "thai": "มีสติ รู้สึก"
-  },
-  { "eng": "consent", "thai": "การอนุญาต ยินยอม"
-  },
-  { "eng": "consequence", "thai": "ผลลัพธ์ ความสำคัญ"
-  },
-  { "eng": "conserve", "thai": "สงวน อนุรักษ์"
-  },
-  { "eng": "considerable", "thai": "มากมาย อย่างมาก"
-  },
-  { "eng": "considerate", "thai": "คิดถึงผู้อื่น"
-  },
-  { "eng": "constantly", "thai": "อย่างต่อเนื่อง"
-  },
-  { "eng": "contaminate", "thai": "ทำให้สกปรก ปนเปื้อน"
-  },
-  { "eng": "contradictory", "thai": "ขัดแย้งกัน ไม่ลงรอยกัน"
-  },
-  { "eng": "contribute", "thai": "สนับสนุน ก่อให้เกิด"
-  },
-  { "eng": "cooperate", "thai": "ร่วมมือกัน"
-  },
-  { "eng": "courteous", "thai": "สุภาพ"
-  },
-  { "eng": "criticize", "thai": "วิจารณ์"
-  },
-  { "eng": "crucial", "thai": "สำคัญมาก"
-  },
-  { "eng": "curiosity", "thai": "ความอยากรู้อยากเห็น"
-  },
-  { "eng": "deceive", "thai": "หลอกลวง"
-  },
-  { "eng": "deficiency", "thai": "ความขาดแคลน บกพร่อง"
-  },
-  { "eng": "deliberate", "thai": "เจตนา ตั้งใจ"
-  },
-  { "eng": "delicate", "thai": "บอบบาง ประณีต"
-  },
-  { "eng": "demolish", "thai": "รื้อทำลาย"
-  },
-  { "eng": "demonstrate", "thai": "สาธิต เดินขบวน"
-  },
-  { "eng": "depressed", "thai": "รู้สึกเศร้าหมอง"
-  },
-  { "eng": "deserve", "thai": "สมควรได้รับ"
-  },
-  { "eng": "desperate", "thai": "หมดหวัง สิ้นคิด"
-  },
-  { "eng": "deteriorate", "thai": "ทำให่แย่ลง ทำให้เสื่อม"
-  },
-  { "eng": "determine", "thai": "ตั้งใจแน่วแน่ ตัดสิน"
-  },
-  { "eng": "devote", "thai": "อุทิศ ทุ่มเท"
-  },
-  { "eng": "diagnose", "thai": "ตรวจโรค วินิจฉัย"
-  },
-  { "eng": "disaster", "thai": "ความหายนะ"
-  },
-  { "eng": "discriminate", "thai": "แยกแยะ แบ่งแยก"
-  },
-  { "eng": "distinguish", "thai": "จำแนก ทำให้เด่น"
-  },
-  { "eng": "distract", "thai": "ดึงความสนใจ"
-  },
-  { "eng": "distribute", "thai": "แจกจ่าย แพร่หลาย"
-  },
-  { "eng": "diverse", "thai": "แตกต่าง หลากหลาย"
-  },
-  { "eng": "dominate", "thai": "ครอบงำ เห็นเด่นชัด"
-  },
-  { "eng": "donate", "thai": "บริจาค มอบให้"
-  },
-  { "eng": "dramatically", "thai": "อย่างมาก อย่างน่าทึ่ง"
-  },
-  { "eng": "dwindle", "thai": "ค่อย ๆ ลดน้อยลง"
-  },
-  { "eng": "economical", "thai": "ประหยัด มัธยัสถ์"
-  },
-  { "eng": "effective", "thai": "ได้ผล มีผลบังคับใช้"
-  },
-  { "eng": "efficient", "thai": "มีประสิทธิภาพ"
-  },
-  { "eng": "elaborate", "thai": "บรรยาย ละเอียด"
-  },
-  { "eng": "election", "thai": "การเลือกตั้ง"
-  },
-  { "eng": "eliminate", "thai": "กำจัด เอาออกไป"
-  },
-  { "eng": "embarrass", "thai": "ทำให้อึดอัด"
-  },
-  { "eng": "emerge", "thai": "ปรากฏ โผล่ออกมา"
-  },
-  { "eng": "emigrate", "thai": "อพยพหนีภัยออก"
-  },
-  { "eng": "emphasize", "thai": "ย้ำ เน้นความสำคัญ"
-  },
-  { "eng": "endangered", "thai": "ถูกคุกคาม"
-  },
-  { "eng": "endure", "thai": "ทนทาน อดทน"
-  },
-  { "eng": "enormous", "thai": "มโหฬาร มากมาย"
-  },
-  { "eng": "enthusiastic", "thai": "กระตือรือร้น"
-  },
-  { "eng": "envy", "thai": "ความรู้สึกอิจฉา ริษยา"
-  },
-  { "eng": "equivalent", "thai": "สิ่งที่เหมือนกัน เท่ากัน"
-  },
-  { "eng": "essential", "thai": "จำเป็นอย่างที่สุด"
-  },
-  { "eng": "establish", "thai": "จัดตั้ง พิสูจน์"
-  },
-  { "eng": "estimate", "thai": "คำนวณ ประมาณการ"
-  },
-  { "eng": "evaluate", "thai": "ประเมินผล หาค่า"
-  },
-  { "eng": "eventually", "thai": "ในที่สุด"
-  },
-  { "eng": "evolve", "thai": "พัฒนา"
-  },
-  { "eng": "exaggerate", "thai": "พูดหรือทำเกินจริง"
-  },
-  { "eng": "excessive", "thai": "มากเกินไป"
-  },
-  { "eng": "exclude", "thai": "กีดกัน เอาออก"
-  },
-  { "eng": "exhibition", "thai": "นิทรรศการ"
-  },
-  { "eng": "exist", "thai": "มีอยู่จริง มีชีวิตอยู่"
-  },
-  { "eng": "expert", "thai": "ผู้เชี่ยวชาญ"
-  },
-  { "eng": "exploit", "thai": "แสวงหาผลประโยชน์"
-  },
-  { "eng": "extravagant", "thai": "ฟุ่มเฟือย"
-  },
-  { "eng": "facilitate", "thai": "อำนวยความสะดวก"
-  },
-  { "eng": "familiar", "thai": "คุ้นเคย สนิทสนม"
-  },
-  { "eng": "fatal", "thai": "ถึงตาย หายนะ"
-  },
-  { "eng": "fertile", "thai": "อุดมสมบูรณ์"
-  },
-  { "eng": "fluctuate", "thai": "เปลี่ยนแปลงขึ้นลง"
-  },
-  { "eng": "fortunate", "thai": "โชคดี"
-  },
-  { "eng": "frustrate", "thai": "ทำให้หงุดหงิด"
-  },
-  { "eng": "generate", "thai": "ผลิต ก่อให้เกิด"
-  },
-  { "eng": "genuine", "thai": "แท้จริง จริงใจ"
-  },
-  { "eng": "gradually", "thai": "อย่างค่อยเป็นค่อยไป"
-  },
-  { "eng": "grateful", "thai": "กตัญญู รู้สึกขอบคุณ"
-  },
-  { "eng": "guilty", "thai": "มีความผิด รู้สึกผิด"
-  },
-  { "eng": "habitual", "thai": "เป็นนิสัย โดยปกติ"
-  },
-  { "eng": "hazardous", "thai": "มีอันตราย"
-  },
-  { "eng": "hesitate", "thai": "ลังเล รีรอ"
-  },
-  { "eng": "hospitality", "thai": "อัธยาศัยไมตรี"
-  },
-  { "eng": "hostile", "thai": "เป็นศัตรู เกลียดชัง"
-  },
-  { "eng": "humiliate", "thai": "ทำให้อับอาย"
-  },
-  { "eng": "identical", "thai": "เหมือนกันทุกประการ"
-  },
-  { "eng": "illegal", "thai": "ผิดกฎหมาย"
-  },
-  { "eng": "illustrate", "thai": "ให้ภาพประกอบ"
-  },
-  { "eng": "imply", "thai": "บอกเป็นนัย"
-  },
-  { "eng": "impressive", "thai": "น่าประทับใจ"
-  },
-  { "eng": "impulsive", "thai": "หุนหันพลันแล่น"
-  },
-  { "eng": "induce", "thai": "เหนี่ยวนำ"
-  },
-  { "eng": "indicate", "thai": "แสดงให้เห็น บ่งชี้"
-  },
-  { "eng": "indifferent", "thai": "ไม่แยแส เพิกเฉย"
-  },
-  { "eng": "infect", "thai": "ติดเชื้อ แพร่เชื้อ"
-  },
-  { "eng": "influential", "thai": "มีอำนาจ มีอิทธิพล"
-  },
-  { "eng": "initial", "thai": "อักษรย่อ แรกเริ่ม"
-  },
-  { "eng": "interpret", "thai": "แปล ตีความ"
-  },
-  { "eng": "ironic", "thai": "ประชดประชัน"
-  },
-  { "eng": "isolate", "thai": "แยกจากกัน"
-  },
-  { "eng": "jealous", "thai": "อิจฉา ริษยา"
-  },
-  { "eng": "judge", "thai": "ผู้พิพากษา ตัดสิน"
-  },
-  { "eng": "justify", "thai": "ให้เหตุผล เป็นข้ออ้าง"
-  },
-  { "eng": "keen", "thai": "มีความรอบรู้"
-  },
-  { "eng": "knowledgeable", "thai": "รอบรู้ มีความรู้ ชำนาญ"
-  },
-  { "eng": "legible", "thai": "เลอ่านง่าย"
-  },
-  { "eng": "leisure", "thai": "เวลาว่าง"
-  },
-  { "eng": "likely", "thai": "เป็นไปได้"
-  },
-  { "eng": "literal", "thai": "อ้างอิงตามคำเขียนได้"
-  },
-  { "eng": "logical", "thai": "สมเหตุสมผล"
-  },
-  { "eng": "loyal", "thai": "ซื่อสัตย์ ภักดี"
-  },
-  { "eng": "luxurious", "thai": "หรูหราฟุ่มเฟือย"
-  },
-  { "eng": "maintain", "thai": "บำรุงรักษา"
-  },
-  { "eng": "manufacture", "thai": "การผลิต ผลิตออกมา"
-  },
-  { "eng": "massive", "thai": "ใหญ่โต"
-  },
-  { "eng": "mature", "thai": "โตเต็มที่ เจริญเติบโต"
-  },
-  { "eng": "measure", "thai": "มาตรการ วัดขนาด"
-  },
-  { "eng": "mental", "thai": "เกี่ยวกับจิตใจ"
-  },
-  { "eng": "mention", "thai": "การอ้างถึง พาดพิงถึง"
-  },
-  { "eng": "merchandise", "thai": "สินค้า ส่งเสริมการขาย"
-  },
-  { "eng": "modify", "thai": "ดัดแปลง ปรับเปลี่ยน"
-  },
-  { "eng": "motivate", "thai": "กระตุ้น จูงใจ"
-  },
-  { "eng": "mysterious", "thai": "ลึกลับ"
-  },
-  { "eng": "nauseous", "thai": "คลื่นไส้"
-  },
-  { "eng": "negligent", "thai": "ชะล่าใจ ไม่สนใจ"
-  },
-  { "eng": "negotiate", "thai": "เจรจาต่อรอง"
-  },
-  { "eng": "neutral", "thai": "เป็นกลาง"
-  },
-  { "eng": "nominate", "thai": "เสนอชื่อ แต่งตั้ง"
-  },
-  { "eng": "notify", "thai": "ประกาศ แจ้งให้ทราบ"
-  },
-  { "eng": "nutrition", "thai": "โภชนาการ"
-  },
-  { "eng": "obese", "thai": "อ้วนมาก"
-  },
-  { "eng": "obligation", "thai": "พันธะหน้าที่ ความจำเป็น"
-  },
-  { "eng": "observation", "thai": "การสังเกต"
-  },
-  { "eng": "obsolete", "thai": "ไม่ใช้แล้ว ล้าสมัย"
-  },
-  { "eng": "obstacle", "thai": "อุปสรรค"
-  },
-  { "eng": "obstruct", "thai": "ขวางกั้น กีดขวาง"
-  },
-  { "eng": "obtain", "thai": "ได้รับ"
-  },
-  { "eng": "obvious", "thai": "เห็นได้ชัด"
-  },
-  { "eng": "occupied", "thai": "ถูกยึดครอง ถูกยึดครอง"
-  },
-  { "eng": "occur", "thai": "เกิดขึ้น"
-  },
-  { "eng": "operate", "thai": "ปฏิบัติงาน ผ่าตัด"
-  },
-  { "eng": "oppose", "thai": "ต่อต้าน คัดค้าน"
-  },
-  { "eng": "optimistic", "thai": "มองโลกในแง่ดี"
-  },
-  { "eng": "participate", "thai": "มีส่วนร่วม"
-  },
-  { "eng": "passionate", "thai": "มีความรู้สึกที่รุนแรง"
-  },
-  { "eng": "performance", "thai": "การแสดง การกระทำ"
-  },
-  { "eng": "permanent", "thai": "ถาวร"
-  },
-  { "eng": "perplex", "thai": "ทำให้งุนงง งุนงง"
-  },
-  { "eng": "personality", "thai": "บุคลิกภาพ"
-  },
-  { "eng": "persuade", "thai": "ชักจูง เกลี้ยกล่อม"
-  },
-  { "eng": "phenomenon", "thai": "ปรากฏการณ์"
-  },
-  { "eng": "practical", "thai": "ใช้ได้ในทางปฏิบัติ"
-  },
-  { "eng": "preserve", "thai": "อนุรักษ์ ถนอมอาหาร"
-  },
-  { "eng": "principal", "thai": "อาจารย์ใหญ่ สำคัญที่สุด"
-  },
-  { "eng": "principle", "thai": "หลักการ กฎ"
-  },
-  { "eng": "profit", "thai": "กำไร ได้กำไร"
-  },
-  { "eng": "prohibit", "thai": "ห้าม"
-  },
-  { "eng": "prominent", "thai": "โดดเด่น มีชื่อเสียง"
-  },
-  { "eng": "proper", "thai": "ถูกต้อง เหมาะสม"
-  },
-  { "eng": "propose", "thai": "เสนอแนะ สู่ขอ"
-  },
-  { "eng": "prosperous", "thai": "ซึ่งเจริญรุ่งเรือง มั่งคั่ง"
-  },
-  { "eng": "punctual", "thai": "ตรงต่อเวลา"
-  },
-  { "eng": "qualification", "thai": "คุณวุฒิ คุณสมบัติ"
-  },
-  { "eng": "recommend", "thai": "แนะนำ รับรอง"
-  },
-  { "eng": "recover", "thai": "ฟื้นไข้ ฟื้นตัว"
-  },
-  { "eng": "reduce", "thai": "ลดลง"
-  },
-  { "eng": "reflect", "thai": "สะท้อน คิดตรึกตรอง"
-  },
-  { "eng": "reform", "thai": "การแก้ไข ปฏิรูป"
-  },
-  { "eng": "relevant", "thai": "เกี่ยวข้อง สัมพันธ์กัน"
-  },
-  { "eng": "reluctant", "thai": "ไม่เต็มใจ ไม่ยินยอม"
-  },
-  { "eng": "remarkable", "thai": "แปลก น่าทึ่ง"
-  },
-  { "eng": "represent", "thai": "เป็นตัวแทน แสดงถึง"
-  },
-  { "eng": "reveal", "thai": "เปิดเผย แสดงให้เห็น"
-  },
-  { "eng": "ridiculous", "thai": "น่าขัน น่าหัวเราะเยาะ"
-  },
-  { "eng": "significant", "thai": "สำคัญ"
-  },
-  { "eng": "sophisticated", "thai": "ซับซ้อน ซับซ้อน"
-  },
-  { "eng": "stimulate", "thai": "กระตุ้น เร้าใจ"
-  },
-  { "eng": "subscribe", "thai": "บอกรับเป็นสมาชิก"
-  },
-  { "eng": "substitute", "thai": "ตัวแทน แทนที่"
-  },
-  { "eng": "sufficient", "thai": "พอเพียง"
-  },
-  { "eng": "symptom", "thai": "อาการ"
-  },
-  { "eng": "temporary", "thai": "ชั่วคราว"
-  },
-  { "eng": "tendency", "thai": "ความมีแนวโน้ม"
-  },
-  { "eng": "tension", "thai": "ความตึงเครียด"
-  },
-  { "eng": "terminate", "thai": "ยุติ ทำให้สิ้นสุด"
-  },
-  { "eng": "threaten", "thai": "ข่มขู่ คุกคาม"
-  },
-  { "eng": "tolerate", "thai": "อดทน"
-  },
-  { "eng": "torture", "thai": "ทรมาน"
-  },
-  { "eng": "tradition", "thai": "ประเพณี"
-  },
-  { "eng": "tremendous", "thai": "มากมาย ยิ่งใหญ่"
-  },
-  { "eng": "trespass", "thai": "บุกรุก ล่วงล้ำ"
-  },
-  { "eng": "ultimately", "thai": "ในที่สุด"
-  },
-  { "eng": "verify", "thai": "พิสูจน์ว่าจริง"
-  },
-  { "eng": "vigorous", "thai": "กระฉับกระเฉง"
-  },
-  { "eng": "visible", "thai": "สามารถมองเห็นได้"
-  },
-  { "eng": "vital", "thai": "สำคัญอย่างยิ่ง"
-  },
-  { "eng": "willing", "thai": "เต็มใจ"
-  },
-  { "eng": "elaborate", "thai": "ขยายความ"
-  },
-  { "eng": "discriminate", "thai": "เลือกปฏิบัติ"
-  },
-  { "eng": "provoke", "thai": "ปลุกปั่น, กระตุ้น"
-  },
-  { "eng": "illustrate", "thai": "แสดงตัวอย่าง, อธิบายด้วยภาพ"
-  },
-  { "eng": "overlook", "thai": "มองข้าม"
-  },
-  { "eng": "accommodate", "thai": "รองรับ, จัดหาที่พัก"
-  },
-  { "eng": "legislation", "thai": "การออกกฎหมาย"
-  },
-  { "eng": "termination", "thai": "การยุติ, การสิ้นสุด"
-  },
-  { "eng": "inflation", "thai": "อัตราเงินเฟ้อ"
-  },
-  { "eng": "manufacture", "thai": "ผลิต, ผู้ผลิต"
-  },
-  { "eng": "dub", "thai": "เรียกว่า, ตั้งชื่อว่า"
-  },
-  { "eng": "shrinkflation", "thai": "การลดขนาดสินค้าจากเงินเฟ้อ"
-  },
-  { "eng": "shrunk", "thai": "ลดขนาด, หดตัว (ช่อง 3 ของ shrink)"
-  },
-  { "eng": "grapple", "thai": "เผชิญ, ต่อสู้กับ"
-  },
-  { "eng": "proliferate", "thai": "เพิ่มขึ้นอย่างรวดเร็ว"
-  },
-  { "eng": "widespread", "thai": "แพร่หลาย, วงกว้าง"
-  },
-  { "eng": "stabilizes", "thai": "ทำให้เสถียร"
-  },
-  { "eng": "withdraw", "thai": "ถอนออก, ถอนตัว"
-  },
-  { "eng": "tackle", "thai": "จัดการ, แก้ไขปัญหา"
-  },
-  { "eng": "utilizing", "thai": "การใช้ประโยชน์"
-  },
-  { "eng": "proportion", "thai": "สัดส่วน"
-  },
-  { "eng": "conserve", "thai": "อนุรักษ์, ประหยัด"
-  },
-  { "eng": "eng", "thai": "มีส่วนร่วม, มีส่วนเกี่ยวข้อง"
-  },
-  { "eng": "latter", "thai": "กรณีหลัง, อย่างหลัง"
-  },
-  { "eng": "leisure", "thai": "เวลาว่าง, การพักผ่อน"
-  },
-  { "eng": "conduct", "thai": "ดำเนินการ, ประพฤติ"
-  },
-  { "eng": "administer", "thai": "จัดทำ, บริหาร"
-  },
-  { "eng": "contain", "thai": "บรรจุ, ประกอบด้วย, ควบคุม"
-  },
-  { "eng": "limitation", "thai": "ข้อจำกัด"
-  },
-  { "eng": "respondent", "thai": "ผู้ตอบแบบสำรวจ"
-  },
-  { "eng": "aging", "thai": "แก่ชรา, การเสื่อมอายุ"
-  },
-  { "eng": "cynical", "thai": "เหยียดหยาม, มองโลกในแง่ร้าย"
-  },
-  { "eng": "persuasion", "thai": "การโน้มน้าวใจ"
-  },
-  { "eng": "enforce", "thai": "บังคับใช้"
-  },
-  { "eng": "propose", "thai": "เสนอ, เสนอความเห็น"
-  },
-  { "eng": "fee", "thai": "ค่าธรรมเนียม"
-  },
-  { "eng": "milestone", "thai": "เหตุการณ์สำคัญ, ก้าวสำคัญ"
-  },
-  { "eng": "deliberation", "thai": "การไตร่ตรอง, การพิจารณา"
-  },
-  { "eng": "assessment", "thai": "การประเมิน"
-  },
-  { "eng": "tendency", "thai": "แนวโน้ม"
-  },
-  { "eng": "progression", "thai": "ความก้าวหน้า, การดำเนินต่อ"
-  },
-  { "eng": "obstruct", "thai": "ขัดขวาง"
-  },
-  { "eng": "selective", "thai": "คัดเลือก, เลือกสรร"
-  },
-  { "eng": "trustworthy", "thai": "น่าไว้วางใจ"
-  },
-  { "eng": "criteria", "thai": "หลักเกณฑ์, เกณฑ์การพิจารณา"
-  },
-  { "eng": "retailers", "thai": "ผู้ค้าปลีก"
-  },
-  { "eng": "enacting", "thai": "การตรากฎหมาย, การประกาศใช้"
-  },
-  { "eng": "novel", "thai": "นวนิยาย / แปลกใหม่"
-  },
-  { "eng": "pleasant", "thai": "น่ารื่นรมย์, น่าสบายใจ"
-  },
-  { "eng": "temper", "thai": "อารมณ์, ความโกรธ"
-  },
-  { "eng": "convince", "thai": "โน้มน้าว, ทำให้เชื่อ"
-  },
-  { "eng": "organize", "thai": "จัดระเบียบให้ดี, มีระบบ"
-  },
-  { "eng": "extraordinary", "thai": "พิเศษ, น่าทึ่ง, เหนือธรรมดา"
-  },
-  { "eng": "flexible", "thai": "ยืดหยุ่น, ปรับตัวง่าย"
-  },
-  { "eng": "glimpse", "thai": "แวบเดียว, การเหลือบมอง"
-  },
-  { "eng": "labyrinth", "thai": "เขาวงกต, สิ่งที่ซับซ้อน"
-  },
-  { "eng": "corridor", "thai": "ระเบียงทางเดิน, ทางเดินในอาคาร"
-  },
-  { "eng": "occupy", "thai": "ครอบครอง, ยึดครอง, ใช้พื้นที่"
-  },
-  { "eng": "apparel", "thai": "เสื้อผ้า, เครื่องแต่งกาย"
-  },
-  { "eng": "annually", "thai": "ทุกปี, เป็นประจำปี"
-  },
-  { "eng": "garment", "thai": "เสื้อผ้า, เครื่องแต่งกาย"
-  },
-  { "eng": "landfill", "thai": "หลุมฝังกลบขยะ"
-  },
-  { "eng": "decompose", "thai": "ย่อยสลาย, เน่าเปื่อย"
-  },
-  { "eng": "dump", "thai": "ทิ้ง, กองขยะ, กำจัด"
-  },
-  { "eng": "scarcity", "thai": "ความขาดแคลน"
-  },
-  { "eng": "environmentalists", "thai": "นักอนุรักษ์สิ่งแวดล้อม"
-  },
-  { "eng": "regarding", "thai": "เกี่ยวกับ, ในเรื่องของ"
-  },
-  { "eng": "disposable", "thai": "ใช้แล้วทิ้ง"
-  },
-  { "eng": "cope", "thai": "รับมือ, จัดการ"
-  },
-  { "eng": "dementia", "thai": "ภาวะสมองเสื่อม"
-  },
-  { "eng": "ration", "thai": "การปันส่วน, อาหารที่แจกตามโควตา"
-  },
-  { "eng": "replica", "thai": "ของเลียนแบบ, สำเนา"
-  },
-  { "eng": "ward", "thai": "หอผู้ป่วย, เขตการปกครอง"
-  },
-  { "eng": "disoriented", "thai": "สับสน, ไม่รู้ทิศทาง"
-  },
-  { "eng": "likelihood", "thai": "ความเป็นไปได้"
-  },
-  { "eng": "reliance", "thai": "การพึ่งพา"
-  },
-  { "eng": "frustrate", "thai": "ทำให้หงุดหงิด, ทำให้ท้อแท้"
-  },
-  { "eng": "agitate", "thai": "ก่อกวน, ทำให้ปั่นป่วน"
-  },
-  { "eng": "institute", "thai": "สถาบัน, จัดตั้ง"
-  },
-  { "eng": "retrieval", "thai": "การกู้คืน, การดึงกลับ"
-  },
-  { "eng": "capable", "thai": "สามารถ, มีความสามารถ"
-  },
-  { "eng": "editorial", "thai": "บทบรรณาธิการ"
-  },
-  { "eng": "commentary", "thai": "คำบรรยาย, ความเห็นประกอบ"
-  },
-  { "eng": "correlation", "thai": "ความสัมพันธ์, ความเชื่อมโยง"
-  },
-  { "eng": "victor", "thai": "ผู้ชนะ"
-  },
-  { "eng": "steadily", "thai": "อย่างต่อเนื่อง, มั่นคง"
-  },
-  { "eng": "adolescent", "thai": "วัยรุ่น"
-  },
-  { "eng": "praise", "thai": "สรรเสริญ, ชมเชย"
-  },
-  { "eng": "aggression", "thai": "ความก้าวร้าว, การรุกราน"
-  },
-  { "eng": "adverse", "thai": "เป็นผลร้าย, ไม่พึงประสงค์"
-  },
-  { "eng": "anthropologist", "thai": "นักมนุษยวิทยา"
+  {
+    "eng": "abandon",
+    "thai": "ละทิ้ง ปล่อย เลิกคิด"
+  },
+  {
+    "eng": "abbreviate",
+    "thai": "ย่อ เขียนให้สั้นลง"
+  },
+  {
+    "eng": "abduct",
+    "thai": "ลักพาตัว"
+  },
+  {
+    "eng": "ability",
+    "thai": "ความสามารถ"
+  },
+  {
+    "eng": "abolish",
+    "thai": "ยกเลิก ล้มล้าง"
+  },
+  {
+    "eng": "abortion",
+    "thai": "การทำแท้ง"
+  },
+  {
+    "eng": "absolutely",
+    "thai": "อย่างเด็ดขาด แน่นอน"
+  },
+  {
+    "eng": "abundant",
+    "thai": "มากมาย อุดมสมบูรณ์"
+  },
+  {
+    "eng": "abuse",
+    "thai": "ใช้ในทางที่ผิด ทำร้าย"
+  },
+  {
+    "eng": "accelerate",
+    "thai": "เร่งความเร็ว"
+  },
+  {
+    "eng": "accessible",
+    "thai": "สามารถเข้าได้ง่าย"
+  },
+  {
+    "eng": "accessory",
+    "thai": "อุปกรณ์เสริม"
+  },
+  {
+    "eng": "accidentally",
+    "thai": "โดยบังเอิญ"
+  },
+  {
+    "eng": "accommodation",
+    "thai": "ที่พักอาศัย"
+  },
+  {
+    "eng": "accompany",
+    "thai": "ไปเป็นเพื่อน"
+  },
+  {
+    "eng": "accomplice",
+    "thai": "ผู้สมรู้ร่วมคิด"
+  },
+  {
+    "eng": "accomplish",
+    "thai": "ทำสำเร็จ"
+  },
+  {
+    "eng": "accumulate",
+    "thai": "สะสม เพิ่มพูน"
+  },
+  {
+    "eng": "accurate",
+    "thai": "ถูกต้อง แม่นยำ"
+  },
+  {
+    "eng": "accuse",
+    "thai": "กล่าวหา ใส่ความ"
+  },
+  {
+    "eng": "acquaintance",
+    "thai": "คนรู้จัก ความรู้"
+  },
+  {
+    "eng": "acquire",
+    "thai": "ได้รับมา ได้เรียนรู้"
+  },
+  {
+    "eng": "activate",
+    "thai": "กระตุ้น ทำให้เกิดขึ้น"
+  },
+  {
+    "eng": "adapt",
+    "thai": "ปรับตัว ปรับให้เหมาะ"
+  },
+  {
+    "eng": "addicted",
+    "thai": "ติดสิ่งเสพติด ติดนิสัย"
+  },
+  {
+    "eng": "additional",
+    "thai": "ที่เพิ่มเติมเข้ามา"
+  },
+  {
+    "eng": "adequate",
+    "thai": "เพียงพอ"
+  },
+  {
+    "eng": "administration",
+    "thai": "การจัดการ การบริหาร"
+  },
+  {
+    "eng": "adopt",
+    "thai": "รับมาใช้ รับบุญธรรม"
+  },
+  {
+    "eng": "advantage",
+    "thai": "ผลประโยชน์ ข้อดี"
+  },
+  {
+    "eng": "advocate",
+    "thai": "สนับสนุน ทนาย"
+  },
+  {
+    "eng": "affordable",
+    "thai": "สามารถซื้อมาได้"
+  },
+  {
+    "eng": "aggravate",
+    "thai": "ทำให้แย่ลง ทำให้โกรธ"
+  },
+  {
+    "eng": "aggressive",
+    "thai": "ก้าวร้าว"
+  },
+  {
+    "eng": "ailment",
+    "thai": "ความเจ็บป่วย โรคภัย"
+  },
+  {
+    "eng": "allergic",
+    "thai": "มีอาการแพ้"
+  },
+  {
+    "eng": "alleviate",
+    "thai": "บรรเทา ทำให้น้อยลง"
+  },
+  {
+    "eng": "alternative",
+    "thai": "ทางเลือก สิ่งเลือกได้"
+  },
+  {
+    "eng": "ambiguous",
+    "thai": "กำกวม คลุมเครือ"
+  },
+  {
+    "eng": "ambition",
+    "thai": "ความทะเยอทะยาน"
+  },
+  {
+    "eng": "ameliorate",
+    "thai": "ทำให้ดีขึ้น ปรับปรุง"
+  },
+  {
+    "eng": "analysis",
+    "thai": "การวิเคราะห์"
+  },
+  {
+    "eng": "annual",
+    "thai": "รายปี"
+  },
+  {
+    "eng": "anticipate",
+    "thai": "คาดการณ์ คาดหวัง"
+  },
+  {
+    "eng": "antique",
+    "thai": "โบราณวัตถุ เก่าแก่"
+  },
+  {
+    "eng": "anxiety",
+    "thai": "ความวิตกกังวล"
+  },
+  {
+    "eng": "apology",
+    "thai": "คำขอโทษ"
+  },
+  {
+    "eng": "apparent",
+    "thai": "เห็นได้ชัด"
+  },
+  {
+    "eng": "apply",
+    "thai": "สมัคร ประยุกต์"
+  },
+  {
+    "eng": "appreciate",
+    "thai": "ซาบซึ้ง เห็นคุณค่า"
+  },
+  {
+    "eng": "appropriate",
+    "thai": "เหมาะสม"
+  },
+  {
+    "eng": "approve",
+    "thai": "เห็นชอบ ยอมรับ"
+  },
+  {
+    "eng": "aptitude",
+    "thai": "ความถนัด"
+  },
+  {
+    "eng": "arouse",
+    "thai": "กระตุ้น ก่อให้เกิด"
+  },
+  {
+    "eng": "artificial",
+    "thai": "ปลอม เทียม ทำขึ้นเอง"
+  },
+  {
+    "eng": "aspiration",
+    "thai": "ความปรารถนา"
+  },
+  {
+    "eng": "assist",
+    "thai": "ช่วยเหลือ"
+  },
+  {
+    "eng": "associate",
+    "thai": "คบค้าสมาคม เชื่อมโยง"
+  },
+  {
+    "eng": "assume",
+    "thai": "สมมติฐาน ทึกทัก"
+  },
+  {
+    "eng": "assure",
+    "thai": "รับรอง ทำให้มั่นใจ"
+  },
+  {
+    "eng": "astonish",
+    "thai": "ทำให้ประหลาดใจ"
+  },
+  {
+    "eng": "attain",
+    "thai": "บรรลุ ทำสำเร็จ"
+  },
+  {
+    "eng": "attend",
+    "thai": "เข้าร่วม ดูแล เอาใจใส่"
+  },
+  {
+    "eng": "attract",
+    "thai": "ดึงดูดใจ"
+  },
+  {
+    "eng": "authority",
+    "thai": "อำนาจ มีอิทธิพล"
+  },
+  {
+    "eng": "aware",
+    "thai": "ตระหนัก รับรู้ รู้ตัว"
+  },
+  {
+    "eng": "awkward",
+    "thai": "งุ่มง่าม เงอะงะ"
+  },
+  {
+    "eng": "banish",
+    "thai": "เนรเทศ ขจัดออกไป"
+  },
+  {
+    "eng": "behavior",
+    "thai": "ความประพฤติ"
+  },
+  {
+    "eng": "beneficial",
+    "thai": "เป็นประโยชน์"
+  },
+  {
+    "eng": "betray",
+    "thai": "ทรยศ หักหลัง"
+  },
+  {
+    "eng": "bewilder",
+    "thai": "ทำให้สับสน งุนงง"
+  },
+  {
+    "eng": "biography",
+    "thai": "ชีวประวัติ"
+  },
+  {
+    "eng": "bizarre",
+    "thai": "แปลกประหลาด"
+  },
+  {
+    "eng": "boastful",
+    "thai": "ชอบคุยโม้ โอ้อวด"
+  },
+  {
+    "eng": "bribe",
+    "thai": "สินบน ติดสินบน"
+  },
+  {
+    "eng": "broadcast",
+    "thai": "โฆษณา ประกาศ แพร่ข่าว"
+  },
+  {
+    "eng": "brutal",
+    "thai": "ทารุณโหดร้าย"
+  },
+  {
+    "eng": "burglar",
+    "thai": "นักย่องเบา นักเจาะบ้าน"
+  },
+  {
+    "eng": "candidate",
+    "thai": "ผู้สมัคร ผู้เข้าสอบ"
+  },
+  {
+    "eng": "carnivore",
+    "thai": "สัตว์ ประเภท กินเนื้อ"
+  },
+  {
+    "eng": "category",
+    "thai": "หมวดหมู่ ประเภท"
+  },
+  {
+    "eng": "certain",
+    "thai": "แน่นอน บางสิ่ง"
+  },
+  {
+    "eng": "chronic",
+    "thai": "เรื้อรัง"
+  },
+  {
+    "eng": "circulate",
+    "thai": "หมุนเวียน ส่งต่อกันไป"
+  },
+  {
+    "eng": "circumspect",
+    "thai": "รอบคอบ ระมัดระวัง"
+  },
+  {
+    "eng": "circumstance",
+    "thai": "เหตุการณ์ สถานการณ์"
+  },
+  {
+    "eng": "clarify",
+    "thai": "ทำให้กระจ่าง"
+  },
+  {
+    "eng": "collaborate",
+    "thai": "ทำงานร่วมกัน"
+  },
+  {
+    "eng": "commit",
+    "thai": "กระทำผิด ผูกมัด"
+  },
+  {
+    "eng": "compensation",
+    "thai": "การชดเชย เงินทดแทน"
+  },
+  {
+    "eng": "complicated",
+    "thai": "เข้าใจยาก ซับซ้อน"
+  },
+  {
+    "eng": "compliment",
+    "thai": "คำชม ชมเชย"
+  },
+  {
+    "eng": "comprehend",
+    "thai": "เข้าใจ ครอบคลุม"
+  },
+  {
+    "eng": "compulsory",
+    "thai": "เป็นการบังคับ"
+  },
+  {
+    "eng": "concentrate",
+    "thai": "ตั้งใจ ทำให้เข้มข้น"
+  },
+  {
+    "eng": "concise",
+    "thai": "กระชับ รัดกุม"
+  },
+  {
+    "eng": "condition",
+    "thai": "สภาพ เงื่อนไข"
+  },
+  {
+    "eng": "confess",
+    "thai": "สารภาพ"
+  },
+  {
+    "eng": "confidential",
+    "thai": "เป็นความลับ"
+  },
+  {
+    "eng": "conscious",
+    "thai": "มีสติ รู้สึก"
+  },
+  {
+    "eng": "consent",
+    "thai": "การอนุญาต ยินยอม"
+  },
+  {
+    "eng": "consequence",
+    "thai": "ผลลัพธ์ ความสำคัญ"
+  },
+  {
+    "eng": "conserve",
+    "thai": "สงวน อนุรักษ์"
+  },
+  {
+    "eng": "considerable",
+    "thai": "มากมาย อย่างมาก"
+  },
+  {
+    "eng": "considerate",
+    "thai": "คิดถึงผู้อื่น"
+  },
+  {
+    "eng": "constantly",
+    "thai": "อย่างต่อเนื่อง"
+  },
+  {
+    "eng": "contaminate",
+    "thai": "ทำให้สกปรก ปนเปื้อน"
+  },
+  {
+    "eng": "contradictory",
+    "thai": "ขัดแย้งกัน ไม่ลงรอยกัน"
+  },
+  {
+    "eng": "contribute",
+    "thai": "สนับสนุน ก่อให้เกิด"
+  },
+  {
+    "eng": "cooperate",
+    "thai": "ร่วมมือกัน"
+  },
+  {
+    "eng": "courteous",
+    "thai": "สุภาพ"
+  },
+  {
+    "eng": "criticize",
+    "thai": "วิจารณ์"
+  },
+  {
+    "eng": "crucial",
+    "thai": "สำคัญมาก"
+  },
+  {
+    "eng": "curiosity",
+    "thai": "ความอยากรู้อยากเห็น"
+  },
+  {
+    "eng": "deceive",
+    "thai": "หลอกลวง"
+  },
+  {
+    "eng": "deficiency",
+    "thai": "ความขาดแคลน บกพร่อง"
+  },
+  {
+    "eng": "deliberate",
+    "thai": "เจตนา ตั้งใจ"
+  },
+  {
+    "eng": "delicate",
+    "thai": "บอบบาง ประณีต"
+  },
+  {
+    "eng": "demolish",
+    "thai": "รื้อทำลาย"
+  },
+  {
+    "eng": "demonstrate",
+    "thai": "สาธิต เดินขบวน"
+  },
+  {
+    "eng": "depressed",
+    "thai": "รู้สึกเศร้าหมอง"
+  },
+  {
+    "eng": "deserve",
+    "thai": "สมควรได้รับ"
+  },
+  {
+    "eng": "desperate",
+    "thai": "หมดหวัง สิ้นคิด"
+  },
+  {
+    "eng": "deteriorate",
+    "thai": "ทำให่แย่ลง ทำให้เสื่อม"
+  },
+  {
+    "eng": "determine",
+    "thai": "ตั้งใจแน่วแน่ ตัดสิน"
+  },
+  {
+    "eng": "devote",
+    "thai": "อุทิศ ทุ่มเท"
+  },
+  {
+    "eng": "diagnose",
+    "thai": "ตรวจโรค วินิจฉัย"
+  },
+  {
+    "eng": "disaster",
+    "thai": "ความหายนะ"
+  },
+  {
+    "eng": "discriminate",
+    "thai": "แยกแยะ แบ่งแยก"
+  },
+  {
+    "eng": "distinguish",
+    "thai": "จำแนก ทำให้เด่น"
+  },
+  {
+    "eng": "distract",
+    "thai": "ดึงความสนใจ"
+  },
+  {
+    "eng": "distribute",
+    "thai": "แจกจ่าย แพร่หลาย"
+  },
+  {
+    "eng": "diverse",
+    "thai": "แตกต่าง หลากหลาย"
+  },
+  {
+    "eng": "dominate",
+    "thai": "ครอบงำ เห็นเด่นชัด"
+  },
+  {
+    "eng": "donate",
+    "thai": "บริจาค มอบให้"
+  },
+  {
+    "eng": "dramatically",
+    "thai": "อย่างมาก อย่างน่าทึ่ง"
+  },
+  {
+    "eng": "dwindle",
+    "thai": "ค่อย ๆ ลดน้อยลง"
+  },
+  {
+    "eng": "economical",
+    "thai": "ประหยัด มัธยัสถ์"
+  },
+  {
+    "eng": "effective",
+    "thai": "ได้ผล มีผลบังคับใช้"
+  },
+  {
+    "eng": "efficient",
+    "thai": "มีประสิทธิภาพ"
+  },
+  {
+    "eng": "elaborate",
+    "thai": "บรรยาย ละเอียด"
+  },
+  {
+    "eng": "election",
+    "thai": "การเลือกตั้ง"
+  },
+  {
+    "eng": "eliminate",
+    "thai": "กำจัด เอาออกไป"
+  },
+  {
+    "eng": "embarrass",
+    "thai": "ทำให้อึดอัด"
+  },
+  {
+    "eng": "emerge",
+    "thai": "ปรากฏ โผล่ออกมา"
+  },
+  {
+    "eng": "emigrate",
+    "thai": "อพยพหนีภัยออก"
+  },
+  {
+    "eng": "emphasize",
+    "thai": "ย้ำ เน้นความสำคัญ"
+  },
+  {
+    "eng": "endangered",
+    "thai": "ถูกคุกคาม"
+  },
+  {
+    "eng": "endure",
+    "thai": "ทนทาน อดทน"
+  },
+  {
+    "eng": "enormous",
+    "thai": "มโหฬาร มากมาย"
+  },
+  {
+    "eng": "enthusiastic",
+    "thai": "กระตือรือร้น"
+  },
+  {
+    "eng": "envy",
+    "thai": "ความรู้สึกอิจฉา ริษยา"
+  },
+  {
+    "eng": "equivalent",
+    "thai": "สิ่งที่เหมือนกัน เท่ากัน"
+  },
+  {
+    "eng": "essential",
+    "thai": "จำเป็นอย่างที่สุด"
+  },
+  {
+    "eng": "establish",
+    "thai": "จัดตั้ง พิสูจน์"
+  },
+  {
+    "eng": "estimate",
+    "thai": "คำนวณ ประมาณการ"
+  },
+  {
+    "eng": "evaluate",
+    "thai": "ประเมินผล หาค่า"
+  },
+  {
+    "eng": "eventually",
+    "thai": "ในที่สุด"
+  },
+  {
+    "eng": "evolve",
+    "thai": "พัฒนา"
+  },
+  {
+    "eng": "exaggerate",
+    "thai": "พูดหรือทำเกินจริง"
+  },
+  {
+    "eng": "excessive",
+    "thai": "มากเกินไป"
+  },
+  {
+    "eng": "exclude",
+    "thai": "กีดกัน เอาออก"
+  },
+  {
+    "eng": "exhibition",
+    "thai": "นิทรรศการ"
+  },
+  {
+    "eng": "exist",
+    "thai": "มีอยู่จริง มีชีวิตอยู่"
+  },
+  {
+    "eng": "expert",
+    "thai": "ผู้เชี่ยวชาญ"
+  },
+  {
+    "eng": "exploit",
+    "thai": "แสวงหาผลประโยชน์"
+  },
+  {
+    "eng": "extravagant",
+    "thai": "ฟุ่มเฟือย"
+  },
+  {
+    "eng": "facilitate",
+    "thai": "อำนวยความสะดวก"
+  },
+  {
+    "eng": "familiar",
+    "thai": "คุ้นเคย สนิทสนม"
+  },
+  {
+    "eng": "fatal",
+    "thai": "ถึงตาย หายนะ"
+  },
+  {
+    "eng": "fertile",
+    "thai": "อุดมสมบูรณ์"
+  },
+  {
+    "eng": "fluctuate",
+    "thai": "เปลี่ยนแปลงขึ้นลง"
+  },
+  {
+    "eng": "fortunate",
+    "thai": "โชคดี"
+  },
+  {
+    "eng": "frustrate",
+    "thai": "ทำให้หงุดหงิด"
+  },
+  {
+    "eng": "generate",
+    "thai": "ผลิต ก่อให้เกิด"
+  },
+  {
+    "eng": "genuine",
+    "thai": "แท้จริง จริงใจ"
+  },
+  {
+    "eng": "gradually",
+    "thai": "อย่างค่อยเป็นค่อยไป"
+  },
+  {
+    "eng": "grateful",
+    "thai": "กตัญญู รู้สึกขอบคุณ"
+  },
+  {
+    "eng": "guilty",
+    "thai": "มีความผิด รู้สึกผิด"
+  },
+  {
+    "eng": "habitual",
+    "thai": "เป็นนิสัย โดยปกติ"
+  },
+  {
+    "eng": "hazardous",
+    "thai": "มีอันตราย"
+  },
+  {
+    "eng": "hesitate",
+    "thai": "ลังเล รีรอ"
+  },
+  {
+    "eng": "hospitality",
+    "thai": "อัธยาศัยไมตรี"
+  },
+  {
+    "eng": "hostile",
+    "thai": "เป็นศัตรู เกลียดชัง"
+  },
+  {
+    "eng": "humiliate",
+    "thai": "ทำให้อับอาย"
+  },
+  {
+    "eng": "identical",
+    "thai": "เหมือนกันทุกประการ"
+  },
+  {
+    "eng": "illegal",
+    "thai": "ผิดกฎหมาย"
+  },
+  {
+    "eng": "illustrate",
+    "thai": "ให้ภาพประกอบ"
+  },
+  {
+    "eng": "imply",
+    "thai": "บอกเป็นนัย"
+  },
+  {
+    "eng": "impressive",
+    "thai": "น่าประทับใจ"
+  },
+  {
+    "eng": "impulsive",
+    "thai": "หุนหันพลันแล่น"
+  },
+  {
+    "eng": "induce",
+    "thai": "เหนี่ยวนำ"
+  },
+  {
+    "eng": "indicate",
+    "thai": "แสดงให้เห็น บ่งชี้"
+  },
+  {
+    "eng": "indifferent",
+    "thai": "ไม่แยแส เพิกเฉย"
+  },
+  {
+    "eng": "infect",
+    "thai": "ติดเชื้อ แพร่เชื้อ"
+  },
+  {
+    "eng": "influential",
+    "thai": "มีอำนาจ มีอิทธิพล"
+  },
+  {
+    "eng": "initial",
+    "thai": "อักษรย่อ แรกเริ่ม"
+  },
+  {
+    "eng": "interpret",
+    "thai": "แปล ตีความ"
+  },
+  {
+    "eng": "ironic",
+    "thai": "ประชดประชัน"
+  },
+  {
+    "eng": "isolate",
+    "thai": "แยกจากกัน"
+  },
+  {
+    "eng": "jealous",
+    "thai": "อิจฉา ริษยา"
+  },
+  {
+    "eng": "judge",
+    "thai": "ผู้พิพากษา ตัดสิน"
+  },
+  {
+    "eng": "justify",
+    "thai": "ให้เหตุผล เป็นข้ออ้าง"
+  },
+  {
+    "eng": "keen",
+    "thai": "มีความรอบรู้"
+  },
+  {
+    "eng": "knowledgeable",
+    "thai": "รอบรู้ มีความรู้ ชำนาญ"
+  },
+  {
+    "eng": "legible",
+    "thai": "เลอ่านง่าย"
+  },
+  {
+    "eng": "leisure",
+    "thai": "เวลาว่าง"
+  },
+  {
+    "eng": "likely",
+    "thai": "เป็นไปได้"
+  },
+  {
+    "eng": "literal",
+    "thai": "อ้างอิงตามคำเขียนได้"
+  },
+  {
+    "eng": "logical",
+    "thai": "สมเหตุสมผล"
+  },
+  {
+    "eng": "loyal",
+    "thai": "ซื่อสัตย์ ภักดี"
+  },
+  {
+    "eng": "luxurious",
+    "thai": "หรูหราฟุ่มเฟือย"
+  },
+  {
+    "eng": "maintain",
+    "thai": "บำรุงรักษา"
+  },
+  {
+    "eng": "manufacture",
+    "thai": "การผลิต ผลิตออกมา"
+  },
+  {
+    "eng": "massive",
+    "thai": "ใหญ่โต"
+  },
+  {
+    "eng": "mature",
+    "thai": "โตเต็มที่ เจริญเติบโต"
+  },
+  {
+    "eng": "measure",
+    "thai": "มาตรการ วัดขนาด"
+  },
+  {
+    "eng": "mental",
+    "thai": "เกี่ยวกับจิตใจ"
+  },
+  {
+    "eng": "mention",
+    "thai": "การอ้างถึง พาดพิงถึง"
+  },
+  {
+    "eng": "merchandise",
+    "thai": "สินค้า ส่งเสริมการขาย"
+  },
+  {
+    "eng": "modify",
+    "thai": "ดัดแปลง ปรับเปลี่ยน"
+  },
+  {
+    "eng": "motivate",
+    "thai": "กระตุ้น จูงใจ"
+  },
+  {
+    "eng": "mysterious",
+    "thai": "ลึกลับ"
+  },
+  {
+    "eng": "nauseous",
+    "thai": "คลื่นไส้"
+  },
+  {
+    "eng": "negligent",
+    "thai": "ชะล่าใจ ไม่สนใจ"
+  },
+  {
+    "eng": "negotiate",
+    "thai": "เจรจาต่อรอง"
+  },
+  {
+    "eng": "neutral",
+    "thai": "เป็นกลาง"
+  },
+  {
+    "eng": "nominate",
+    "thai": "เสนอชื่อ แต่งตั้ง"
+  },
+  {
+    "eng": "notify",
+    "thai": "ประกาศ แจ้งให้ทราบ"
+  },
+  {
+    "eng": "nutrition",
+    "thai": "โภชนาการ"
+  },
+  {
+    "eng": "obese",
+    "thai": "อ้วนมาก"
+  },
+  {
+    "eng": "obligation",
+    "thai": "พันธะหน้าที่ ความจำเป็น"
+  },
+  {
+    "eng": "observation",
+    "thai": "การสังเกต"
+  },
+  {
+    "eng": "obsolete",
+    "thai": "ไม่ใช้แล้ว ล้าสมัย"
+  },
+  {
+    "eng": "obstacle",
+    "thai": "อุปสรรค"
+  },
+  {
+    "eng": "obstruct",
+    "thai": "ขวางกั้น กีดขวาง"
+  },
+  {
+    "eng": "obtain",
+    "thai": "ได้รับ"
+  },
+  {
+    "eng": "obvious",
+    "thai": "เห็นได้ชัด"
+  },
+  {
+    "eng": "occupied",
+    "thai": "ถูกยึดครอง ถูกยึดครอง"
+  },
+  {
+    "eng": "occur",
+    "thai": "เกิดขึ้น"
+  },
+  {
+    "eng": "operate",
+    "thai": "ปฏิบัติงาน ผ่าตัด"
+  },
+  {
+    "eng": "oppose",
+    "thai": "ต่อต้าน คัดค้าน"
+  },
+  {
+    "eng": "optimistic",
+    "thai": "มองโลกในแง่ดี"
+  },
+  {
+    "eng": "participate",
+    "thai": "มีส่วนร่วม"
+  },
+  {
+    "eng": "passionate",
+    "thai": "มีความรู้สึกที่รุนแรง"
+  },
+  {
+    "eng": "performance",
+    "thai": "การแสดง การกระทำ"
+  },
+  {
+    "eng": "permanent",
+    "thai": "ถาวร"
+  },
+  {
+    "eng": "perplex",
+    "thai": "ทำให้งุนงง งุนงง"
+  },
+  {
+    "eng": "personality",
+    "thai": "บุคลิกภาพ"
+  },
+  {
+    "eng": "persuade",
+    "thai": "ชักจูง เกลี้ยกล่อม"
+  },
+  {
+    "eng": "phenomenon",
+    "thai": "ปรากฏการณ์"
+  },
+  {
+    "eng": "practical",
+    "thai": "ใช้ได้ในทางปฏิบัติ"
+  },
+  {
+    "eng": "preserve",
+    "thai": "อนุรักษ์ ถนอมอาหาร"
+  },
+  {
+    "eng": "principal",
+    "thai": "อาจารย์ใหญ่ สำคัญที่สุด"
+  },
+  {
+    "eng": "principle",
+    "thai": "หลักการ กฎ"
+  },
+  {
+    "eng": "profit",
+    "thai": "กำไร ได้กำไร"
+  },
+  {
+    "eng": "prohibit",
+    "thai": "ห้าม"
+  },
+  {
+    "eng": "prominent",
+    "thai": "โดดเด่น มีชื่อเสียง"
+  },
+  {
+    "eng": "proper",
+    "thai": "ถูกต้อง เหมาะสม"
+  },
+  {
+    "eng": "propose",
+    "thai": "เสนอแนะ สู่ขอ"
+  },
+  {
+    "eng": "prosperous",
+    "thai": "ซึ่งเจริญรุ่งเรือง มั่งคั่ง"
+  },
+  {
+    "eng": "punctual",
+    "thai": "ตรงต่อเวลา"
+  },
+  {
+    "eng": "qualification",
+    "thai": "คุณวุฒิ คุณสมบัติ"
+  },
+  {
+    "eng": "recommend",
+    "thai": "แนะนำ รับรอง"
+  },
+  {
+    "eng": "recover",
+    "thai": "ฟื้นไข้ ฟื้นตัว"
+  },
+  {
+    "eng": "reduce",
+    "thai": "ลดลง"
+  },
+  {
+    "eng": "reflect",
+    "thai": "สะท้อน คิดตรึกตรอง"
+  },
+  {
+    "eng": "reform",
+    "thai": "การแก้ไข ปฏิรูป"
+  },
+  {
+    "eng": "relevant",
+    "thai": "เกี่ยวข้อง สัมพันธ์กัน"
+  },
+  {
+    "eng": "reluctant",
+    "thai": "ไม่เต็มใจ ไม่ยินยอม"
+  },
+  {
+    "eng": "remarkable",
+    "thai": "แปลก น่าทึ่ง"
+  },
+  {
+    "eng": "represent",
+    "thai": "เป็นตัวแทน แสดงถึง"
+  },
+  {
+    "eng": "reveal",
+    "thai": "เปิดเผย แสดงให้เห็น"
+  },
+  {
+    "eng": "ridiculous",
+    "thai": "น่าขัน น่าหัวเราะเยาะ"
+  },
+  {
+    "eng": "significant",
+    "thai": "สำคัญ"
+  },
+  {
+    "eng": "sophisticated",
+    "thai": "ซับซ้อน ซับซ้อน"
+  },
+  {
+    "eng": "stimulate",
+    "thai": "กระตุ้น เร้าใจ"
+  },
+  {
+    "eng": "subscribe",
+    "thai": "บอกรับเป็นสมาชิก"
+  },
+  {
+    "eng": "substitute",
+    "thai": "ตัวแทน แทนที่"
+  },
+  {
+    "eng": "sufficient",
+    "thai": "พอเพียง"
+  },
+  {
+    "eng": "symptom",
+    "thai": "อาการ"
+  },
+  {
+    "eng": "temporary",
+    "thai": "ชั่วคราว"
+  },
+  {
+    "eng": "tendency",
+    "thai": "ความมีแนวโน้ม"
+  },
+  {
+    "eng": "tension",
+    "thai": "ความตึงเครียด"
+  },
+  {
+    "eng": "terminate",
+    "thai": "ยุติ ทำให้สิ้นสุด"
+  },
+  {
+    "eng": "threaten",
+    "thai": "ข่มขู่ คุกคาม"
+  },
+  {
+    "eng": "tolerate",
+    "thai": "อดทน"
+  },
+  {
+    "eng": "torture",
+    "thai": "ทรมาน"
+  },
+  {
+    "eng": "tradition",
+    "thai": "ประเพณี"
+  },
+  {
+    "eng": "tremendous",
+    "thai": "มากมาย ยิ่งใหญ่"
+  },
+  {
+    "eng": "trespass",
+    "thai": "บุกรุก ล่วงล้ำ"
+  },
+  {
+    "eng": "ultimately",
+    "thai": "ในที่สุด"
+  },
+  {
+    "eng": "verify",
+    "thai": "พิสูจน์ว่าจริง"
+  },
+  {
+    "eng": "vigorous",
+    "thai": "กระฉับกระเฉง"
+  },
+  {
+    "eng": "visible",
+    "thai": "สามารถมองเห็นได้"
+  },
+  {
+    "eng": "vital",
+    "thai": "สำคัญอย่างยิ่ง"
+  },
+  {
+    "eng": "willing",
+    "thai": "เต็มใจ"
+  },
+  {
+    "eng": "elaborate",
+    "thai": "ขยายความ"
+  },
+  {
+    "eng": "discriminate",
+    "thai": "เลือกปฏิบัติ"
+  },
+  {
+    "eng": "provoke",
+    "thai": "ปลุกปั่น, กระตุ้น"
+  },
+  {
+    "eng": "illustrate",
+    "thai": "แสดงตัวอย่าง, อธิบายด้วยภาพ"
+  },
+  {
+    "eng": "overlook",
+    "thai": "มองข้าม"
+  },
+  {
+    "eng": "accommodate",
+    "thai": "รองรับ, จัดหาที่พัก"
+  },
+  {
+    "eng": "legislation",
+    "thai": "การออกกฎหมาย"
+  },
+  {
+    "eng": "termination",
+    "thai": "การยุติ, การสิ้นสุด"
+  },
+  {
+    "eng": "inflation",
+    "thai": "อัตราเงินเฟ้อ"
+  },
+  {
+    "eng": "manufacture",
+    "thai": "ผลิต, ผู้ผลิต"
+  },
+  {
+    "eng": "dub",
+    "thai": "เรียกว่า, ตั้งชื่อว่า"
+  },
+  {
+    "eng": "shrinkflation",
+    "thai": "การลดขนาดสินค้าจากเงินเฟ้อ"
+  },
+  {
+    "eng": "shrunk",
+    "thai": "ลดขนาด, หดตัว (ช่อง 3 ของ shrink)"
+  },
+  {
+    "eng": "grapple",
+    "thai": "เผชิญ, ต่อสู้กับ"
+  },
+  {
+    "eng": "proliferate",
+    "thai": "เพิ่มขึ้นอย่างรวดเร็ว"
+  },
+  {
+    "eng": "widespread",
+    "thai": "แพร่หลาย, วงกว้าง"
+  },
+  {
+    "eng": "stabilizes",
+    "thai": "ทำให้เสถียร"
+  },
+  {
+    "eng": "withdraw",
+    "thai": "ถอนออก, ถอนตัว"
+  },
+  {
+    "eng": "tackle",
+    "thai": "จัดการ, แก้ไขปัญหา"
+  },
+  {
+    "eng": "utilizing",
+    "thai": "การใช้ประโยชน์"
+  },
+  {
+    "eng": "proportion",
+    "thai": "สัดส่วน"
+  },
+  {
+    "eng": "conserve",
+    "thai": "อนุรักษ์, ประหยัด"
+  },
+  {
+    "eng": "latter",
+    "thai": "กรณีหลัง, อย่างหลัง"
+  },
+  {
+    "eng": "leisure",
+    "thai": "เวลาว่าง, การพักผ่อน"
+  },
+  {
+    "eng": "conduct",
+    "thai": "ดำเนินการ, ประพฤติ"
+  },
+  {
+    "eng": "administer",
+    "thai": "จัดทำ, บริหาร"
+  },
+  {
+    "eng": "contain",
+    "thai": "บรรจุ, ประกอบด้วย, ควบคุม"
+  },
+  {
+    "eng": "limitation",
+    "thai": "ข้อจำกัด"
+  },
+  {
+    "eng": "respondent",
+    "thai": "ผู้ตอบแบบสำรวจ"
+  },
+  {
+    "eng": "aging",
+    "thai": "แก่ชรา, การเสื่อมอายุ"
+  },
+  {
+    "eng": "cynical",
+    "thai": "เหยียดหยาม, มองโลกในแง่ร้าย"
+  },
+  {
+    "eng": "persuasion",
+    "thai": "การโน้มน้าวใจ"
+  },
+  {
+    "eng": "enforce",
+    "thai": "บังคับใช้"
+  },
+  {
+    "eng": "propose",
+    "thai": "เสนอ, เสนอความเห็น"
+  },
+  {
+    "eng": "fee",
+    "thai": "ค่าธรรมเนียม"
+  },
+  {
+    "eng": "milestone",
+    "thai": "เหตุการณ์สำคัญ, ก้าวสำคัญ"
+  },
+  {
+    "eng": "deliberation",
+    "thai": "การไตร่ตรอง, การพิจารณา"
+  },
+  {
+    "eng": "assessment",
+    "thai": "การประเมิน"
+  },
+  {
+    "eng": "tendency",
+    "thai": "แนวโน้ม"
+  },
+  {
+    "eng": "progression",
+    "thai": "ความก้าวหน้า, การดำเนินต่อ"
+  },
+  {
+    "eng": "obstruct",
+    "thai": "ขัดขวาง"
+  },
+  {
+    "eng": "selective",
+    "thai": "คัดเลือก, เลือกสรร"
+  },
+  {
+    "eng": "trustworthy",
+    "thai": "น่าไว้วางใจ"
+  },
+  {
+    "eng": "criteria",
+    "thai": "หลักเกณฑ์, เกณฑ์การพิจารณา"
+  },
+  {
+    "eng": "retailers",
+    "thai": "ผู้ค้าปลีก"
+  },
+  {
+    "eng": "enacting",
+    "thai": "การตรากฎหมาย, การประกาศใช้"
+  },
+  {
+    "eng": "novel",
+    "thai": "นวนิยาย / แปลกใหม่"
+  },
+  {
+    "eng": "pleasant",
+    "thai": "น่ารื่นรมย์, น่าสบายใจ"
+  },
+  {
+    "eng": "temper",
+    "thai": "อารมณ์, ความโกรธ"
+  },
+  {
+    "eng": "convince",
+    "thai": "โน้มน้าว, ทำให้เชื่อ"
+  },
+  {
+    "eng": "organize",
+    "thai": "จัดระเบียบให้ดี, มีระบบ"
+  },
+  {
+    "eng": "extraordinary",
+    "thai": "พิเศษ, น่าทึ่ง, เหนือธรรมดา"
+  },
+  {
+    "eng": "flexible",
+    "thai": "ยืดหยุ่น, ปรับตัวง่าย"
+  },
+  {
+    "eng": "glimpse",
+    "thai": "แวบเดียว, การเหลือบมอง"
+  },
+  {
+    "eng": "labyrinth",
+    "thai": "เขาวงกต, สิ่งที่ซับซ้อน"
+  },
+  {
+    "eng": "corridor",
+    "thai": "ระเบียงทางเดิน, ทางเดินในอาคาร"
+  },
+  {
+    "eng": "occupy",
+    "thai": "ครอบครอง, ยึดครอง, ใช้พื้นที่"
+  },
+  {
+    "eng": "apparel",
+    "thai": "เสื้อผ้า, เครื่องแต่งกาย"
+  },
+  {
+    "eng": "annually",
+    "thai": "ทุกปี, เป็นประจำปี"
+  },
+  {
+    "eng": "garment",
+    "thai": "เสื้อผ้า, เครื่องแต่งกาย"
+  },
+  {
+    "eng": "landfill",
+    "thai": "หลุมฝังกลบขยะ"
+  },
+  {
+    "eng": "decompose",
+    "thai": "ย่อยสลาย, เน่าเปื่อย"
+  },
+  {
+    "eng": "dump",
+    "thai": "ทิ้ง, กองขยะ, กำจัด"
+  },
+  {
+    "eng": "scarcity",
+    "thai": "ความขาดแคลน"
+  },
+  {
+    "eng": "environmentalists",
+    "thai": "นักอนุรักษ์สิ่งแวดล้อม"
+  },
+  {
+    "eng": "regarding",
+    "thai": "เกี่ยวกับ, ในเรื่องของ"
+  },
+  {
+    "eng": "disposable",
+    "thai": "ใช้แล้วทิ้ง"
+  },
+  {
+    "eng": "cope",
+    "thai": "รับมือ, จัดการ"
+  },
+  {
+    "eng": "dementia",
+    "thai": "ภาวะสมองเสื่อม"
+  },
+  {
+    "eng": "ration",
+    "thai": "การปันส่วน, อาหารที่แจกตามโควตา"
+  },
+  {
+    "eng": "replica",
+    "thai": "ของเลียนแบบ, สำเนา"
+  },
+  {
+    "eng": "ward",
+    "thai": "หอผู้ป่วย, เขตการปกครอง"
+  },
+  {
+    "eng": "disoriented",
+    "thai": "สับสน, ไม่รู้ทิศทาง"
+  },
+  {
+    "eng": "likelihood",
+    "thai": "ความเป็นไปได้"
+  },
+  {
+    "eng": "reliance",
+    "thai": "การพึ่งพา"
+  },
+  {
+    "eng": "frustrate",
+    "thai": "ทำให้หงุดหงิด, ทำให้ท้อแท้"
+  },
+  {
+    "eng": "agitate",
+    "thai": "ก่อกวน, ทำให้ปั่นป่วน"
+  },
+  {
+    "eng": "institute",
+    "thai": "สถาบัน, จัดตั้ง"
+  },
+  {
+    "eng": "retrieval",
+    "thai": "การกู้คืน, การดึงกลับ"
+  },
+  {
+    "eng": "capable",
+    "thai": "สามารถ, มีความสามารถ"
+  },
+  {
+    "eng": "editorial",
+    "thai": "บทบรรณาธิการ"
+  },
+  {
+    "eng": "commentary",
+    "thai": "คำบรรยาย, ความเห็นประกอบ"
+  },
+  {
+    "eng": "correlation",
+    "thai": "ความสัมพันธ์, ความเชื่อมโยง"
+  },
+  {
+    "eng": "victor",
+    "thai": "ผู้ชนะ"
+  },
+  {
+    "eng": "steadily",
+    "thai": "อย่างต่อเนื่อง, มั่นคง"
+  },
+  {
+    "eng": "adolescent",
+    "thai": "วัยรุ่น"
+  },
+  {
+    "eng": "praise",
+    "thai": "สรรเสริญ, ชมเชย"
+  },
+  {
+    "eng": "aggression",
+    "thai": "ความก้าวร้าว, การรุกราน"
+  },
+  {
+    "eng": "adverse",
+    "thai": "เป็นผลร้าย, ไม่พึงประสงค์"
+  },
+  {
+    "eng": "anthropologist",
+    "thai": "นักมนุษยวิทยา"
+  },
+  {
+    "eng": "proposal",
+    "thai": "ข้อเสนอ"
+  },
+  {
+    "eng": "sleep apnea",
+    "thai": "ภาวะหยุดหายใจขณะหลับ"
+  },
+  {
+    "eng": "pacemaker",
+    "thai": "เครื่องกระตุ้นหัวใจ"
+  },
+  {
+    "eng": "particular",
+    "thai": "เฉพาะ, โดยเฉพาะ"
+  },
+  {
+    "eng": "steep",
+    "thai": "ชัน"
+  },
+  {
+    "eng": "dominant",
+    "thai": "เด่น, มีอำนาจเหนือ"
+  },
+  {
+    "eng": "pandemic",
+    "thai": "โรคระบาดใหญ่"
+  },
+  {
+    "eng": "erode",
+    "thai": "กัดกร่อน, สึกกร่อน"
+  },
+  {
+    "eng": "suboptimal",
+    "thai": "ต่ำกว่ามาตรฐานที่เหมาะสม"
+  },
+  {
+    "eng": "substantially",
+    "thai": "อย่างมาก, อย่างมีนัยสำคัญ"
+  },
+  {
+    "eng": "obscure",
+    "thai": "กำกวม, ไม่ชัดเจน"
+  },
+  {
+    "eng": "peculiar",
+    "thai": "แปลก, พิกล"
+  },
+  {
+    "eng": "irrelevant",
+    "thai": "ไม่เกี่ยวข้อง"
+  },
+  {
+    "eng": "repertoire",
+    "thai": "รายการแสดง, สิ่งที่มีอยู่ในขอบข่าย"
+  },
+  {
+    "eng": "assumption",
+    "thai": "สมมติฐาน"
+  },
+  {
+    "eng": "disposal",
+    "thai": "การกำจัด"
+  },
+  {
+    "eng": "illiterate",
+    "thai": "ไม่รู้หนังสือ"
+  },
+  {
+    "eng": "well-versed",
+    "thai": "เชี่ยวชาญ"
+  },
+  {
+    "eng": "eagerly",
+    "thai": "อย่างกระตือรือร้น"
+  },
+  {
+    "eng": "linguistic",
+    "thai": "ทางด้านภาษา"
+  },
+  {
+    "eng": "sophisticate",
+    "thai": "ผู้รอบรู้, ทำให้ซับซ้อน"
+  },
+  {
+    "eng": "advantageous",
+    "thai": "เป็นประโยชน์"
+  },
+  {
+    "eng": "investigate",
+    "thai": "สืบสวน, ตรวจสอบ"
+  },
+  {
+    "eng": "regimen",
+    "thai": "ระเบียบการรักษา, กฎเกณฑ์การดำเนินชีวิต"
+  },
+  {
+    "eng": "fracture",
+    "thai": "กระดูกหัก, รอยแตก"
+  },
+  {
+    "eng": "surveillance",
+    "thai": "การเฝ้าระวัง"
+  },
+  {
+    "eng": "companionship",
+    "thai": "ความเป็นเพื่อน"
+  },
+  {
+    "eng": "undergo",
+    "thai": "ประสบ, ผ่าน"
+  },
+  {
+    "eng": "prevalent",
+    "thai": "แพร่หลาย"
+  },
+  {
+    "eng": "establishment",
+    "thai": "การสถาปนา, สถาบัน"
+  },
+  {
+    "eng": "hierarchy",
+    "thai": "ลำดับชั้น"
+  },
+  {
+    "eng": "foundation",
+    "thai": "มูลนิธิ, รากฐาน"
+  },
+  {
+    "eng": "criterion",
+    "thai": "เกณฑ์"
+  },
+  {
+    "eng": "inclusion",
+    "thai": "การรวม"
+  },
+  {
+    "eng": "acquisition",
+    "thai": "การได้มา, การเข้าครอบครอง"
   }
 ]
