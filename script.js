@@ -105,8 +105,10 @@ function loadVocabularyTable() {
     leftColumn.forEach((item) => {
         const vocabItem = document.createElement('div');
         vocabItem.className = 'vocab-item';
+        const partOfSpeech = Array.isArray(item.part) ? item.part.join(', ') : item.part;
         vocabItem.innerHTML = `
             <span class="vocab-eng">${item.eng}</span>
+            <span class="vocab-part">(${partOfSpeech})</span>
             <span class="vocab-thai">${item.thai}</span>
         `;
         leftDiv.appendChild(vocabItem);
@@ -118,8 +120,10 @@ function loadVocabularyTable() {
     rightColumn.forEach((item) => {
         const vocabItem = document.createElement('div');
         vocabItem.className = 'vocab-item';
+        const partOfSpeech = Array.isArray(item.part) ? item.part.join(', ') : item.part;
         vocabItem.innerHTML = `
             <span class="vocab-eng">${item.eng}</span>
+            <span class="vocab-part">(${partOfSpeech})</span>
             <span class="vocab-thai">${item.thai}</span>
         `;
         rightDiv.appendChild(vocabItem);
@@ -234,14 +238,20 @@ function generateQuestions(count) {
         if (currentTestMode === 'thai-to-eng') {
             question = item.thai;
             correctAnswer = item.eng;
-            options = generateOptions(correctAnswer, vocabulary.map(v => v.eng));
+            // สร้าง options พร้อม part of speech สำหรับ thai-to-eng
+            const vocabWithPart = vocabulary.map(v => ({
+                text: v.eng,
+                part: Array.isArray(v.part) ? v.part.join(', ') : v.part
+            }));
+            options = generateOptionsWithPart(correctAnswer, vocabWithPart, Array.isArray(item.part) ? item.part.join(', ') : item.part);
         } else if (currentTestMode === 'eng-to-thai') {
-            question = item.eng;
+            // แสดง question พร้อม part of speech สำหรับ eng-to-thai
+            const partOfSpeech = Array.isArray(item.part) ? item.part.join(', ') : item.part;
+            question = `${item.eng} (${partOfSpeech})`;
             correctAnswer = item.thai;
             options = generateOptions(correctAnswer, vocabulary.map(v => v.thai));
         } else if (currentTestMode === 'synonym') {
             question = item.word;
-            // สุ่มเลือกคำจาก synonyms มาเป็นคำตอบที่ถูกต้อง
             const randomIndex = Math.floor(Math.random() * item.synonyms.length);
             correctAnswer = item.synonyms[randomIndex];
             options = generateSynonymOptions(correctAnswer, item.word, item.synonyms);
@@ -267,20 +277,31 @@ function generateOptions(correctAnswer, allOptions) {
     return options.sort(() => Math.random() - 0.5);
 }
 
-// แก้ไขฟังก์ชัน generateSynonymOptions เพื่อให้มีคำตอบที่ถูกต้องเพียงหนึ่งเดียว
-function generateSynonymOptions(correctAnswer, originalWord, allSynonymsForWord) {
-    const options = [correctAnswer]; // เริ่มด้วยคำตอบที่ถูกต้อง
+// ฟังก์ชันใหม่สำหรับสร้าง options พร้อม part of speech
+function generateOptionsWithPart(correctAnswer, allOptionsWithPart, correctPart) {
+    const options = [`${correctAnswer} (${correctPart})`];
+    const available = allOptionsWithPart.filter(opt => opt.text !== correctAnswer);
 
-    // หาคำพ้องความหมายจากคำอื่นๆ ที่ไม่ใช่คำเดียวกัน
+    while (options.length < 4 && available.length > 0) {
+        const randomIndex = Math.floor(Math.random() * available.length);
+        const selected = available.splice(randomIndex, 1)[0];
+        options.push(`${selected.text} (${selected.part})`);
+    }
+
+    return options.sort(() => Math.random() - 0.5);
+}
+
+function generateSynonymOptions(correctAnswer, originalWord, allSynonymsForWord) {
+    const options = [correctAnswer];
+
     const otherWords = synonyms
-        .filter(s => s.word !== originalWord) // กรองคำที่ไม่ใช่คำปัจจุบัน
-        .flatMap(s => s.synonyms) // รวมคำพ้องความหมายทั้งหมด
+        .filter(s => s.word !== originalWord)
+        .flatMap(s => s.synonyms)
         .filter(word =>
-            !allSynonymsForWord.includes(word) && // ไม่ใช่คำพ้องความหมายของคำปัจจุบัน
-            !options.includes(word) // ไม่ใช่คำที่มีอยู่ในตัวเลือกแล้ว
+            !allSynonymsForWord.includes(word) &&
+            !options.includes(word)
         );
 
-    // สุ่มเลือกคำที่ผิดมาเติมให้ครบ 4 ตัวเลือก
     while (options.length < 4 && otherWords.length > 0) {
         const randomIndex = Math.floor(Math.random() * otherWords.length);
         const selectedWord = otherWords.splice(randomIndex, 1)[0];
@@ -289,7 +310,6 @@ function generateSynonymOptions(correctAnswer, originalWord, allSynonymsForWord)
         }
     }
 
-    // ถ้ายังไม่ครบ 4 ตัวเลือก ให้เติมคำจาก vocabulary
     if (options.length < 4) {
         const vocabWords = vocabulary
             .map(v => v.eng)
@@ -349,7 +369,16 @@ function showCurrentQuestion() {
 
 function selectAnswer(selectedAnswer) {
     const currentQ = questions[currentQuestion];
-    const isCorrect = selectedAnswer === currentQ.correctAnswer;
+    
+    // สำหรับ thai-to-eng ต้องตัด part of speech ออกก่อนเปรียบเทียบ
+    let cleanSelectedAnswer = selectedAnswer;
+    let cleanCorrectAnswer = currentQ.correctAnswer;
+    
+    if (currentTestMode === 'thai-to-eng') {
+        cleanSelectedAnswer = selectedAnswer.replace(/\s*\([^)]*\)\s*$/, '').trim();
+    }
+    
+    const isCorrect = cleanSelectedAnswer === cleanCorrectAnswer;
 
     userAnswers.push({
         question: currentQ.question,
@@ -367,7 +396,15 @@ function selectAnswer(selectedAnswer) {
         const buttons = optionsContainer.querySelectorAll('.option-btn');
         buttons.forEach(btn => {
             btn.disabled = true;
-            if (btn.textContent === currentQ.correctAnswer) {
+            
+            let btnText = btn.textContent;
+            let correctText = currentQ.correctAnswer;
+            
+            if (currentTestMode === 'thai-to-eng') {
+                btnText = btnText.replace(/\s*\([^)]*\)\s*$/, '').trim();
+            }
+            
+            if (btnText === correctText) {
                 btn.classList.add('correct');
             } else if (btn.textContent === selectedAnswer && !isCorrect) {
                 btn.classList.add('incorrect');
@@ -571,12 +608,10 @@ function resetTestInterface() {
     questions = [];
     userAnswers = [];
 
-    // Reset flashcard variables
     currentFlashcardIndex = 0;
     flashcardData = [];
     isFlipped = false;
 
-    // Reset match game variables
     matchCards = [];
     selectedCards = [];
     matchedPairs = 0;
@@ -599,7 +634,6 @@ function startTestMode(mode) {
     if (testInterface) testInterface.classList.remove('hidden');
     if (testOptions) testOptions.style.display = 'none';
 
-    // For flashcard and match-card modes, start immediately
     if (mode === 'flashcard') {
         startFlashcards();
     } else if (mode === 'match-card') {
@@ -617,7 +651,6 @@ function startQuiz() {
         return;
     }
 
-    // Original quiz code continues here...
     const questionCountSelect = document.getElementById('question-count');
     const customCountInput = document.getElementById('custom-count');
 
@@ -662,14 +695,12 @@ function startFlashcards() {
 
     cardCount = Math.min(cardCount, vocabulary.length);
 
-    // Shuffle and select vocabulary
     const shuffled = [...vocabulary].sort(() => Math.random() - 0.5);
     flashcardData = shuffled.slice(0, cardCount);
 
     currentFlashcardIndex = 0;
     isFlipped = false;
 
-    // Show flashcard content
     const flashcardContent = document.getElementById('flashcard-content');
     if (flashcardContent) {
         flashcardContent.classList.remove('hidden');
@@ -690,13 +721,11 @@ function showFlashcard() {
     if (flashcardThai) flashcardThai.textContent = currentCard.thai;
     if (cardCounter) cardCounter.textContent = `${currentFlashcardIndex + 1} / ${flashcardData.length}`;
 
-    // Reset card to front
     if (flashcard) {
         flashcard.classList.remove('flipped');
         isFlipped = false;
     }
 
-    // Update navigation buttons
     updateFlashcardNavigation();
 }
 
@@ -759,10 +788,8 @@ function startMatchGame() {
 
     pairCount = Math.min(pairCount, vocabulary.length);
 
-    // Initialize game
     setupMatchGame(pairCount);
 
-    // Show match content
     const matchContent = document.getElementById('match-content');
     if (matchContent) {
         matchContent.classList.remove('hidden');
@@ -770,17 +797,14 @@ function startMatchGame() {
 }
 
 function setupMatchGame(pairCount) {
-    // Reset variables
     selectedCards = [];
     matchedPairs = 0;
     matchScore = 0;
     matchTimer = 0;
 
-    // Select random vocabulary pairs
     const shuffled = [...vocabulary].sort(() => Math.random() - 0.5);
     const selectedVocab = shuffled.slice(0, pairCount);
 
-    // Create cards array (English and Thai)
     matchCards = [];
     selectedVocab.forEach((item, index) => {
         matchCards.push({
@@ -799,15 +823,12 @@ function setupMatchGame(pairCount) {
         });
     });
 
-    // Shuffle cards
     matchCards = matchCards.sort(() => Math.random() - 0.5);
 
-    // Update UI
     updateMatchScore();
     updateTotalPairs(pairCount);
     createMatchCardsGrid();
 
-    // Start timer
     startMatchTimer();
 }
 
@@ -833,21 +854,17 @@ function selectMatchCard(cardId) {
 
     if (!card || !cardElement || card.matched) return;
 
-    // If card is already selected, deselect it
     if (selectedCards.includes(cardId)) {
         selectedCards = selectedCards.filter(id => id !== cardId);
         cardElement.classList.remove('selected');
         return;
     }
 
-    // If two cards are already selected, do nothing
     if (selectedCards.length >= 2) return;
 
-    // Select the card
     selectedCards.push(cardId);
     cardElement.classList.add('selected');
 
-    // If two cards are selected, check for match
     if (selectedCards.length === 2) {
         setTimeout(() => checkMatch(), 500);
     }
@@ -861,7 +878,6 @@ function checkMatch() {
     const card2Element = document.querySelector(`[data-card-id="${selectedCards[1]}"]`);
 
     if (card1.pairId === card2.pairId) {
-        // Match found
         card1.matched = true;
         card2.matched = true;
         matchedPairs++;
@@ -872,18 +888,15 @@ function checkMatch() {
         card1Element.classList.add('matched');
         card2Element.classList.add('matched');
 
-        // Check if game is complete
         if (matchedPairs === matchCards.length / 2) {
             setTimeout(() => showMatchResults(), 1000);
         }
     } else {
-        // No match
         card1Element.classList.remove('selected');
         card2Element.classList.remove('selected');
         card1Element.classList.add('wrong');
         card2Element.classList.add('wrong');
 
-        // Remove wrong class after animation
         setTimeout(() => {
             card1Element.classList.remove('wrong');
             card2Element.classList.remove('wrong');
@@ -1003,7 +1016,6 @@ function restartMatchGame() {
     if (results) results.classList.add('hidden');
     if (matchContent) matchContent.classList.remove('hidden');
 
-    // Restart with same number of pairs
     const currentPairCount = matchCards.length / 2;
     setupMatchGame(currentPairCount);
 }
