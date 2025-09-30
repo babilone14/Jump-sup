@@ -730,5 +730,87 @@
       "statute"
     ],
     "thai": "กฎหมาย"
+  },
+  {
+    "word": "attend",
+    "thai": "เข้าร่วม",
+    "synonyms": [
+      "be present at",
+      "participate in",
+      "show up"
+    ]
+  },
+  {
+    "word": "proposal",
+    "thai": "ข้อเสนอ",
+    "synonyms": [
+      "suggestion",
+      "plan",
+      "recommendation",
+      "offer"
+    ]
+  },
+  {
+    "word": "confront",
+    "thai": "เผชิญหน้า",
+    "synonyms": [
+      "face",
+      "challenge",
+      "oppose"
+    ]
+  },
+  {
+    "word": "emerge",
+    "thai": "ปรากฏ, โผล่ขึ้น",
+    "synonyms": [
+      "appear",
+      "surface",
+      "arise"
+    ]
+  },
+  {
+    "word": "obstacle",
+    "thai": "อุปสรรค",
+    "synonyms": [
+      "hurdle",
+      "barrier",
+      "impediment"
+    ]
+  },
+  {
+    "word": "pessimistic",
+    "thai": "มองโลกในแง่ร้าย",
+    "synonyms": [
+      "negative",
+      "gloomy",
+      "hopeless"
+    ]
+  },
+  {
+    "word": "voluntary",
+    "thai": "โดยสมัครใจ",
+    "synonyms": [
+      "optional",
+      "willing",
+      "unforced"
+    ]
+  },
+  {
+    "word": "fatigue",
+    "thai": "ความเหน็ดเหนื่อย",
+    "synonyms": [
+      "tiredness",
+      "exhaustion",
+      "weariness"
+    ]
+  },
+  {
+    "word": "phenomenon",
+    "thai": "ปรากฏการณ์",
+    "synonyms": [
+      "event",
+      "occurrence",
+      "incident"
+    ]
   }
 ]
