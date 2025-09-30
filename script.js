@@ -966,8 +966,6 @@ function showMatchResults() {
             <div class="score-container">
                 <div class="score">🎯 คะแนนรวม: ${matchScore} คะแนน</div>
                 <div class="score" style="color: #56ab2f;">✅ จับคู่ได้: ${matchedPairs} คู่</div>
-                <div class="score" style="color: #667eea;">⏱️ เวลาที่ใช้: ${timeString}</div>
-            </div>
         `;
 
         resultsHTML += '<h3>สรุปผลการจับคู่:</h3>';
