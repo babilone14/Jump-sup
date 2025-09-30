@@ -160,11 +160,15 @@ function loadSynonymTable() {
 function resetTestInterface() {
     const testInterface = document.getElementById('test-interface');
     const quizContent = document.getElementById('quiz-content');
+    const flashcardContent = document.getElementById('flashcard-content');
+    const matchContent = document.getElementById('match-content');
     const results = document.getElementById('results');
     const testOptions = document.querySelector('.test-options');
 
     if (testInterface) testInterface.classList.add('hidden');
     if (quizContent) quizContent.classList.add('hidden');
+    if (flashcardContent) flashcardContent.classList.add('hidden');
+    if (matchContent) matchContent.classList.add('hidden');
     if (results) results.classList.add('hidden');
     if (testOptions) testOptions.style.display = 'grid';
 
@@ -173,6 +177,20 @@ function resetTestInterface() {
     score = 0;
     questions = [];
     userAnswers = [];
+
+    currentFlashcardIndex = 0;
+    flashcardData = [];
+    isFlipped = false;
+
+    matchCards = [];
+    selectedCards = [];
+    matchedPairs = 0;
+    matchScore = 0;
+    matchTimer = 0;
+    if (matchInterval) {
+        clearInterval(matchInterval);
+        matchInterval = null;
+    }
 }
 
 function startTestMode(mode) {
@@ -181,6 +199,16 @@ function startTestMode(mode) {
     currentTestMode = mode;
     const testInterface = document.getElementById('test-interface');
     const testOptions = document.querySelector('.test-options');
+
+    if (mode === 'flashcard') {
+        if (testOptions) testOptions.style.display = 'none';
+        startFlashcards();
+        return;
+    } else if (mode === 'match-card') {
+        if (testOptions) testOptions.style.display = 'none';
+        startMatchGame();
+        return;
+    }
 
     if (testInterface) testInterface.classList.remove('hidden');
     if (testOptions) testOptions.style.display = 'none';
@@ -206,7 +234,13 @@ function startQuiz() {
         questionCount = parseInt(customCountInput.value);
         customCountInput.value = '';
     } else if (questionCountSelect) {
-        questionCount = parseInt(questionCountSelect.value);
+        const selectedValue = questionCountSelect.value;
+        if (selectedValue === 'max') {
+            const maxQuestions = currentTestMode === 'synonym' ? synonyms.length : vocabulary.length;
+            questionCount = maxQuestions;
+        } else {
+            questionCount = parseInt(selectedValue);
+        }
     } else {
         questionCount = 10;
     }
@@ -238,16 +272,11 @@ function generateQuestions(count) {
         if (currentTestMode === 'thai-to-eng') {
             question = item.thai;
             correctAnswer = item.eng;
-            // สร้าง options พร้อม part of speech สำหรับ thai-to-eng
-            const vocabWithPart = vocabulary.map(v => ({
-                text: v.eng,
-                part: Array.isArray(v.part) ? v.part.join(', ') : v.part
-            }));
-            options = generateOptionsWithPart(correctAnswer, vocabWithPart, Array.isArray(item.part) ? item.part.join(', ') : item.part);
+            // ไม่แสดง part of speech ในตัวเลือก
+            options = generateOptions(correctAnswer, vocabulary.map(v => v.eng));
         } else if (currentTestMode === 'eng-to-thai') {
-            // แสดง question พร้อม part of speech สำหรับ eng-to-thai
-            const partOfSpeech = Array.isArray(item.part) ? item.part.join(', ') : item.part;
-            question = `${item.eng} (${partOfSpeech})`;
+            // ไม่แสดง part of speech ในคำถาม
+            question = item.eng;
             correctAnswer = item.thai;
             options = generateOptions(correctAnswer, vocabulary.map(v => v.thai));
         } else if (currentTestMode === 'synonym') {
@@ -272,20 +301,6 @@ function generateOptions(correctAnswer, allOptions) {
     while (options.length < 4 && available.length > 0) {
         const randomIndex = Math.floor(Math.random() * available.length);
         options.push(available.splice(randomIndex, 1)[0]);
-    }
-
-    return options.sort(() => Math.random() - 0.5);
-}
-
-// ฟังก์ชันใหม่สำหรับสร้าง options พร้อม part of speech
-function generateOptionsWithPart(correctAnswer, allOptionsWithPart, correctPart) {
-    const options = [`${correctAnswer} (${correctPart})`];
-    const available = allOptionsWithPart.filter(opt => opt.text !== correctAnswer);
-
-    while (options.length < 4 && available.length > 0) {
-        const randomIndex = Math.floor(Math.random() * available.length);
-        const selected = available.splice(randomIndex, 1)[0];
-        options.push(`${selected.text} (${selected.part})`);
     }
 
     return options.sort(() => Math.random() - 0.5);
@@ -369,16 +384,7 @@ function showCurrentQuestion() {
 
 function selectAnswer(selectedAnswer) {
     const currentQ = questions[currentQuestion];
-    
-    // สำหรับ thai-to-eng ต้องตัด part of speech ออกก่อนเปรียบเทียบ
-    let cleanSelectedAnswer = selectedAnswer;
-    let cleanCorrectAnswer = currentQ.correctAnswer;
-    
-    if (currentTestMode === 'thai-to-eng') {
-        cleanSelectedAnswer = selectedAnswer.replace(/\s*\([^)]*\)\s*$/, '').trim();
-    }
-    
-    const isCorrect = cleanSelectedAnswer === cleanCorrectAnswer;
+    const isCorrect = selectedAnswer === currentQ.correctAnswer;
 
     userAnswers.push({
         question: currentQ.question,
@@ -396,15 +402,7 @@ function selectAnswer(selectedAnswer) {
         const buttons = optionsContainer.querySelectorAll('.option-btn');
         buttons.forEach(btn => {
             btn.disabled = true;
-            
-            let btnText = btn.textContent;
-            let correctText = currentQ.correctAnswer;
-            
-            if (currentTestMode === 'thai-to-eng') {
-                btnText = btnText.replace(/\s*\([^)]*\)\s*$/, '').trim();
-            }
-            
-            if (btnText === correctText) {
+            if (btn.textContent === currentQ.correctAnswer) {
                 btn.classList.add('correct');
             } else if (btn.textContent === selectedAnswer && !isCorrect) {
                 btn.classList.add('incorrect');
@@ -573,12 +571,11 @@ function loadSavedTheme() {
     }
 }
 
-// Additional variables for new features
+// Flashcard และ Match Card variables
 let currentFlashcardIndex = 0;
 let flashcardData = [];
 let isFlipped = false;
 
-// Match card variables
 let matchCards = [];
 let selectedCards = [];
 let matchedPairs = 0;
@@ -586,122 +583,25 @@ let matchScore = 0;
 let matchTimer = 0;
 let matchInterval = null;
 
-// Update the resetTestInterface function to include new variables
-function resetTestInterface() {
-    const testInterface = document.getElementById('test-interface');
-    const quizContent = document.getElementById('quiz-content');
-    const flashcardContent = document.getElementById('flashcard-content');
-    const matchContent = document.getElementById('match-content');
-    const results = document.getElementById('results');
-    const testOptions = document.querySelector('.test-options');
-
-    if (testInterface) testInterface.classList.add('hidden');
-    if (quizContent) quizContent.classList.add('hidden');
-    if (flashcardContent) flashcardContent.classList.add('hidden');
-    if (matchContent) matchContent.classList.add('hidden');
-    if (results) results.classList.add('hidden');
-    if (testOptions) testOptions.style.display = 'grid';
-
-    currentTestMode = null;
-    currentQuestion = 0;
-    score = 0;
-    questions = [];
-    userAnswers = [];
-
-    currentFlashcardIndex = 0;
-    flashcardData = [];
-    isFlipped = false;
-
-    matchCards = [];
-    selectedCards = [];
-    matchedPairs = 0;
-    matchScore = 0;
-    matchTimer = 0;
-    if (matchInterval) {
-        clearInterval(matchInterval);
-        matchInterval = null;
-    }
-}
-
-// Update the startTestMode function
-function startTestMode(mode) {
-    if (!checkDataLoaded()) return;
-
-    currentTestMode = mode;
-    const testInterface = document.getElementById('test-interface');
-    const testOptions = document.querySelector('.test-options');
-
-    if (testInterface) testInterface.classList.remove('hidden');
-    if (testOptions) testOptions.style.display = 'none';
-
-    if (mode === 'flashcard') {
-        startFlashcards();
-    } else if (mode === 'match-card') {
-        startMatchGame();
-    }
-}
-
-// Update the startQuiz function
-function startQuiz() {
-    if (currentTestMode === 'flashcard') {
-        startFlashcards();
-        return;
-    } else if (currentTestMode === 'match-card') {
-        startMatchGame();
-        return;
-    }
-
-    const questionCountSelect = document.getElementById('question-count');
-    const customCountInput = document.getElementById('custom-count');
-
-    let questionCount;
-
-    if (customCountInput && customCountInput.value && parseInt(customCountInput.value) > 0) {
-        questionCount = parseInt(customCountInput.value);
-        customCountInput.value = '';
-    } else if (questionCountSelect) {
-        questionCount = parseInt(questionCountSelect.value);
-    } else {
-        questionCount = 10;
-    }
-
-    const maxQuestions = currentTestMode === 'synonym' ? synonyms.length : vocabulary.length;
-    questionCount = Math.min(questionCount, maxQuestions);
-
-    generateQuestions(questionCount);
-
-    const quizContent = document.getElementById('quiz-content');
-    if (quizContent) {
-        quizContent.classList.remove('hidden');
-        showCurrentQuestion();
-    }
-}
-
 // Flashcard Functions
 function startFlashcards() {
-    const questionCountSelect = document.getElementById('question-count');
-    const customCountInput = document.getElementById('custom-count');
-
-    let cardCount;
-
-    if (customCountInput && customCountInput.value && parseInt(customCountInput.value) > 0) {
-        cardCount = parseInt(customCountInput.value);
-        customCountInput.value = '';
-    } else if (questionCountSelect) {
-        cardCount = parseInt(questionCountSelect.value);
-    } else {
-        cardCount = 10;
+    console.log('Starting flashcards');
+    
+    if (vocabulary.length === 0) {
+        alert('ไม่พบข้อมูลคำศัพท์');
+        return;
     }
 
-    cardCount = Math.min(cardCount, vocabulary.length);
-
     const shuffled = [...vocabulary].sort(() => Math.random() - 0.5);
-    flashcardData = shuffled.slice(0, cardCount);
+    flashcardData = shuffled;
 
     currentFlashcardIndex = 0;
     isFlipped = false;
 
+    const testInterface = document.getElementById('test-interface');
     const flashcardContent = document.getElementById('flashcard-content');
+    
+    if (testInterface) testInterface.classList.remove('hidden');
     if (flashcardContent) {
         flashcardContent.classList.remove('hidden');
         showFlashcard();
@@ -772,25 +672,20 @@ function shuffleFlashcards() {
 
 // Match Card Functions
 function startMatchGame() {
-    const questionCountSelect = document.getElementById('question-count');
-    const customCountInput = document.getElementById('custom-count');
-
-    let pairCount;
-
-    if (customCountInput && customCountInput.value && parseInt(customCountInput.value) > 0) {
-        pairCount = parseInt(customCountInput.value);
-        customCountInput.value = '';
-    } else if (questionCountSelect) {
-        pairCount = parseInt(questionCountSelect.value);
-    } else {
-        pairCount = 6;
+    console.log('Starting match game');
+    
+    if (vocabulary.length === 0) {
+        alert('ไม่พบข้อมูลคำศัพท์');
+        return;
     }
 
-    pairCount = Math.min(pairCount, vocabulary.length);
-
+    const pairCount = 10;
     setupMatchGame(pairCount);
 
+    const testInterface = document.getElementById('test-interface');
     const matchContent = document.getElementById('match-content');
+    
+    if (testInterface) testInterface.classList.remove('hidden');
     if (matchContent) {
         matchContent.classList.remove('hidden');
     }
@@ -828,8 +723,6 @@ function setupMatchGame(pairCount) {
     updateMatchScore();
     updateTotalPairs(pairCount);
     createMatchCardsGrid();
-
-    startMatchTimer();
 }
 
 function createMatchCardsGrid() {
@@ -931,26 +824,7 @@ function updateTotalPairs(total) {
     }
 }
 
-function startMatchTimer() {
-    if (matchInterval) clearInterval(matchInterval);
-
-    matchInterval = setInterval(() => {
-        matchTimer++;
-        const minutes = Math.floor(matchTimer / 60);
-        const seconds = matchTimer % 60;
-        const timerElement = document.getElementById('timer');
-        if (timerElement) {
-            timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-        }
-    }, 1000);
-}
-
 function showMatchResults() {
-    if (matchInterval) {
-        clearInterval(matchInterval);
-        matchInterval = null;
-    }
-
     const results = document.getElementById('results');
     const matchContent = document.getElementById('match-content');
 
@@ -958,14 +832,11 @@ function showMatchResults() {
     if (results) {
         results.classList.remove('hidden');
 
-        const minutes = Math.floor(matchTimer / 60);
-        const seconds = matchTimer % 60;
-        const timeString = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-
         let resultsHTML = `
             <div class="score-container">
                 <div class="score">🎯 คะแนนรวม: ${matchScore} คะแนน</div>
                 <div class="score" style="color: #56ab2f;">✅ จับคู่ได้: ${matchedPairs} คู่</div>
+            </div>
         `;
 
         resultsHTML += '<h3>สรุปผลการจับคู่:</h3>';
