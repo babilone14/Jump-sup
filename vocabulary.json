@@ -1530,11 +1530,6 @@
     "part": "n"
   },
   {
-    "eng": "shrunk",
-    "thai": "ลดขนาด, หดตัว (ช่อง 3 ของ shrink)",
-    "part": "n"
-  },
-  {
     "eng": "grapple",
     "thai": "เผชิญ, ต่อสู้กับ",
     "part": "n"
@@ -2441,5 +2436,180 @@
     "eng": "botanist",
     "thai": "นักพฤกษศาสตร์",
     "part": "n"
+  },
+  {
+    "eng": "farewell",
+    "thai": "การอำลา",
+    "part": [
+      "n",
+      "phr"
+    ]
+  },
+  {
+    "eng": "fundraiser",
+    "thai": "การระดมทุน",
+    "part": "n"
+  },
+  {
+    "eng": "pale",
+    "thai": "ซีด",
+    "part": "adj"
+  },
+  {
+    "eng": "sightseeing",
+    "thai": "การท่องเที่ยวชมวิว",
+    "part": "n"
+  },
+  {
+    "eng": "downward",
+    "thai": "ลงข้างล่าง",
+    "part": [
+      "adj",
+      "adv"
+    ]
+  },
+  {
+    "eng": "veterinary",
+    "thai": "สัตวแพทย์",
+    "part": [
+      "adj",
+      "n"
+    ]
+  },
+  {
+    "eng": "tumble",
+    "thai": "ล้ม, กลิ้ง",
+    "part": "v"
+  },
+  {
+    "eng": "terminal",
+    "thai": "สถานีปลายทาง, ระยะสุดท้าย",
+    "part": [
+      "n",
+      "adj"
+    ]
+  },
+  {
+    "eng": "denounce",
+    "thai": "ประณาม",
+    "part": "v"
+  },
+  {
+    "eng": "regulate",
+    "thai": "ควบคุม, กำกับ",
+    "part": "v"
+  },
+  {
+    "eng": "skyscraper",
+    "thai": "ตึกระฟ้า",
+    "part": "n"
+  },
+  {
+    "eng": "metropolitan",
+    "thai": "เมืองหลวง, เขตมหานคร",
+    "part": [
+      "adj",
+      "n"
+    ]
+  },
+  {
+    "eng": "possession",
+    "thai": "การครอบครอง",
+    "part": "n"
+  },
+  {
+    "eng": "modification",
+    "thai": "การแก้ไข, การปรับปรุง",
+    "part": "n"
+  },
+  {
+    "eng": "commitment",
+    "thai": "คำมั่นสัญญา, ความมุ่งมั่น",
+    "part": "n"
+  },
+  {
+    "eng": "intimacy",
+    "thai": "ความใกล้ชิดสนิทสนม",
+    "part": "n"
+  },
+  {
+    "eng": "afflict",
+    "thai": "ทำให้เจ็บปวด",
+    "part": "v"
+  },
+  {
+    "eng": "prevalence",
+    "thai": "ความแพร่หลาย",
+    "part": "n"
+  },
+  {
+    "eng": "endeavor",
+    "thai": "ความพยายาม, พยายาม",
+    "part": [
+      "n",
+      "v"
+    ]
+  },
+  {
+    "eng": "alter",
+    "thai": "เปลี่ยนแปลง",
+    "part": "v"
+  },
+  {
+    "eng": "severity",
+    "thai": "ความรุนแรง",
+    "part": "n"
+  },
+  {
+    "eng": "kick off",
+    "thai": "เริ่มต้น",
+    "part": "phr"
+  },
+  {
+    "eng": "reinforce",
+    "thai": "เสริมกำลัง, เสริมแรง",
+    "part": "v"
+  },
+  {
+    "eng": "subject",
+    "thai": "หัวข้อ/วิชา/ผู้ใต้บังคับบัญชา, อยู่ใต้อำนาจ, ครอบงำ/ควบคุม",
+    "part": [
+      "n",
+      "adj",
+      "v"
+    ]
+  },
+  {
+    "eng": "appease",
+    "thai": "ทำให้สงบ, ทำให้พอใจ",
+    "part": "v"
+  },
+  {
+    "eng": "resort",
+    "thai": "สถานที่พักผ่อน, ใช้วิธี",
+    "part": [
+      "n",
+      "v"
+    ]
+  },
+  {
+    "eng": "outlet",
+    "thai": "ทางออก, ร้านจำหน่าย",
+    "part": "n"
+  },
+  {
+    "eng": "coping",
+    "thai": "การรับมือ",
+    "part": "n"
+  },
+  {
+    "eng": "reliable",
+    "thai": "เชื่อถือได้",
+    "part": "adj"
+  },
+  {
+    "eng": "stubborn",
+    "thai": "ดื้อ, หัวแข็ง",
+    "part": "adj"
   }
 ]
