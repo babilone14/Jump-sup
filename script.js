@@ -6,6 +6,16 @@ let currentQuestion = 0;
 let score = 0;
 let questions = [];
 let userAnswers = [];
+let currentVocabFilter = 'all';
+let currentFlashcardIndex = 0;
+let flashcardData = [];
+let isFlipped = false;
+let matchCards = [];
+let selectedCards = [];
+let matchedPairs = 0;
+let matchScore = 0;
+let matchTimer = 0;
+let matchInterval = null;
 
 async function loadData() {
     try {
@@ -79,7 +89,7 @@ function updateNavigation(activeSection) {
     }
 }
 
-function loadVocabularyTable() {
+function loadVocabularyTable(filter = 'all') {
     if (!checkDataLoaded()) return;
 
     const section = document.getElementById('vocabulary');
@@ -88,9 +98,16 @@ function loadVocabularyTable() {
     const oldGrid = section.querySelector('.vocab-grid');
     if (oldGrid) oldGrid.remove();
 
-    const sortedVocabulary = [...vocabulary].sort((a, b) =>
+    let filteredVocabulary = vocabulary;
+    if (filter !== 'all') {
+        filteredVocabulary = vocabulary.filter(item => item.level === filter);
+    }
+
+    const sortedVocabulary = [...filteredVocabulary].sort((a, b) =>
         a.eng.toLowerCase().localeCompare(b.eng.toLowerCase())
     );
+
+    updateVocabCount(filteredVocabulary.length, vocabulary.length);
 
     const vocabGrid = document.createElement('div');
     vocabGrid.className = 'vocab-grid';
@@ -106,8 +123,9 @@ function loadVocabularyTable() {
         const vocabItem = document.createElement('div');
         vocabItem.className = 'vocab-item';
         const partOfSpeech = Array.isArray(item.part) ? item.part.join(', ') : item.part;
+        const levelBadge = getLevelBadge(item.level);
         vocabItem.innerHTML = `
-            <span class="vocab-eng">${item.eng}</span>
+            <span class="vocab-eng">${item.eng} ${levelBadge}</span>
             <span class="vocab-part">(${partOfSpeech})</span>
             <span class="vocab-thai">${item.thai}</span>
         `;
@@ -121,8 +139,9 @@ function loadVocabularyTable() {
         const vocabItem = document.createElement('div');
         vocabItem.className = 'vocab-item';
         const partOfSpeech = Array.isArray(item.part) ? item.part.join(', ') : item.part;
+        const levelBadge = getLevelBadge(item.level);
         vocabItem.innerHTML = `
-            <span class="vocab-eng">${item.eng}</span>
+            <span class="vocab-eng">${item.eng} ${levelBadge}</span>
             <span class="vocab-part">(${partOfSpeech})</span>
             <span class="vocab-thai">${item.thai}</span>
         `;
@@ -132,6 +151,34 @@ function loadVocabularyTable() {
     vocabGrid.appendChild(leftDiv);
     vocabGrid.appendChild(rightDiv);
     section.appendChild(vocabGrid);
+}
+
+function getLevelBadge(level) {
+    if (!level) return '';
+    const levelClass = level.toLowerCase();
+    return `<span class="vocab-level ${levelClass}">${level}</span>`;
+}
+
+function updateVocabCount(filtered, total) {
+    const countElement = document.getElementById('vocab-count');
+    if (countElement) {
+        if (filtered === total) {
+            countElement.textContent = `คำทั้งหมด: ${total}`;
+        } else {
+            countElement.textContent = `แสดง: ${filtered} / ${total} คำ`;
+        }
+    }
+}
+
+function filterVocabulary(level) {
+    currentVocabFilter = level;
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    event.target.classList.add('active');
+
+    loadVocabularyTable(level);
 }
 
 function loadSynonymTable() {
@@ -177,11 +224,9 @@ function resetTestInterface() {
     score = 0;
     questions = [];
     userAnswers = [];
-
     currentFlashcardIndex = 0;
     flashcardData = [];
     isFlipped = false;
-
     matchCards = [];
     selectedCards = [];
     matchedPairs = 0;
@@ -272,10 +317,8 @@ function generateQuestions(count) {
         if (currentTestMode === 'thai-to-eng') {
             question = item.thai;
             correctAnswer = item.eng;
-            // ไม่แสดง part of speech ในตัวเลือก
             options = generateOptions(correctAnswer, vocabulary.map(v => v.eng));
         } else if (currentTestMode === 'eng-to-thai') {
-            // ไม่แสดง part of speech ในคำถาม
             question = item.eng;
             correctAnswer = item.thai;
             options = generateOptions(correctAnswer, vocabulary.map(v => v.thai));
@@ -530,27 +573,6 @@ function submitFeedback() {
         });
 }
 
-document.addEventListener('DOMContentLoaded', async function () {
-    loadSavedTheme();
-    await loadData();
-    showSection('home');
-
-    window.addEventListener('click', function (event) {
-        const modal = document.getElementById('feedback-modal');
-        if (event.target === modal) {
-            closeFeedbackModal();
-        }
-    });
-
-    document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape') {
-            closeFeedbackModal();
-        }
-    });
-
-    console.log('Jump Sup Application โหลดสำเร็จ!');
-});
-
 function toggleTheme() {
     const body = document.body;
     const isDark = body.classList.contains('dark-theme');
@@ -571,22 +593,9 @@ function loadSavedTheme() {
     }
 }
 
-// Flashcard และ Match Card variables
-let currentFlashcardIndex = 0;
-let flashcardData = [];
-let isFlipped = false;
-
-let matchCards = [];
-let selectedCards = [];
-let matchedPairs = 0;
-let matchScore = 0;
-let matchTimer = 0;
-let matchInterval = null;
-
-// Flashcard Functions
 function startFlashcards() {
     console.log('Starting flashcards');
-    
+
     if (vocabulary.length === 0) {
         alert('ไม่พบข้อมูลคำศัพท์');
         return;
@@ -600,7 +609,7 @@ function startFlashcards() {
 
     const testInterface = document.getElementById('test-interface');
     const flashcardContent = document.getElementById('flashcard-content');
-    
+
     if (testInterface) testInterface.classList.remove('hidden');
     if (flashcardContent) {
         flashcardContent.classList.remove('hidden');
@@ -664,16 +673,9 @@ function updateFlashcardNavigation() {
     }
 }
 
-function shuffleFlashcards() {
-    flashcardData = [...flashcardData].sort(() => Math.random() - 0.5);
-    currentFlashcardIndex = 0;
-    showFlashcard();
-}
-
-// Match Card Functions
 function startMatchGame() {
     console.log('Starting match game');
-    
+
     if (vocabulary.length === 0) {
         alert('ไม่พบข้อมูลคำศัพท์');
         return;
@@ -684,7 +686,7 @@ function startMatchGame() {
 
     const testInterface = document.getElementById('test-interface');
     const matchContent = document.getElementById('match-content');
-    
+
     if (testInterface) testInterface.classList.remove('hidden');
     if (matchContent) {
         matchContent.classList.remove('hidden');
@@ -888,3 +890,24 @@ function restartMatchGame() {
     const currentPairCount = matchCards.length / 2;
     setupMatchGame(currentPairCount);
 }
+
+document.addEventListener('DOMContentLoaded', async function () {
+    loadSavedTheme();
+    await loadData();
+    showSection('home');
+
+    window.addEventListener('click', function (event) {
+        const modal = document.getElementById('feedback-modal');
+        if (event.target === modal) {
+            closeFeedbackModal();
+        }
+    });
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            closeFeedbackModal();
+        }
+    });
+
+    console.log('Jump Sup Application โหลดสำเร็จ!');
+});

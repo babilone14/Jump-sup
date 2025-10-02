@@ -87,6 +87,14 @@
             <h1>
                 < Vocabulary Table>
             </h1>
+            <div class="vocab-filter">
+                <label>Filter : </label>
+                <button class="filter-btn active" onclick="filterVocabulary('all')">All</button>
+                <button class="filter-btn" onclick="filterVocabulary('easy')">Easy</button>
+                <button class="filter-btn" onclick="filterVocabulary('medium')">Medium</button>
+                <button class="filter-btn" onclick="filterVocabulary('hard')">Hard</button>
+                <span class="vocab-count" id="vocab-count">คำศัพท์ทั้งหมด : 0</span>
+            </div>
         </section>
 
         <section id="synonym" class="section">
