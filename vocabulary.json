@@ -2,2107 +2,2528 @@
   {
     "eng": "abandon",
     "thai": "ละทิ้ง ปล่อย เลิกคิด",
-    "part": "n"
+    "part": "n",
+    "level": "medium"
   },
   {
     "eng": "abbreviate",
     "thai": "ย่อ เขียนให้สั้นลง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "abduct",
     "thai": "ลักพาตัว",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "ability",
     "thai": "ความสามารถ",
-    "part": "n"
+    "part": "n",
+    "level": "easy"
   },
   {
     "eng": "abolish",
     "thai": "ยกเลิก ล้มล้าง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "abortion",
     "thai": "การทำแท้ง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "absolutely",
     "thai": "อย่างเด็ดขาด แน่นอน",
-    "part": "adv"
+    "part": "adv",
+    "level": "medium"
   },
   {
     "eng": "abundant",
     "thai": "มากมาย อุดมสมบูรณ์",
-    "part": "n"
+    "part": "n",
+    "level": "medium"
   },
   {
     "eng": "abuse",
     "thai": "ใช้ในทางที่ผิด ทำร้าย",
-    "part": "n"
+    "part": "n",
+    "level": "medium"
   },
   {
     "eng": "accelerate",
     "thai": "เร่งความเร็ว",
-    "part": "v"
+    "part": "v",
+    "level": "medium"
   },
   {
     "eng": "accessible",
     "thai": "สามารถเข้าได้ง่าย",
-    "part": "adj"
+    "part": "adj",
+    "level": "medium"
   },
   {
     "eng": "accessory",
     "thai": "อุปกรณ์เสริม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "accidentally",
     "thai": "โดยบังเอิญ",
-    "part": "adv"
+    "part": "adv",
+    "level": "medium"
   },
   {
     "eng": "accommodation",
     "thai": "ที่พักอาศัย",
-    "part": "n"
+    "part": "n",
+    "level": "easy"
   },
   {
     "eng": "accompany",
     "thai": "ไปเป็นเพื่อน",
-    "part": "n"
+    "part": "n",
+    "level": "medium"
   },
   {
     "eng": "accomplice",
     "thai": "ผู้สมรู้ร่วมคิด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "accomplish",
     "thai": "ทำสำเร็จ",
-    "part": "adj"
+    "part": "adj",
+    "level": "medium"
   },
   {
     "eng": "accumulate",
     "thai": "สะสม เพิ่มพูน",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "accurate",
     "thai": "ถูกต้อง แม่นยำ",
-    "part": "v"
+    "part": "v",
+    "level": "medium"
   },
   {
     "eng": "accuse",
     "thai": "กล่าวหา ใส่ความ",
-    "part": "n"
+    "part": "n",
+    "level": "medium"
   },
   {
     "eng": "acquaintance",
     "thai": "คนรู้จัก ความรู้",
-    "part": "n"
+    "part": "n",
+    "level": "medium"
   },
   {
     "eng": "acquire",
     "thai": "ได้รับมา ได้เรียนรู้",
-    "part": "n"
+    "part": "n",
+    "level": "medium"
   },
   {
     "eng": "activate",
     "thai": "กระตุ้น ทำให้เกิดขึ้น",
-    "part": "v"
+    "part": "v",
+    "level": "medium"
   },
   {
     "eng": "adapt",
     "thai": "ปรับตัว ปรับให้เหมาะ",
-    "part": "n"
+    "part": "n",
+    "level": "medium"
   },
   {
     "eng": "addicted",
     "thai": "ติดสิ่งเสพติด ติดนิสัย",
-    "part": "n"
+    "part": "n",
+    "level": "medium"
   },
   {
     "eng": "additional",
     "thai": "ที่เพิ่มเติมเข้ามา",
-    "part": "adj"
+    "part": "adj",
+    "level": "easy"
   },
   {
     "eng": "adequate",
     "thai": "เพียงพอ",
-    "part": "v"
+    "part": "v",
+    "level": "medium"
   },
   {
     "eng": "administration",
     "thai": "การจัดการ การบริหาร",
-    "part": "n"
+    "part": "n",
+    "level": "medium"
   },
   {
     "eng": "adopt",
     "thai": "รับมาใช้ รับบุญธรรม",
-    "part": "n"
+    "part": "n",
+    "level": "medium"
   },
   {
     "eng": "advantage",
     "thai": "ผลประโยชน์ ข้อดี",
-    "part": "n"
+    "part": "n",
+    "level": "easy"
   },
   {
     "eng": "advocate",
     "thai": "สนับสนุน ทนาย",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "affordable",
     "thai": "สามารถซื้อมาได้",
-    "part": "adj"
+    "part": "adj",
+    "level": "medium"
   },
   {
     "eng": "aggravate",
     "thai": "ทำให้แย่ลง ทำให้โกรธ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "aggressive",
     "thai": "ก้าวร้าว",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "ailment",
     "thai": "ความเจ็บป่วย โรคภัย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "allergic",
     "thai": "มีอาการแพ้",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "alleviate",
     "thai": "บรรเทา ทำให้น้อยลง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "alternative",
     "thai": "ทางเลือก สิ่งเลือกได้",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "ambiguous",
     "thai": "กำกวม คลุมเครือ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "ambition",
     "thai": "ความทะเยอทะยาน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "ameliorate",
     "thai": "ทำให้ดีขึ้น ปรับปรุง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "analysis",
     "thai": "การวิเคราะห์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "annual",
     "thai": "รายปี",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "anticipate",
     "thai": "คาดการณ์ คาดหวัง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "antique",
     "thai": "โบราณวัตถุ เก่าแก่",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "anxiety",
     "thai": "ความวิตกกังวล",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "apology",
     "thai": "คำขอโทษ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "apparent",
     "thai": "เห็นได้ชัด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "apply",
     "thai": "สมัคร ประยุกต์",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "appreciate",
     "thai": "ซาบซึ้ง เห็นคุณค่า",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "appropriate",
     "thai": "เหมาะสม",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "approve",
     "thai": "เห็นชอบ ยอมรับ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "aptitude",
     "thai": "ความถนัด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "arouse",
     "thai": "กระตุ้น ก่อให้เกิด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "artificial",
     "thai": "ปลอม เทียม ทำขึ้นเอง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "aspiration",
     "thai": "ความปรารถนา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "assist",
     "thai": "ช่วยเหลือ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "associate",
     "thai": "คบค้าสมาคม เชื่อมโยง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "assume",
     "thai": "สมมติฐาน ทึกทัก",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "assure",
     "thai": "รับรอง ทำให้มั่นใจ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "astonish",
     "thai": "ทำให้ประหลาดใจ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "attain",
     "thai": "บรรลุ ทำสำเร็จ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "attend",
     "thai": "เข้าร่วม ดูแล เอาใจใส่",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "attract",
     "thai": "ดึงดูดใจ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "authority",
     "thai": "อำนาจ มีอิทธิพล",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "aware",
     "thai": "ตระหนัก รับรู้ รู้ตัว",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "awkward",
     "thai": "งุ่มง่าม เงอะงะ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "banish",
     "thai": "เนรเทศ ขจัดออกไป",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "behavior",
     "thai": "ความประพฤติ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "beneficial",
     "thai": "เป็นประโยชน์",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "betray",
     "thai": "ทรยศ หักหลัง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "bewilder",
     "thai": "ทำให้สับสน งุนงง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "biography",
     "thai": "ชีวประวัติ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "bizarre",
     "thai": "แปลกประหลาด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "boastful",
     "thai": "ชอบคุยโม้ โอ้อวด",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "bribe",
     "thai": "สินบน ติดสินบน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "broadcast",
     "thai": "โฆษณา ประกาศ แพร่ข่าว",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "brutal",
     "thai": "ทารุณโหดร้าย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "burglar",
     "thai": "นักย่องเบา นักเจาะบ้าน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "candidate",
     "thai": "ผู้สมัคร ผู้เข้าสอบ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "carnivore",
     "thai": "สัตว์ ประเภท กินเนื้อ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "category",
     "thai": "หมวดหมู่ ประเภท",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "certain",
     "thai": "แน่นอน บางสิ่ง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "chronic",
     "thai": "เรื้อรัง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "circulate",
     "thai": "หมุนเวียน ส่งต่อกันไป",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "circumspect",
     "thai": "รอบคอบ ระมัดระวัง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "circumstance",
     "thai": "เหตุการณ์ สถานการณ์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "clarify",
     "thai": "ทำให้กระจ่าง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "collaborate",
     "thai": "ทำงานร่วมกัน",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "commit",
     "thai": "กระทำผิด ผูกมัด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "compensation",
     "thai": "การชดเชย เงินทดแทน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "complicated",
     "thai": "เข้าใจยาก ซับซ้อน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "compliment",
     "thai": "คำชม ชมเชย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "comprehend",
     "thai": "เข้าใจ ครอบคลุม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "compulsory",
     "thai": "เป็นการบังคับ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "concentrate",
     "thai": "ตั้งใจ ทำให้เข้มข้น",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "concise",
     "thai": "กระชับ รัดกุม",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "condition",
     "thai": "สภาพ เงื่อนไข",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "confess",
     "thai": "สารภาพ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "confidential",
     "thai": "เป็นความลับ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "conscious",
     "thai": "มีสติ รู้สึก",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "consent",
     "thai": "การอนุญาต ยินยอม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "consequence",
     "thai": "ผลลัพธ์ ความสำคัญ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "conserve",
     "thai": "สงวน อนุรักษ์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "considerable",
     "thai": "มากมาย อย่างมาก",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "considerate",
     "thai": "คิดถึงผู้อื่น",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "constantly",
     "thai": "อย่างต่อเนื่อง",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "contaminate",
     "thai": "ทำให้สกปรก ปนเปื้อน",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "contradictory",
     "thai": "ขัดแย้งกัน ไม่ลงรอยกัน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "contribute",
     "thai": "สนับสนุน ก่อให้เกิด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "cooperate",
     "thai": "ร่วมมือกัน",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "courteous",
     "thai": "สุภาพ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "criticize",
     "thai": "วิจารณ์",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "crucial",
     "thai": "สำคัญมาก",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "curiosity",
     "thai": "ความอยากรู้อยากเห็น",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "deceive",
     "thai": "หลอกลวง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "deficiency",
     "thai": "ความขาดแคลน บกพร่อง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "deliberate",
     "thai": "เจตนา ตั้งใจ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "delicate",
     "thai": "บอบบาง ประณีต",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "demolish",
     "thai": "รื้อทำลาย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "demonstrate",
     "thai": "สาธิต เดินขบวน",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "depressed",
     "thai": "รู้สึกเศร้าหมอง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "deserve",
     "thai": "สมควรได้รับ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "desperate",
     "thai": "หมดหวัง สิ้นคิด",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "deteriorate",
     "thai": "ทำให่แย่ลง ทำให้เสื่อม",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "determine",
     "thai": "ตั้งใจแน่วแน่ ตัดสิน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "devote",
     "thai": "อุทิศ ทุ่มเท",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "diagnose",
     "thai": "ตรวจโรค วินิจฉัย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "disaster",
     "thai": "ความหายนะ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "discriminate",
     "thai": "แยกแยะ แบ่งแยก",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "distinguish",
     "thai": "จำแนก ทำให้เด่น",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "distract",
     "thai": "ดึงความสนใจ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "distribute",
     "thai": "แจกจ่าย แพร่หลาย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "diverse",
     "thai": "แตกต่าง หลากหลาย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "dominate",
     "thai": "ครอบงำ เห็นเด่นชัด",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "donate",
     "thai": "บริจาค มอบให้",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "dramatically",
     "thai": "อย่างมาก อย่างน่าทึ่ง",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "dwindle",
     "thai": "ค่อย ๆ ลดน้อยลง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "economical",
     "thai": "ประหยัด มัธยัสถ์",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "effective",
     "thai": "ได้ผล มีผลบังคับใช้",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "efficient",
     "thai": "มีประสิทธิภาพ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "elaborate",
     "thai": "บรรยาย ละเอียด",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "election",
     "thai": "การเลือกตั้ง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "eliminate",
     "thai": "กำจัด เอาออกไป",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "embarrass",
     "thai": "ทำให้อึดอัด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "emerge",
     "thai": "ปรากฏ โผล่ออกมา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "emigrate",
     "thai": "อพยพหนีภัยออก",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "emphasize",
     "thai": "ย้ำ เน้นความสำคัญ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "endangered",
     "thai": "ถูกคุกคาม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "endure",
     "thai": "ทนทาน อดทน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "enormous",
     "thai": "มโหฬาร มากมาย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "enthusiastic",
     "thai": "กระตือรือร้น",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "envy",
     "thai": "ความรู้สึกอิจฉา ริษยา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "equivalent",
     "thai": "สิ่งที่เหมือนกัน เท่ากัน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "essential",
     "thai": "จำเป็นอย่างที่สุด",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "establish",
     "thai": "จัดตั้ง พิสูจน์",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "estimate",
     "thai": "คำนวณ ประมาณการ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "evaluate",
     "thai": "ประเมินผล หาค่า",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "eventually",
     "thai": "ในที่สุด",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "evolve",
     "thai": "พัฒนา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "exaggerate",
     "thai": "พูดหรือทำเกินจริง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "excessive",
     "thai": "มากเกินไป",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "exclude",
     "thai": "กีดกัน เอาออก",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "exhibition",
     "thai": "นิทรรศการ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "exist",
     "thai": "มีอยู่จริง มีชีวิตอยู่",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "expert",
     "thai": "ผู้เชี่ยวชาญ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "exploit",
     "thai": "แสวงหาผลประโยชน์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "extravagant",
     "thai": "ฟุ่มเฟือย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "facilitate",
     "thai": "อำนวยความสะดวก",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "familiar",
     "thai": "คุ้นเคย สนิทสนม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "fatal",
     "thai": "ถึงตาย หายนะ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "fertile",
     "thai": "อุดมสมบูรณ์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "fluctuate",
     "thai": "เปลี่ยนแปลงขึ้นลง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "fortunate",
     "thai": "โชคดี",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "frustrate",
     "thai": "ทำให้หงุดหงิด",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "generate",
     "thai": "ผลิต ก่อให้เกิด",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "genuine",
     "thai": "แท้จริง จริงใจ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "gradually",
     "thai": "อย่างค่อยเป็นค่อยไป",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "grateful",
     "thai": "กตัญญู รู้สึกขอบคุณ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "guilty",
     "thai": "มีความผิด รู้สึกผิด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "habitual",
     "thai": "เป็นนิสัย โดยปกติ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "hazardous",
     "thai": "มีอันตราย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "hesitate",
     "thai": "ลังเล รีรอ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "hospitality",
     "thai": "อัธยาศัยไมตรี",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "hostile",
     "thai": "เป็นศัตรู เกลียดชัง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "humiliate",
     "thai": "ทำให้อับอาย",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "identical",
     "thai": "เหมือนกันทุกประการ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "illegal",
     "thai": "ผิดกฎหมาย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "illustrate",
     "thai": "ให้ภาพประกอบ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "imply",
     "thai": "บอกเป็นนัย",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "impressive",
     "thai": "น่าประทับใจ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "impulsive",
     "thai": "หุนหันพลันแล่น",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "induce",
     "thai": "เหนี่ยวนำ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "indicate",
     "thai": "แสดงให้เห็น บ่งชี้",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "indifferent",
     "thai": "ไม่แยแส เพิกเฉย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "infect",
     "thai": "ติดเชื้อ แพร่เชื้อ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "influential",
     "thai": "มีอำนาจ มีอิทธิพล",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "initial",
     "thai": "อักษรย่อ แรกเริ่ม",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "interpret",
     "thai": "แปล ตีความ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "ironic",
     "thai": "ประชดประชัน",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "isolate",
     "thai": "แยกจากกัน",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "jealous",
     "thai": "อิจฉา ริษยา",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "judge",
     "thai": "ผู้พิพากษา ตัดสิน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "justify",
     "thai": "ให้เหตุผล เป็นข้ออ้าง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "keen",
     "thai": "มีความรอบรู้",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "knowledgeable",
     "thai": "รอบรู้ มีความรู้ ชำนาญ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "legible",
     "thai": "เลอ่านง่าย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "leisure",
     "thai": "เวลาว่าง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "likely",
     "thai": "เป็นไปได้",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "literal",
     "thai": "อ้างอิงตามคำเขียนได้",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "logical",
     "thai": "สมเหตุสมผล",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "loyal",
     "thai": "ซื่อสัตย์ ภักดี",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "luxurious",
     "thai": "หรูหราฟุ่มเฟือย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "maintain",
     "thai": "บำรุงรักษา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "manufacture",
     "thai": "การผลิต ผลิตออกมา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "massive",
     "thai": "ใหญ่โต",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "mature",
     "thai": "โตเต็มที่ เจริญเติบโต",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "measure",
     "thai": "มาตรการ วัดขนาด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "mental",
     "thai": "เกี่ยวกับจิตใจ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "mention",
     "thai": "การอ้างถึง พาดพิงถึง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "merchandise",
     "thai": "สินค้า ส่งเสริมการขาย",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "modify",
     "thai": "ดัดแปลง ปรับเปลี่ยน",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "motivate",
     "thai": "กระตุ้น จูงใจ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "mysterious",
     "thai": "ลึกลับ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "nauseous",
     "thai": "คลื่นไส้",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "negligent",
     "thai": "ชะล่าใจ ไม่สนใจ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "negotiate",
     "thai": "เจรจาต่อรอง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "neutral",
     "thai": "เป็นกลาง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "nominate",
     "thai": "เสนอชื่อ แต่งตั้ง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "notify",
     "thai": "ประกาศ แจ้งให้ทราบ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "nutrition",
     "thai": "โภชนาการ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "obese",
     "thai": "อ้วนมาก",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "obligation",
     "thai": "พันธะหน้าที่ ความจำเป็น",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "observation",
     "thai": "การสังเกต",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "obsolete",
     "thai": "ไม่ใช้แล้ว ล้าสมัย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "obstacle",
     "thai": "อุปสรรค",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "obstruct",
     "thai": "ขวางกั้น กีดขวาง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "obtain",
     "thai": "ได้รับ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "obvious",
     "thai": "เห็นได้ชัด",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "occupied",
     "thai": "ถูกยึดครอง ถูกยึดครอง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "occur",
     "thai": "เกิดขึ้น",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "operate",
     "thai": "ปฏิบัติงาน ผ่าตัด",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "oppose",
     "thai": "ต่อต้าน คัดค้าน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "optimistic",
     "thai": "มองโลกในแง่ดี",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "participate",
     "thai": "มีส่วนร่วม",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "passionate",
     "thai": "มีความรู้สึกที่รุนแรง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "performance",
     "thai": "การแสดง การกระทำ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "permanent",
     "thai": "ถาวร",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "perplex",
     "thai": "ทำให้งุนงง งุนงง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "personality",
     "thai": "บุคลิกภาพ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "persuade",
     "thai": "ชักจูง เกลี้ยกล่อม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "phenomenon",
     "thai": "ปรากฏการณ์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "practical",
     "thai": "ใช้ได้ในทางปฏิบัติ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "preserve",
     "thai": "อนุรักษ์ ถนอมอาหาร",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "principal",
     "thai": "อาจารย์ใหญ่ สำคัญที่สุด",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "principle",
     "thai": "หลักการ กฎ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "profit",
     "thai": "กำไร ได้กำไร",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "prohibit",
     "thai": "ห้าม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "prominent",
     "thai": "โดดเด่น มีชื่อเสียง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "proper",
     "thai": "ถูกต้อง เหมาะสม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "propose",
     "thai": "เสนอแนะ สู่ขอ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "prosperous",
     "thai": "ซึ่งเจริญรุ่งเรือง มั่งคั่ง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "punctual",
     "thai": "ตรงต่อเวลา",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "qualification",
     "thai": "คุณวุฒิ คุณสมบัติ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "recommend",
     "thai": "แนะนำ รับรอง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "recover",
     "thai": "ฟื้นไข้ ฟื้นตัว",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "reduce",
     "thai": "ลดลง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "reflect",
     "thai": "สะท้อน คิดตรึกตรอง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "reform",
     "thai": "การแก้ไข ปฏิรูป",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "relevant",
     "thai": "เกี่ยวข้อง สัมพันธ์กัน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "reluctant",
     "thai": "ไม่เต็มใจ ไม่ยินยอม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "remarkable",
     "thai": "แปลก น่าทึ่ง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "represent",
     "thai": "เป็นตัวแทน แสดงถึง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "reveal",
     "thai": "เปิดเผย แสดงให้เห็น",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "ridiculous",
     "thai": "น่าขัน น่าหัวเราะเยาะ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "significant",
     "thai": "สำคัญ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "sophisticated",
     "thai": "ซับซ้อน ซับซ้อน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "stimulate",
     "thai": "กระตุ้น เร้าใจ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "subscribe",
     "thai": "บอกรับเป็นสมาชิก",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "substitute",
     "thai": "ตัวแทน แทนที่",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "sufficient",
     "thai": "พอเพียง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "symptom",
     "thai": "อาการ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "temporary",
     "thai": "ชั่วคราว",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "tendency",
     "thai": "ความมีแนวโน้ม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "tension",
     "thai": "ความตึงเครียด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "terminate",
     "thai": "ยุติ ทำให้สิ้นสุด",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "threaten",
     "thai": "ข่มขู่ คุกคาม",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "tolerate",
     "thai": "อดทน",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "torture",
     "thai": "ทรมาน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "tradition",
     "thai": "ประเพณี",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "tremendous",
     "thai": "มากมาย ยิ่งใหญ่",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "trespass",
     "thai": "บุกรุก ล่วงล้ำ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "ultimately",
     "thai": "ในที่สุด",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "verify",
     "thai": "พิสูจน์ว่าจริง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "vigorous",
     "thai": "กระฉับกระเฉง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "visible",
     "thai": "สามารถมองเห็นได้",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "vital",
     "thai": "สำคัญอย่างยิ่ง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "willing",
     "thai": "เต็มใจ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "provoke",
     "thai": "ปลุกปั่น, กระตุ้น",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "overlook",
     "thai": "มองข้าม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "accommodate",
     "thai": "รองรับ, จัดหาที่พัก",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "legislation",
     "thai": "การออกกฎหมาย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "termination",
     "thai": "การยุติ, การสิ้นสุด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "inflation",
     "thai": "อัตราเงินเฟ้อ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "dub",
     "thai": "เรียกว่า, ตั้งชื่อว่า",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "shrinkflation",
     "thai": "การลดขนาดสินค้าจากเงินเฟ้อ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "grapple",
     "thai": "เผชิญ, ต่อสู้กับ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "proliferate",
     "thai": "เพิ่มขึ้นอย่างรวดเร็ว",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "widespread",
     "thai": "แพร่หลาย, วงกว้าง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "stabilizes",
     "thai": "ทำให้เสถียร",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "withdraw",
     "thai": "ถอนออก, ถอนตัว",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "tackle",
     "thai": "จัดการ, แก้ไขปัญหา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "utilizing",
     "thai": "การใช้ประโยชน์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "proportion",
     "thai": "สัดส่วน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "latter",
     "thai": "กรณีหลัง, อย่างหลัง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "conduct",
     "thai": "ดำเนินการ, ประพฤติ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "administer",
     "thai": "จัดทำ, บริหาร",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "contain",
     "thai": "บรรจุ, ประกอบด้วย, ควบคุม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "limitation",
     "thai": "ข้อจำกัด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "respondent",
     "thai": "ผู้ตอบแบบสำรวจ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "aging",
     "thai": "แก่ชรา, การเสื่อมอายุ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "cynical",
     "thai": "เหยียดหยาม, มองโลกในแง่ร้าย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "persuasion",
     "thai": "การโน้มน้าวใจ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "enforce",
     "thai": "บังคับใช้",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "fee",
     "thai": "ค่าธรรมเนียม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "milestone",
     "thai": "เหตุการณ์สำคัญ, ก้าวสำคัญ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "deliberation",
     "thai": "การไตร่ตรอง, การพิจารณา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "assessment",
     "thai": "การประเมิน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "progression",
     "thai": "ความก้าวหน้า, การดำเนินต่อ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "selective",
     "thai": "คัดเลือก, เลือกสรร",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "trustworthy",
     "thai": "น่าไว้วางใจ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "criteria",
     "thai": "หลักเกณฑ์, เกณฑ์การพิจารณา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "retailers",
     "thai": "ผู้ค้าปลีก",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "enacting",
     "thai": "การตรากฎหมาย, การประกาศใช้",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "novel",
     "thai": "นวนิยาย / แปลกใหม่",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "pleasant",
     "thai": "น่ารื่นรมย์, น่าสบายใจ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "temper",
     "thai": "อารมณ์, ความโกรธ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "convince",
     "thai": "โน้มน้าว, ทำให้เชื่อ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "organize",
     "thai": "จัดระเบียบให้ดี, มีระบบ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "extraordinary",
     "thai": "พิเศษ, น่าทึ่ง, เหนือธรรมดา",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "flexible",
     "thai": "ยืดหยุ่น, ปรับตัวง่าย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "glimpse",
     "thai": "แวบเดียว, การเหลือบมอง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "labyrinth",
     "thai": "เขาวงกต, สิ่งที่ซับซ้อน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "corridor",
     "thai": "ระเบียงทางเดิน, ทางเดินในอาคาร",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "occupy",
     "thai": "ครอบครอง, ยึดครอง, ใช้พื้นที่",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "apparel",
     "thai": "เสื้อผ้า, เครื่องแต่งกาย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "annually",
     "thai": "ทุกปี, เป็นประจำปี",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "garment",
     "thai": "เสื้อผ้า, เครื่องแต่งกาย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "landfill",
     "thai": "หลุมฝังกลบขยะ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "decompose",
     "thai": "ย่อยสลาย, เน่าเปื่อย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "dump",
     "thai": "ทิ้ง, กองขยะ, กำจัด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "scarcity",
     "thai": "ความขาดแคลน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "environmentalists",
     "thai": "นักอนุรักษ์สิ่งแวดล้อม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "regarding",
     "thai": "เกี่ยวกับ, ในเรื่องของ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "disposable",
     "thai": "ใช้แล้วทิ้ง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "cope",
     "thai": "รับมือ, จัดการ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "dementia",
     "thai": "ภาวะสมองเสื่อม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "ration",
     "thai": "การปันส่วน, อาหารที่แจกตามโควตา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "replica",
     "thai": "ของเลียนแบบ, สำเนา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "ward",
     "thai": "หอผู้ป่วย, เขตการปกครอง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "disoriented",
     "thai": "สับสน, ไม่รู้ทิศทาง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "likelihood",
     "thai": "ความเป็นไปได้",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "reliance",
     "thai": "การพึ่งพา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "agitate",
     "thai": "ก่อกวน, ทำให้ปั่นป่วน",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "institute",
     "thai": "สถาบัน, จัดตั้ง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "retrieval",
     "thai": "การกู้คืน, การดึงกลับ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "capable",
     "thai": "สามารถ, มีความสามารถ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "editorial",
     "thai": "บทบรรณาธิการ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "commentary",
     "thai": "คำบรรยาย, ความเห็นประกอบ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "correlation",
     "thai": "ความสัมพันธ์, ความเชื่อมโยง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "victor",
     "thai": "ผู้ชนะ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "steadily",
     "thai": "อย่างต่อเนื่อง, มั่นคง",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "adolescent",
     "thai": "วัยรุ่น",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "praise",
     "thai": "สรรเสริญ, ชมเชย",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "aggression",
     "thai": "ความก้าวร้าว, การรุกราน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "adverse",
     "thai": "เป็นผลร้าย, ไม่พึงประสงค์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "anthropologist",
     "thai": "นักมนุษยวิทยา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "proposal",
     "thai": "ข้อเสนอ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "pacemaker",
     "thai": "เครื่องกระตุ้นหัวใจ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "particular",
     "thai": "เฉพาะ, โดยเฉพาะ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "steep",
     "thai": "ชัน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "dominant",
     "thai": "เด่น, มีอำนาจเหนือ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "pandemic",
     "thai": "โรคระบาดใหญ่",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "erode",
     "thai": "กัดกร่อน, สึกกร่อน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "suboptimal",
     "thai": "ต่ำกว่ามาตรฐานที่เหมาะสม",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "substantially",
     "thai": "อย่างมาก, อย่างมีนัยสำคัญ",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "obscure",
     "thai": "กำกวม, ไม่ชัดเจน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "peculiar",
     "thai": "แปลก, พิกล",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "irrelevant",
     "thai": "ไม่เกี่ยวข้อง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "repertoire",
     "thai": "รายการแสดง, สิ่งที่มีอยู่ในขอบข่าย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "assumption",
     "thai": "สมมติฐาน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "disposal",
     "thai": "การกำจัด",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "illiterate",
     "thai": "ไม่รู้หนังสือ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "well-versed",
     "thai": "เชี่ยวชาญ",
-    "part": "phr"
+    "part": "phr",
+    "level": "hard"
   },
   {
     "eng": "eagerly",
     "thai": "อย่างกระตือรือร้น",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "linguistic",
     "thai": "ทางด้านภาษา",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "sophisticate",
     "thai": "ผู้รอบรู้, ทำให้ซับซ้อน",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "advantageous",
     "thai": "เป็นประโยชน์",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "investigate",
     "thai": "สืบสวน, ตรวจสอบ",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "regimen",
     "thai": "ระเบียบการรักษา, กฎเกณฑ์การดำเนินชีวิต",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "fracture",
     "thai": "กระดูกหัก, รอยแตก",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "surveillance",
     "thai": "การเฝ้าระวัง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "companionship",
     "thai": "ความเป็นเพื่อน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "undergo",
     "thai": "ประสบ, ผ่าน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "prevalent",
     "thai": "แพร่หลาย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "establishment",
     "thai": "การสถาปนา, สถาบัน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "hierarchy",
     "thai": "ลำดับชั้น",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "foundation",
     "thai": "มูลนิธิ, รากฐาน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "criterion",
     "thai": "เกณฑ์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "inclusion",
     "thai": "การรวม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "acquisition",
     "thai": "การได้มา, การเข้าครอบครอง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "prescription",
     "thai": "ใบสั่งยา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "cramp",
     "thai": "ตะคริว",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "pushy",
     "thai": "ก้าวร้าวยัดเยียด",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "confront",
     "thai": "เผชิญหน้า",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "pale face",
     "thai": "ใบหน้าซีดเซียว",
-    "part": "phr"
+    "part": "phr",
+    "level": "hard"
   },
   {
     "eng": "external",
     "thai": "ภายนอก",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "basked",
     "thai": "อาบแดด, เพลิดเพลินกับ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "inspection",
     "thai": "การตรวจสอบ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "failure",
     "thai": "ความล้มเหลว",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "isolation",
     "thai": "การแยกออกมา, การโดดเดี่ยว",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "approach",
@@ -2110,506 +2531,397 @@
     "part": [
       "n",
       "v"
-    ]
+    ],
+    "level": "hard"
   },
   {
     "eng": "excavation",
     "thai": "การขุดค้น",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "make use of",
     "thai": "ใช้ประโยชน์จาก",
-    "part": "phr"
+    "part": "phr",
+    "level": "hard"
   },
   {
     "eng": "make way for",
     "thai": "หลบทางให้, เปิดทางให้",
-    "part": "phr"
+    "part": "phr",
+    "level": "hard"
   },
   {
     "eng": "preference",
     "thai": "ความชอบ, การให้สิทธิ์ก่อน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "interpersonal",
     "thai": "ระหว่างบุคคล",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "literature",
     "thai": "วรรณกรรม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "pessimistic",
     "thai": "มองโลกในแง่ร้าย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "drawback",
     "thai": "ข้อเสีย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "unearthed",
     "thai": "ขุดพบ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "deemed",
     "thai": "ถือว่า, มองว่า",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "ubiquitous",
     "thai": "มีอยู่ทั่วไป",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "voluntary",
     "thai": "โดยสมัครใจ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "prior",
     "thai": "ก่อนหน้า",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "perception",
     "thai": "การรับรู้",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "cognitive",
     "thai": "เกี่ยวกับการรับรู้/สมอง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "lawsuit",
     "thai": "คดีความ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "trademarking",
     "thai": "การจดทะเบียนเครื่องหมายการค้า",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "piggyback",
     "thai": "อาศัย, เกาะไปด้วย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "malicious",
     "thai": "ประสงค์ร้าย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "glance",
     "thai": "ชำเลืองมอง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "strip",
     "thai": "ถอดออก, ริบ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "resemblance",
     "thai": "ความคล้ายคลึง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "phonetic",
     "thai": "เกี่ยวกับการออกเสียง",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "rapid",
     "thai": "รวดเร็ว",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "partially",
     "thai": "บางส่วน",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "executive",
     "thai": "ผู้บริหาร",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "obtaining",
     "thai": "การได้รับ",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "spouses",
     "thai": "คู่สมรส",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "examined",
     "thai": "ตรวจสอบ, พิจารณา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "garnered",
     "thai": "ได้รับ, สะสม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "bargain",
     "thai": "การต่อรองราคา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "to be frank with you",
     "thai": "พูดตรง ๆ กับคุณ",
-    "part": "phr"
+    "part": "phr",
+    "level": "hard"
   },
   {
     "eng": "paint the town red",
     "thai": "ออกไปฉลองอย่างครึกครื้น",
-    "part": "phr"
+    "part": "phr",
+    "level": "hard"
   },
   {
     "eng": "keep our finger cross",
     "thai": "ภาวนาให้โชคดี",
-    "part": "phr"
+    "part": "phr",
+    "level": "hard"
   },
   {
     "eng": "turning a corner",
     "thai": "ผ่านพ้นช่วงยากลำบาก",
-    "part": "phr"
+    "part": "phr",
+    "level": "hard"
   },
   {
     "eng": "pounding",
     "thai": "การเต้นแรง, การทุบตี",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "gasp",
     "thai": "หอบหายใจ, อ้าปากค้าง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "utter",
     "thai": "พูด, สิ้นเชิง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "foresee",
     "thai": "คาดการณ์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "preexisting",
     "thai": "มีอยู่ก่อนแล้ว",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "prospect",
     "thai": "โอกาส, แนวโน้ม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "stimuli",
     "thai": "สิ่งเร้า",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "flawed",
     "thai": "มีข้อบกพร่อง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "youthful",
     "thai": "เป็นหนุ่มสาว, มีความเยาว์วัย",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "dilemma",
     "thai": "ทางเลือกที่ลำบาก",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "hypothesis",
     "thai": "สมมติฐาน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "soothe",
     "thai": "ปลอบประโลม, ทำให้บรรเทา",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "irritate",
     "thai": "ทำให้หงุดหงิด, ระคายเคือง",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "incentive",
     "thai": "แรงจูงใจ",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "contributing",
     "thai": "ที่มีส่วนช่วย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "commensurate",
     "thai": "สมน้ำสมเนื้อ, เทียบเท่า",
-    "part": "v"
+    "part": "v",
+    "level": "hard"
   },
   {
     "eng": "subsidy",
     "thai": "เงินอุดหนุน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "amuse",
     "thai": "ทำให้ขบขัน",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "urban",
     "thai": "เกี่ยวกับเมือง",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "eligible",
     "thai": "มีสิทธิ, เหมาะสม",
-    "part": "adj"
+    "part": "adj",
+    "level": "hard"
   },
   {
     "eng": "fatigue",
     "thai": "ความเหน็ดเหนื่อย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "appointment",
     "thai": "การนัดหมาย",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "informed",
     "thai": "ซึ่งได้รับข้อมูล, รอบรู้",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "drop-off",
     "thai": "จุดรับส่ง, การลดลง",
-    "part": "phr"
+    "part": "phr",
+    "level": "hard"
   },
   {
     "eng": "leopard",
     "thai": "เสือดาว",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "conservation",
     "thai": "การอนุรักษ์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "sharply",
     "thai": "อย่างรวดเร็ว, อย่างรุนแรง",
-    "part": "adv"
+    "part": "adv",
+    "level": "hard"
   },
   {
     "eng": "reserve",
     "thai": "จอง, เขตอนุรักษ์",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "attempt",
     "thai": "ความพยายาม",
-    "part": "n"
+    "part": "n",
+    "level": "hard"
   },
   {
     "eng": "botanist",
     "thai": "นักพฤกษศาสตร์",
-    "part": "n"
-  },
-  {
-    "eng": "farewell",
-    "thai": "การอำลา",
-    "part": [
-      "n",
-      "phr"
-    ]
-  },
-  {
-    "eng": "fundraiser",
-    "thai": "การระดมทุน",
-    "part": "n"
-  },
-  {
-    "eng": "pale",
-    "thai": "ซีด",
-    "part": "adj"
-  },
-  {
-    "eng": "sightseeing",
-    "thai": "การท่องเที่ยวชมวิว",
-    "part": "n"
-  },
-  {
-    "eng": "downward",
-    "thai": "ลงข้างล่าง",
-    "part": [
-      "adj",
-      "adv"
-    ]
-  },
-  {
-    "eng": "veterinary",
-    "thai": "สัตวแพทย์",
-    "part": [
-      "adj",
-      "n"
-    ]
-  },
-  {
-    "eng": "tumble",
-    "thai": "ล้ม, กลิ้ง",
-    "part": "v"
-  },
-  {
-    "eng": "terminal",
-    "thai": "สถานีปลายทาง, ระยะสุดท้าย",
-    "part": [
-      "n",
-      "adj"
-    ]
-  },
-  {
-    "eng": "denounce",
-    "thai": "ประณาม",
-    "part": "v"
-  },
-  {
-    "eng": "regulate",
-    "thai": "ควบคุม, กำกับ",
-    "part": "v"
-  },
-  {
-    "eng": "skyscraper",
-    "thai": "ตึกระฟ้า",
-    "part": "n"
-  },
-  {
-    "eng": "metropolitan",
-    "thai": "เมืองหลวง, เขตมหานคร",
-    "part": [
-      "adj",
-      "n"
-    ]
-  },
-  {
-    "eng": "possession",
-    "thai": "การครอบครอง",
-    "part": "n"
-  },
-  {
-    "eng": "modification",
-    "thai": "การแก้ไข, การปรับปรุง",
-    "part": "n"
-  },
-  {
-    "eng": "commitment",
-    "thai": "คำมั่นสัญญา, ความมุ่งมั่น",
-    "part": "n"
-  },
-  {
-    "eng": "intimacy",
-    "thai": "ความใกล้ชิดสนิทสนม",
-    "part": "n"
-  },
-  {
-    "eng": "afflict",
-    "thai": "ทำให้เจ็บปวด",
-    "part": "v"
-  },
-  {
-    "eng": "prevalence",
-    "thai": "ความแพร่หลาย",
-    "part": "n"
-  },
-  {
-    "eng": "endeavor",
-    "thai": "ความพยายาม, พยายาม",
-    "part": [
-      "n",
-      "v"
-    ]
-  },
-  {
-    "eng": "alter",
-    "thai": "เปลี่ยนแปลง",
-    "part": "v"
-  },
-  {
-    "eng": "severity",
-    "thai": "ความรุนแรง",
-    "part": "n"
-  },
-  {
-    "eng": "kick off",
-    "thai": "เริ่มต้น",
-    "part": "phr"
-  },
-  {
-    "eng": "reinforce",
-    "thai": "เสริมกำลัง, เสริมแรง",
-    "part": "v"
-  },
-  {
-    "eng": "subject",
-    "thai": "หัวข้อ/วิชา/ผู้ใต้บังคับบัญชา, อยู่ใต้อำนาจ, ครอบงำ/ควบคุม",
-    "part": [
-      "n",
-      "adj",
-      "v"
-    ]
-  },
-  {
-    "eng": "appease",
-    "thai": "ทำให้สงบ, ทำให้พอใจ",
-    "part": "v"
-  },
-  {
-    "eng": "resort",
-    "thai": "สถานที่พักผ่อน, ใช้วิธี",
-    "part": [
-      "n",
-      "v"
-    ]
-  },
-  {
-    "eng": "outlet",
-    "thai": "ทางออก, ร้านจำหน่าย",
-    "part": "n"
-  },
-  {
-    "eng": "coping",
-    "thai": "การรับมือ",
-    "part": "n"
-  },
-  {
-    "eng": "reliable",
-    "thai": "เชื่อถือได้",
-    "part": "adj"
-  },
-  {
-    "eng": "stubborn",
-    "thai": "ดื้อ, หัวแข็ง",
-    "part": "adj"
+    "part": "n",
+    "level": "hard"
   }
 ]
