@@ -3500,5 +3500,311 @@
     "thai": "มีชื่อเสียง, มีเกียรติ",
     "part": "adj",
     "level": "hard"
+  },
+  {
+    "eng": "taste funny",
+    "thai": "มีรสแปลก ๆ",
+    "part": "phr",
+    "level": "easy"
+  },
+  {
+    "eng": "nagging",
+    "thai": "บ่นไม่หยุด",
+    "part": "adj",
+    "level": "easy"
+  },
+  {
+    "eng": "lease",
+    "thai": "สัญญาเช่า",
+    "part": "n",
+    "level": "easy"
+  },
+  {
+    "eng": "expire",
+    "thai": "หมดอายุ",
+    "part": "v",
+    "level": "easy"
+  },
+  {
+    "eng": "claustrophobia",
+    "thai": "โรคกลัวที่แคบ",
+    "part": "n",
+    "level": "hard"
+  },
+  {
+    "eng": "sentiment",
+    "thai": "ความรู้สึก อารมณ์",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "commercial",
+    "thai": "เกี่ยวกับการค้า / โฆษณา",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "intend",
+    "thai": "ตั้งใจ มุ่งหมาย",
+    "part": "v",
+    "level": "easy"
+  },
+  {
+    "eng": "aviation",
+    "thai": "การบิน",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "unveil",
+    "thai": "เปิดเผย",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "synthetic",
+    "thai": "สังเคราะห์",
+    "part": "adj",
+    "level": "hard"
+  },
+  {
+    "eng": "traits",
+    "thai": "ลักษณะนิสัย",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "openness",
+    "thai": "ความเปิดเผย ความตรงไปตรงมา",
+    "part": "n",
+    "level": "easy"
+  },
+  {
+    "eng": "neuroticism",
+    "thai": "แนวโน้มความวิตกกังวล",
+    "part": "n",
+    "level": "hard"
+  },
+  {
+    "eng": "willpower",
+    "thai": "กำลังใจ ความมุ่งมั่น",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "setback",
+    "thai": "อุปสรรค ความล้มเหลวชั่วคราว",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "pooches",
+    "thai": "สุนัข (คำไม่เป็นทางการ)",
+    "part": "n",
+    "level": "easy"
+  },
+  {
+    "eng": "canine",
+    "thai": "เกี่ยวกับสุนัข",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "stash",
+    "thai": "ซ่อนเก็บไว้",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "coordinator",
+    "thai": "ผู้ประสานงาน",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "cassette",
+    "thai": "ตลับเทป",
+    "part": "n",
+    "level": "easy"
+  },
+  {
+    "eng": "embankment",
+    "thai": "เขื่อน ถนนยกระดับ",
+    "part": "n",
+    "level": "hard"
+  },
+  {
+    "eng": "widow",
+    "thai": "แม่ม่าย",
+    "part": "n",
+    "level": "easy"
+  },
+  {
+    "eng": "comical",
+    "thai": "น่าขบขัน ตลก",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "ambient",
+    "thai": "โดยรอบ",
+    "part": "adj",
+    "level": "hard"
+  },
+  {
+    "eng": "faithful",
+    "thai": "ซื่อสัตย์",
+    "part": "adj",
+    "level": "easy"
+  },
+  {
+    "eng": "dedicated",
+    "thai": "อุทิศตน ทุ่มเท",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "fragrance",
+    "thai": "กลิ่นหอม",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "genuinely",
+    "thai": "อย่างแท้จริง",
+    "part": "adv",
+    "level": "medium"
+  },
+  {
+    "eng": "obsession",
+    "thai": "ความหมกมุ่น",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "ornament",
+    "thai": "เครื่องประดับ",
+    "part": "n",
+    "level": "easy"
+  },
+  {
+    "eng": "stationery",
+    "thai": "เครื่องเขียน",
+    "part": "n",
+    "level": "easy"
+  },
+  {
+    "eng": "absorb",
+    "thai": "ดูดซึม",
+    "part": "v",
+    "level": "easy"
+  },
+  {
+    "eng": "appetite",
+    "thai": "ความอยากอาหาร",
+    "part": "n",
+    "level": "easy"
+  },
+  {
+    "eng": "compensate",
+    "thai": "ชดเชย",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "elevate",
+    "thai": "ยกระดับ",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "extinguish",
+    "thai": "ดับไฟ ยุติ",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "hectic",
+    "thai": "ยุ่งเหยิง",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "refrain",
+    "thai": "งดเว้น",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "shabby",
+    "thai": "ทรุดโทรม",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "triumphant",
+    "thai": "มีชัยชนะ",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "interpretation",
+    "thai": "การตีความ",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "elation",
+    "thai": "ความปลื้มปีติ",
+    "part": "n",
+    "level": "hard"
+  },
+  {
+    "eng": "descent",
+    "thai": "การลง / เชื้อสาย",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "controversial",
+    "thai": "ก่อให้เกิดการโต้เถียง",
+    "part": "adj",
+    "level": "hard"
+  },
+  {
+    "eng": "evacuation",
+    "thai": "การอพยพ",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "immensely",
+    "thai": "อย่างมากมาย",
+    "part": "adv",
+    "level": "medium"
+  },
+  {
+    "eng": "resolve",
+    "thai": "แก้ปัญหา / ตัดสินใจแน่วแน่",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "literacy",
+    "thai": "การรู้หนังสือ",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "whereabout",
+    "thai": "ที่อยู่โดยประมาณ",
+    "part": "n",
+    "level": "hard"
+  },
+  {
+    "eng": "implement",
+    "thai": "ดำเนินการ / เครื่องมือ",
+    "part": "v",
+    "level": "medium"
   }
 ]
