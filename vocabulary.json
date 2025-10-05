@@ -3806,5 +3806,167 @@
     "thai": "ดำเนินการ / เครื่องมือ",
     "part": "v",
     "level": "medium"
+  },
+  {
+    "eng": "stapler",
+    "thai": "ที่เย็บกระดาษ",
+    "part": "n",
+    "level": "easy"
+  },
+  {
+    "eng": "map out",
+    "thai": "วางแผนอย่างละเอียด",
+    "part": "phr v",
+    "level": "medium"
+  },
+  {
+    "eng": "to be frank",
+    "thai": "พูดกันตามตรง",
+    "part": "idiom",
+    "level": "medium"
+  },
+  {
+    "eng": "faint",
+    "thai": "เป็นลม / เลือนราง",
+    "part": "adj/v",
+    "level": "easy"
+  },
+  {
+    "eng": "unconscious",
+    "thai": "หมดสติ / ไม่รู้ตัว",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "harness",
+    "thai": "ใช้ประโยชน์ / บังเหียน",
+    "part": "v/n",
+    "level": "medium"
+  },
+  {
+    "eng": "impair",
+    "thai": "ทำให้เสีย / เสื่อม",
+    "part": "v",
+    "level": "hard"
+  },
+  {
+    "eng": "biped",
+    "thai": "สัตว์สองเท้า",
+    "part": "n",
+    "level": "hard"
+  },
+  {
+    "eng": "pedestrian",
+    "thai": "คนเดินถนน / น่าเบื่อ",
+    "part": "n/adj",
+    "level": "medium"
+  },
+  {
+    "eng": "obstacle",
+    "thai": "อุปสรรค",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "consultation",
+    "thai": "การปรึกษา",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "skeptical",
+    "thai": "สงสัย ไม่เชื่อ",
+    "part": "adj",
+    "level": "hard"
+  },
+  {
+    "eng": "coverage",
+    "thai": "การรายงานข่าว / ความคุ้มครอง",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "contagion",
+    "thai": "การแพร่เชื้อ",
+    "part": "n",
+    "level": "hard"
+  },
+  {
+    "eng": "exposure",
+    "thai": "การเปิดเผย / การสัมผัส",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "peer",
+    "thai": "เพื่อนในวัยเดียวกัน / มองอย่างพิจารณา",
+    "part": "n/v",
+    "level": "easy"
+  },
+  {
+    "eng": "crisis",
+    "thai": "วิกฤต",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "abstract",
+    "thai": "นามธรรม / สรุปย่อ",
+    "part": "adj/n",
+    "level": "medium"
+  },
+  {
+    "eng": "intriguing",
+    "thai": "น่าสนใจ น่าดึงดูด",
+    "part": "adj",
+    "level": "hard"
+  },
+  {
+    "eng": "moderate",
+    "thai": "ปานกลาง / ทำให้ลดลง",
+    "part": "adj/v",
+    "level": "medium"
+  },
+  {
+    "eng": "utilizing",
+    "thai": "การใช้ประโยชน์",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "conserving",
+    "thai": "การอนุรักษ์ / ประหยัด",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "heritage",
+    "thai": "มรดก / สิ่งที่สืบทอดกันมา",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "examine",
+    "thai": "ตรวจสอบ / สอบสวน",
+    "part": "v",
+    "level": "easy"
+  },
+  {
+    "eng": "synthesize",
+    "thai": "สังเคราะห์ / รวมกัน",
+    "part": "v",
+    "level": "hard"
+  },
+  {
+    "eng": "evaluated",
+    "thai": "ประเมินค่า",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "epidemiologist",
+    "thai": "นักระบาดวิทยา",
+    "part": "n",
+    "level": "hard"
   }
 ]
