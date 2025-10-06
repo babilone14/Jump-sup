@@ -3968,5 +3968,137 @@
     "thai": "นักระบาดวิทยา",
     "part": "n",
     "level": "hard"
+  },
+  {
+    "eng": "cavity",
+    "thai": "โพรง ฟันผุ",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "plague",
+    "thai": "โรคระบาด ทำให้เดือดร้อน",
+    "part": "n/v",
+    "level": "medium"
+  },
+  {
+    "eng": "cluster",
+    "thai": "กลุ่ม ก้อน",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "handful",
+    "thai": "จำนวนเล็กน้อย",
+    "part": "n",
+    "level": "easy"
+  },
+  {
+    "eng": "notorious",
+    "thai": "มีชื่อเสียงในทางไม่ดี",
+    "part": "adj",
+    "level": "hard"
+  },
+  {
+    "eng": "legitimate",
+    "thai": "ถูกต้องตามกฎหมาย",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "invalid",
+    "thai": "โมฆะ / คนป่วย",
+    "part": "adj/n",
+    "level": "medium"
+  },
+  {
+    "eng": "deceptive",
+    "thai": "หลอกลวง",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "restrict",
+    "thai": "จำกัด จำกัดสิทธิ์",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "irritable",
+    "thai": "หงุดหงิดง่าย",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "desperate",
+    "thai": "สิ้นหวัง",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "preventable",
+    "thai": "ป้องกันได้",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "tightening",
+    "thai": "การทำให้แน่นขึ้น",
+    "part": "n",
+    "level": "medium"
+  },
+  {
+    "eng": "municipality",
+    "thai": "เทศบาล",
+    "part": "n",
+    "level": "hard"
+  },
+  {
+    "eng": "rife",
+    "thai": "แพร่หลาย เกลื่อนกลาด",
+    "part": "adj",
+    "level": "hard"
+  },
+  {
+    "eng": "exceed",
+    "thai": "เกิน เกินกว่า",
+    "part": "v",
+    "level": "medium"
+  },
+  {
+    "eng": "penetrate",
+    "thai": "ทะลุ แทรกซึม",
+    "part": "v",
+    "level": "hard"
+  },
+  {
+    "eng": "scarce",
+    "thai": "ขาดแคลน",
+    "part": "adj",
+    "level": "medium"
+  },
+  {
+    "eng": "problematize",
+    "thai": "ทำให้เป็นปัญหา",
+    "part": "v",
+    "level": "hard"
+  },
+  {
+    "eng": "paralysis",
+    "thai": "อัมพาต",
+    "part": "n",
+    "level": "hard"
+  },
+  {
+    "eng": "intuitively",
+    "thai": "โดยสัญชาตญาณ",
+    "part": "adv",
+    "level": "hard"
+  },
+  {
+    "eng": "evaluate",
+    "thai": "ประเมินค่า",
+    "part": "v",
+    "level": "medium"
   }
 ]
