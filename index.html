@@ -46,8 +46,9 @@
                 <h2 class="hero-subtitle">แพลตฟอร์มเรียนรู้คำศัพท์ภาษาอังกฤษเพื่อการพัฒนาอย่างก้าวกระโดด !!</h2>
             </div>
 
+            
             <div class="features">
-                <div class="feature-card">
+                <div class="feature-card" onclick="showSection('vocabulary')" style="cursor: pointer;">
                     <div class="feature-icon">📚</div>
                     <h3>
                         < Vocabulary>
@@ -55,15 +56,15 @@
                     <p>คลังคำศัพท์มากกว่า 500 คำ เพื่อเรียนรู้และนำไปใช้เบื้องต้น</p>
                 </div>
 
-                <div class="feature-card">
-                    <div class="feature-icon">🔗</div>
+                <div class="feature-card" onclick="showSection('synonym')" style="cursor: pointer;">
+                    <div class="feature-icon">📚</div>
                     <h3>
                         < Synonym>
                     </h3>
                     <p>คลังคำศัพท์ที่มีความหมายคล้ายกัน เพื่อขยายความรู้ด้านภาษา</p>
                 </div>
 
-                <div class="feature-card">
+                <div class="feature-card" onclick="showSection('test')" style="cursor: pointer;">
                     <div class="feature-icon">🎯</div>
                     <h3>
                         < Test>
@@ -263,9 +264,9 @@
     <div id="feedback-modal" class="modal hidden">
         <div class="modal-content">
             <span class="close-btn" onclick="closeFeedbackModal()">&times;</span>
-            <h2>แจ้งปัญหา</h2>
+            <h2>ความคิดเห็น</h2>
             <div class="feedback-form">
-                <p>พบปัญหาในการใช้งานหรอ ? ลองแจ้งเราที่นี่สิ</p>
+                <br><p>ลองใส่ความคิดเห็นที่มีต่อแพลตฟอร์มนี้ดูสิ หรือสิ่งที่คุณต้องการให้ปรับปรุงเพิ่มเติมก็ได้นะ </p>
                 <textarea id="feedback-text" placeholder="กรุณาอธิบายปัญหาที่พบ..." rows="4"></textarea>
                 <div class="feedback-buttons">
                     <button class="submit-btn" onclick="submitFeedback()">ส่งข้อความ</button>
